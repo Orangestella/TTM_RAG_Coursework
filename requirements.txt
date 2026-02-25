@@ -1,2 +1,5 @@
 ipykernel
 tiktoken
+sentence-transformers
+openai
+numpy
