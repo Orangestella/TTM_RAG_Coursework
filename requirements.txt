@@ -3,3 +3,4 @@ tiktoken
 sentence-transformers
 openai
 numpy
+einops
