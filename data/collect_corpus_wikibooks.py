@@ -29,12 +29,12 @@ def clean_text(s: str) -> str:
 def html_to_text(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
 
-    # ✅ 只取正文区域
+    #  只取正文区域
     content = soup.find("div", class_="mw-parser-output")
     if not content:
         content = soup
 
-    # ❌ 删除常见非正文元素
+    #  删除常见非正文元素
     for tag in content.select(
         "table, style, script, sup, noscript, "
         ".navbox, .vertical-navbox, .toc, "
@@ -76,7 +76,6 @@ def list_category_members(category_title: str) -> list[str]:
         "list": "categorymembers",
         "cmtitle": category_title,   # e.g. 'Category:Chinese recipes'
         "cmlimit": "max",
-        # ✅ 删掉 cmnamespace
     }
 
     while True:
@@ -104,7 +103,6 @@ def list_category_members(category_title: str) -> list[str]:
     return out
 
 def fetch_intro(title: str) -> str:
-    """首段简介（纯文本）"""
     params = {
         "action": "query",
         "format": "json",
@@ -125,19 +123,13 @@ import re
 
 def strip_cookbook_header_line(text: str) -> str:
     """
-    删除开头的 Cookbook 导航行：
     Cookbook | Recipes | Ingredients | Equipment | Techniques | ...
-    只删“开头处”的该行，避免误删正文中正常的 '|'。
     """
-    # 允许中间有多个空格；只在文本开头匹配
     pattern = re.compile(
          r"^\s*Cookbook\s*\|\s*Recipes\s*\|\s*Ingredients\s*\|\s*Equipment\s*\|.*?(?:\n|$)",
         flags=re.IGNORECASE
     )
     text = re.sub(pattern, "", text, count=1)
-
-    # 有时会出现 "Cookbook | Recipes | ... | Bread" 后面紧跟正文但没有换行
-    # 再补一个：若开头仍然是 Cookbook | ...（更宽松），也删一次
     pattern2 = re.compile(
         r"^\s*Cookbook\s*\|.*?(?:\n|$)",
         flags=re.IGNORECASE
@@ -235,7 +227,7 @@ def main():
 
                     doc_id += 1
                     row = {
-                        "doc_id": f"wiki_{doc_id:04d}",
+                        "doc_id": f"wikibooks_{doc_id:04d}",
                         "source": "Wikibooks",
                         "title": recipe_title,
                         "text": text,
@@ -248,14 +240,14 @@ def main():
                         },
                     }
                     f.write(json.dumps(row, ensure_ascii=False) + "\n")
-                    print(f"  ✅ {recipe_title}")
+                    print(f"   {recipe_title}")
 
                 except Exception as e:
                     print(f"  [SKIP] {recipe_title}: {e}")
 
                 time.sleep(DELAY)
 
-    print(f"\n✅ Done. Wrote {doc_id} docs to {OUT_JSONL.resolve()}")
+    print(f"\n Done. Wrote {doc_id} docs to {OUT_JSONL.resolve()}")
 
 
 if __name__ == "__main__":
