@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": "q_001",
+    "query": "What is sushi made of?",
+    "gold_answer": "Sushi is made of vinegared rice combined with various ingredients such as raw fish, seafood, vegetables, and sometimes tropical fruits, often wrapped in seaweed (nori)."
+  },
+  {
+    "query_id": "q_002",
+    "query": "What are the main ingredients in miso soup?",
+    "gold_answer": "Miso soup is made from dashi stock and miso paste. Common additions include tofu, wakame seaweed, and green onions."
+  },
+  {
+    "query_id": "q_003",
+    "query": "How is ramen broth typically prepared?",
+    "gold_answer": "Ramen broth is typically prepared by simmering pork bones, chicken, or seafood for several hours. The main broth types include tonkotsu (pork bone), shoyu (soy sauce), shio (salt), and miso."
+  },
+  {
+    "query_id": "q_004",
+    "query": "What is the difference between sashimi and sushi?",
+    "gold_answer": "Sashimi is thinly sliced raw fish served without rice, while sushi refers to vinegared rice topped with or wrapped around various ingredients including raw fish."
+  },
+  {
+    "query_id": "q_005",
+    "query": "What is tempura?",
+    "gold_answer": "Tempura is a Japanese dish of seafood or vegetables that have been battered and deep-fried. It was influenced by Portuguese cooking techniques introduced in the 16th century."
+  },
+  {
+    "query_id": "q_006",
+    "query": "What are common types of Japanese noodles?",
+    "gold_answer": "Common types of Japanese noodles include ramen (wheat noodles in broth), udon (thick wheat noodles), soba (buckwheat noodles), and somen (thin wheat noodles)."
+  },
+  {
+    "query_id": "q_007",
+    "query": "What is dashi and how is it made?",
+    "gold_answer": "Dashi is a Japanese cooking stock made by simmering kombu (kelp) and katsuobushi (dried bonito flakes) in water. It forms the base of many Japanese dishes including miso soup and noodle broths."
+  },
+  {
+    "query_id": "q_008",
+    "query": "What is the origin of kimchi?",
+    "gold_answer": "Kimchi originated in Korea and is a traditional fermented vegetable dish, most commonly made with napa cabbage and Korean radish seasoned with chili pepper flakes, garlic, ginger, and salted seafood."
+  },
+  {
+    "query_id": "q_009",
+    "query": "How is tofu produced?",
+    "gold_answer": "Tofu is produced by coagulating soy milk and pressing the resulting curds into solid blocks. The coagulant used is typically nigari (magnesium chloride) or calcium sulfate."
+  },
+  {
+    "query_id": "q_010",
+    "query": "What is dim sum?",
+    "gold_answer": "Dim sum is a Cantonese style of cuisine involving small bite-sized portions of food served in steamer baskets or on small plates. Common items include dumplings, buns, and rice noodle rolls."
+  }
+]
