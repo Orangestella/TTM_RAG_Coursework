@@ -1,12 +1,14 @@
+import argparse
 import json
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
 
 # =========================================================
 # 1. Config
 # =========================================================
-DATA_DIR = Path("../data")
-RESULTS_DIR = Path("./results")
+SCRIPT_DIR = Path(__file__).resolve().parent
+DATA_DIR = SCRIPT_DIR.parent / "data"
+RESULTS_DIR = SCRIPT_DIR / "results"
 OUTPUT_PATH = RESULTS_DIR / "evaluation_summary_all.json"
 
 BENCHMARK_FILES = {
@@ -28,6 +30,8 @@ RETRIEVAL_TYPES = [
     "biencoder_top5",
     "reranked_top5",
 ]
+
+MODEL_ALIASES = ["minilm", "nomic", "openai_small"]
 
 
 # =========================================================
@@ -61,14 +65,28 @@ def normalize_doc_id(chunk_id: str) -> str:
     return chunk_id
 
 
-def build_retrieval_path(results_dir: Path, retrieval_type: str, file_name: str, benchmark_name: str) -> Path:
+def build_retrieval_candidates(
+    results_dir: Path,
+    retrieval_type: str,
+    file_name: str,
+    benchmark_name: str,
+    model_alias: str,
+):
     """
-    Examples:
+    Preferred format:
+    retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl
+
+    Legacy MiniLM format:
     retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset.jsonl
-    retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset_2.jsonl
-    retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset.jsonl
     """
-    return results_dir / f"retrieval_{retrieval_type}_{file_name}_{benchmark_name}.jsonl"
+    candidates = [
+        results_dir / f"retrieval_{retrieval_type}_{file_name}_{benchmark_name}_{model_alias}.jsonl"
+    ]
+    if model_alias == "minilm":
+        candidates.append(
+            results_dir / f"retrieval_{retrieval_type}_{file_name}_{benchmark_name}.jsonl"
+        )
+    return candidates
 
 
 # =========================================================
@@ -238,7 +256,28 @@ def print_group_result(title, group_result):
 # =========================================================
 # 7. Run all 36 evaluations
 # =========================================================
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Evaluate retrieval outputs for one or more embedding models."
+    )
+    parser.add_argument(
+        "--models",
+        nargs="+",
+        choices=MODEL_ALIASES,
+        default=MODEL_ALIASES,
+        help="Embedding model aliases to evaluate.",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=OUTPUT_PATH,
+        help="Where to save the combined evaluation summary JSON.",
+    )
+    return parser.parse_args()
+
+
 def main():
+    args = parse_args()
     all_results = {}
 
     # preload benchmarks
@@ -249,37 +288,45 @@ def main():
             continue
         benchmark_cache[benchmark_name] = load_benchmark(benchmark_path)
 
-    for benchmark_name, benchmark in benchmark_cache.items():
-        for file_name in FILE_NAMES:
-            for retrieval_type in RETRIEVAL_TYPES:
-                retrieval_path = build_retrieval_path(
-                    RESULTS_DIR, retrieval_type, file_name, benchmark_name
-                )
+    for model_alias in args.models:
+        for benchmark_name, benchmark in benchmark_cache.items():
+            for file_name in FILE_NAMES:
+                for retrieval_type in RETRIEVAL_TYPES:
+                    retrieval_candidates = build_retrieval_candidates(
+                        RESULTS_DIR, retrieval_type, file_name, benchmark_name, model_alias
+                    )
+                    retrieval_path = next(
+                        (candidate for candidate in retrieval_candidates if candidate.exists()),
+                        None,
+                    )
 
-                tag = f"{benchmark_name} | {file_name} | {retrieval_type}"
+                    tag = f"{model_alias} | {benchmark_name} | {file_name} | {retrieval_type}"
 
-                if not retrieval_path.exists():
-                    print(f"[WARN] Missing retrieval file: {retrieval_path}")
-                    continue
+                    if retrieval_path is None:
+                        expected = ", ".join(str(path) for path in retrieval_candidates)
+                        print(f"[WARN] Missing retrieval file for {tag}: {expected}")
+                        continue
 
-                retrieval_dict = load_retrieval_as_dict(retrieval_path)
-                result = evaluate_retrieval(benchmark, retrieval_dict)
+                    retrieval_dict = load_retrieval_as_dict(retrieval_path)
+                    result = evaluate_retrieval(benchmark, retrieval_dict)
 
-                all_results[tag] = {
-                    "benchmark": benchmark_name,
-                    "chunking": file_name,
-                    "retrieval_type": retrieval_type,
-                    "retrieval_path": str(retrieval_path),
-                    "metrics": result,
-                }
+                    all_results[tag] = {
+                        "model": model_alias,
+                        "benchmark": benchmark_name,
+                        "chunking": file_name,
+                        "retrieval_type": retrieval_type,
+                        "retrieval_path": str(retrieval_path),
+                        "metrics": result,
+                    }
 
-                print_overall_result(tag, result)
+                    print_overall_result(tag, result)
 
     # save all results
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    with open(args.output, "w", encoding="utf-8") as f:
         json.dump(all_results, f, ensure_ascii=False, indent=2)
 
-    print(f"\nSaved evaluation summary to: {OUTPUT_PATH}")
+    print(f"\nSaved evaluation summary to: {args.output}")
 
     # print leaderboard
     leaderboard = []
@@ -287,6 +334,7 @@ def main():
         metrics = info["metrics"]
         leaderboard.append({
             "tag": tag,
+            "model": info["model"],
             "benchmark": info["benchmark"],
             "chunking": info["chunking"],
             "retrieval_type": info["retrieval_type"],
@@ -303,8 +351,9 @@ def main():
     print(f"{'#' * 100}")
     for row in leaderboard:
         print(
+            f"{row['model']:12s} | "
             f"{row['benchmark']:20s} | "
-            f"{row['chunking']:32s} | "
+            f"{row['chunking']:28s} | "
             f"{row['retrieval_type']:15s} | "
             f"Hit@1={row['Hit@1']:.4f} | "
             f"Hit@5={row['Hit@5']:.4f} | "
