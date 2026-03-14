@@ -1,542 +1,249 @@
-[
-  {
-    "id": "q_001",
-    "question": "What is East Asian cuisine known for in cooking?",
-    "answer": "East Asian cuisine commonly uses oils, fats and sauces in the preparation of dishes.",
-    "doc_id": "wiki_0001",
-    "cuisine": "East Asian",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_002",
-    "question": "Name one of the Eight Great Traditions of Chinese cuisine.",
-    "answer": "Sichuan cuisine is one of the Eight Great Traditions of Chinese cuisine.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_003",
-    "question": "Which Chinese cuisine is famous for bold and spicy flavors?",
-    "answer": "Sichuan cuisine is known for bold flavors and spiciness from garlic and chili peppers.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_004",
-    "question": "What ingredient creates the unique flavor in Sichuan cuisine?",
-    "answer": "Sichuan peppercorn creates the unique flavor in Sichuan cuisine.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_005",
-    "question": "What characterizes Zhejiang cuisine?",
-    "answer": "Zhejiang cuisine is known for fresh, soft flavors and a mellow fragrance.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_006",
-    "question": "Which Chinese cuisine emphasizes soup to enhance flavor?",
-    "answer": "Jiangsu cuisine emphasizes the use of soup to improve flavor.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "technique"
-  },
-  {
-    "id": "q_007",
-    "question": "Why is seafood common in Cantonese cuisine?",
-    "answer": "Seafood is common because Guangdong is located on the southern coast of China.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_008",
-    "question": "What preservation methods are common in traditional Chinese cuisines?",
-    "answer": "Drying, salting, pickling and fermentation are common preservation methods.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "technique"
-  },
-  {
-    "id": "q_009",
-    "question": "What are the Four Great Traditions of Chinese cuisine?",
-    "answer": "Cantonese, Sichuan, Shandong and Huaiyang cuisines are considered the Four Great Traditions.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "fact"
-  },
-  {
-    "id": "q_010",
-    "question": "Why has Chinese cuisine spread widely around the world?",
-    "answer": "Chinese cuisine spread globally through migration and adaptation to local ingredients.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Chinese",
-    "difficulty": "hard",
-    "type": "history"
-  },
-  {
-    "id": "q_011",
-    "question": "What is Anhui cuisine also called?",
-    "answer": "Anhui cuisine is also referred to as Hui cuisine.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "definition"
-  },
-  {
-    "id": "q_012",
-    "question": "Where does Anhui cuisine originate from?",
-    "answer": "Anhui cuisine originates from the Huangshan region in southern Anhui Province.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_013",
-    "question": "What cooking techniques are common in Anhui cuisine?",
-    "answer": "Braising and stewing are common techniques in Anhui cuisine.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "technique"
-  },
-  {
-    "id": "q_014",
-    "question": "Why are wild herbs common in Anhui cuisine?",
-    "answer": "Wild herbs are common because Anhui has many forests and uncultivated fields.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_015",
-    "question": "Which food is strongly associated with Anhui cuisine?",
-    "answer": "Tofu is strongly associated with Anhui cuisine.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_016",
-    "question": "Who is credited in folklore with inventing tofu?",
-    "answer": "Chinese folklore credits Prince Liu An with creating tofu.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "history"
-  },
-  {
-    "id": "q_017",
-    "question": "What unusual tofu snack originates from Anhui?",
-    "answer": "Hairy tofu is a popular snack originating from Anhui.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_018",
-    "question": "How many styles of Anhui cuisine exist?",
-    "answer": "Anhui cuisine consists of three styles: Yangtze River, Huai River, and southern Anhui.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "fact"
-  },
-  {
-    "id": "q_019",
-    "question": "Which cooking method is less common in Anhui cuisine compared to others?",
-    "answer": "Frying and stir-frying are less common in Anhui cuisine.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "technique"
-  },
-  {
-    "id": "q_020",
-    "question": "What natural environment influences Anhui cuisine ingredients?",
-    "answer": "The mountainous and forested environment influences the use of wild herbs.",
-    "doc_id": "wiki_0003",
-    "cuisine": "Chinese",
-    "difficulty": "hard",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_021",
-    "question": "What is another name for Beijing cuisine?",
-    "answer": "Beijing cuisine is also known as Jing cuisine or Peking cuisine.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "definition"
-  },
-  {
-    "id": "q_022",
-    "question": "Which regional cuisine most influenced Beijing cuisine?",
-    "answer": "Shandong cuisine had the greatest influence on Beijing cuisine.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "fact"
-  },
-  {
-    "id": "q_023",
-    "question": "Why is rice less emphasized in Beijing cuisine?",
-    "answer": "Rice is less emphasized because the dry climate limits local rice production.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_024",
-    "question": "What types of meat dishes are common in Beijing cuisine?",
-    "answer": "Lamb and beef dishes from Chinese Halal cuisine are common.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_025",
-    "question": "Which cuisine influenced the imperial kitchens in Beijing?",
-    "answer": "Huaiyang cuisine strongly influenced imperial kitchens.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "history"
-  },
-  {
-    "id": "q_026",
-    "question": "What kind of establishments were Zhuang in Beijing cuisine history?",
-    "answer": "Zhuang were top-ranking establishments providing food and entertainment.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "history"
-  },
-  {
-    "id": "q_027",
-    "question": "What entertainment was commonly offered in top Beijing restaurants?",
-    "answer": "Beijing opera performances were commonly offered.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_028",
-    "question": "What was the lowest ranking food establishment in Beijing cuisine hierarchy?",
-    "answer": "Tan food stands were the lowest ranking establishments.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "fact"
-  },
-  {
-    "id": "q_029",
-    "question": "How did the end of the Qing dynasty affect Beijing cuisine?",
-    "answer": "It removed restrictions so dishes once limited to elites became widely available.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "hard",
-    "type": "history"
-  },
-  {
-    "id": "q_030",
-    "question": "Why is Beijing cuisine influenced by many regional traditions?",
-    "answer": "Because Beijing served as China's capital for centuries and attracted chefs from many regions.",
-    "doc_id": "wiki_0005",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_031",
-    "question": "What does the word bibimbap mean?",
-    "answer": "Bibimbap means mixed rice.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "definition"
-  },
-  {
-    "id": "q_032",
-    "question": "What are the main components of bibimbap?",
-    "answer": "Rice topped with vegetables, gochujang, egg, and often sliced meat.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_033",
-    "question": "Which sauce is commonly added to bibimbap?",
-    "answer": "Gochujang chili pepper paste is commonly added.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_034",
-    "question": "How are bibimbap ingredients usually eaten?",
-    "answer": "They are stirred together thoroughly before eating.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "technique"
-  },
-  {
-    "id": "q_035",
-    "question": "Which Korean cities are famous for their versions of bibimbap?",
-    "answer": "Jeonju, Jinju, and Tongyeong are famous for their versions.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_036",
-    "question": "Why might bibimbap have originated from ancestral rites?",
-    "answer": "Food offerings were mixed together in a bowl during ceremonies.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "medium",
-    "type": "history"
-  },
-  {
-    "id": "q_037",
-    "question": "Why did farmers eat bibimbap during farming season?",
-    "answer": "It was quick and easy to prepare by mixing rice with leftover vegetables.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_038",
-    "question": "What is dolsot bibimbap?",
-    "answer": "It is bibimbap served in a hot stone pot that crisps the rice.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "definition"
-  },
-  {
-    "id": "q_039",
-    "question": "Which cooking effect occurs in a hot stone pot bibimbap?",
-    "answer": "The rice at the bottom becomes crispy and golden brown.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "medium",
-    "type": "technique"
-  },
-  {
-    "id": "q_040",
-    "question": "Why did bibimbap become globally popular?",
-    "answer": "Its simplicity, affordability, and taste helped spread it worldwide.",
-    "doc_id": "wiki_0006",
-    "cuisine": "Korean",
-    "difficulty": "medium",
-    "type": "history"
-  },
-  {
-    "id": "q_041",
-    "question": "What is Canadian Chinese cuisine?",
-    "answer": "It is a style of Chinese cuisine adapted by Chinese immigrants in Canada.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "definition"
-  },
-  {
-    "id": "q_042",
-    "question": "Why was Canadian Chinese cuisine created?",
-    "answer": "Chinese immigrants adapted traditional dishes to Western tastes and local ingredients.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_043",
-    "question": "When did Canadian Chinese cuisine originate?",
-    "answer": "It originated in the mid-19th century.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "history"
-  },
-  {
-    "id": "q_044",
-    "question": "What historical project brought many Chinese immigrants to Canada?",
-    "answer": "The construction of the Canadian Pacific Railway.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "history"
-  },
-  {
-    "id": "q_045",
-    "question": "Why were many Chinese immigrants limited to restaurant work?",
-    "answer": "Due to anti-Chinese laws and discrimination limiting employment options.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "history"
-  },
-  {
-    "id": "q_046",
-    "question": "What cooking style influenced early Canadian Chinese restaurants?",
-    "answer": "Cantonese cooking traditions influenced them.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "fact"
-  },
-  {
-    "id": "q_047",
-    "question": "Why are bean sprouts common in Canadian Chinese cuisine?",
-    "answer": "Because they are easy and cheap to grow locally.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_048",
-    "question": "What popular Canadian Chinese dish was invented in Calgary?",
-    "answer": "Ginger beef was invented in Calgary.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_049",
-    "question": "Why did Chinese restaurants modify their menus in Canada?",
-    "answer": "To appeal to Western tastes of Canadian customers.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_050",
-    "question": "How did immigration changes affect Chinese cuisine in Canada?",
-    "answer": "More authentic regional Chinese cuisines appeared after immigration restrictions eased.",
-    "doc_id": "wiki_0007",
-    "cuisine": "Chinese",
-    "difficulty": "hard",
-    "type": "history"
-  },
-  {
-    "id": "q_051",
-    "question": "What is the primary grain used in Korean cuisine meals?",
-    "answer": "Rice is the primary grain in Korean cuisine.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_052",
-    "question": "What fermented dish is commonly served with Korean meals?",
-    "answer": "Kimchi is commonly served with Korean meals.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_053",
-    "question": "What cooking method is used in Korean barbecue?",
-    "answer": "Meat is grilled at the table over gas or charcoal grills.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "technique"
-  },
-  {
-    "id": "q_054",
-    "question": "What are banchan in Korean cuisine?",
-    "answer": "Banchan are side dishes served with rice.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Korean",
-    "difficulty": "easy",
-    "type": "definition"
-  },
-  {
-    "id": "q_055",
-    "question": "Why does Mongolian cuisine rely heavily on meat and dairy?",
-    "answer": "Because Mongolia has an extreme continental climate with limited agriculture.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Mongolian",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_056",
-    "question": "What characteristic defines traditional Japanese cuisine?",
-    "answer": "It emphasizes seasonality, ingredient quality, and presentation.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Japanese",
-    "difficulty": "easy",
-    "type": "fact"
-  },
-  {
-    "id": "q_057",
-    "question": "Why did traditional Japanese cooking avoid heavy oils?",
-    "answer": "To highlight the natural flavors of ingredients.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Japanese",
-    "difficulty": "medium",
-    "type": "reasoning"
-  },
-  {
-    "id": "q_058",
-    "question": "What role does seafood play in Japanese cuisine?",
-    "answer": "Seafood is widely used due to Japan's abundant marine resources.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Japanese",
-    "difficulty": "easy",
-    "type": "ingredient"
-  },
-  {
-    "id": "q_059",
-    "question": "What are kyodo ryori in Japan?",
-    "answer": "They are regional specialty dishes in Japanese cuisine.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Japanese",
-    "difficulty": "medium",
-    "type": "definition"
-  },
-  {
-    "id": "q_060",
-    "question": "Why does Japanese cuisine feature many regional specialties?",
-    "answer": "Because different regions use local ingredients and traditional recipes.",
-    "doc_id": "wiki_0001",
-    "cuisine": "Japanese",
-    "difficulty": "medium",
-    "type": "reasoning"
-  }
-]
+{
+  "sources": [
+    {
+      "source": "Wikipedia",
+      "questions": [
+        {
+          "question": "What is East Asian cuisine known for in cooking?",
+          "answer": "East Asian cuisine commonly uses oils, fats and sauces in the preparation of dishes."
+        },
+        {
+          "question": "Name one of the Eight Great Traditions of Chinese cuisine.",
+          "answer": "Sichuan cuisine is one of the Eight Great Traditions of Chinese cuisine."
+        },
+        {
+          "question": "Which Chinese cuisine is famous for bold and spicy flavors?",
+          "answer": "Sichuan cuisine is known for bold flavors and spiciness from garlic and chili peppers."
+        },
+        {
+          "question": "What ingredient creates the unique flavor in Sichuan cuisine?",
+          "answer": "Sichuan peppercorn creates the unique flavor in Sichuan cuisine."
+        },
+        {
+          "question": "What characterizes Zhejiang cuisine?",
+          "answer": "Zhejiang cuisine is known for fresh, soft flavors and a mellow fragrance."
+        },
+        {
+          "question": "Which Chinese cuisine emphasizes soup to enhance flavor?",
+          "answer": "Jiangsu cuisine emphasizes the use of soup to improve flavor."
+        },
+        {
+          "question": "Why is seafood common in Cantonese cuisine?",
+          "answer": "Seafood is common because Guangdong is located on the southern coast of China."
+        },
+        {
+          "question": "What preservation methods are common in traditional Chinese cuisines?",
+          "answer": "Drying, salting, pickling and fermentation are common preservation methods."
+        },
+        {
+          "question": "What are the Four Great Traditions of Chinese cuisine?",
+          "answer": "Cantonese, Sichuan, Shandong and Huaiyang cuisines are considered the Four Great Traditions."
+        },
+        {
+          "question": "Why has Chinese cuisine spread widely around the world?",
+          "answer": "Chinese cuisine spread globally through migration and adaptation to local ingredients."
+        },
+        {
+          "question": "What is Anhui cuisine also called?",
+          "answer": "Anhui cuisine is also referred to as Hui cuisine."
+        },
+        {
+          "question": "Where does Anhui cuisine originate from?",
+          "answer": "Anhui cuisine originates from the Huangshan region in southern Anhui Province."
+        },
+        {
+          "question": "What cooking techniques are common in Anhui cuisine?",
+          "answer": "Braising and stewing are common techniques in Anhui cuisine."
+        },
+        {
+          "question": "Why are wild herbs common in Anhui cuisine?",
+          "answer": "Wild herbs are common because Anhui has many forests and uncultivated fields."
+        },
+        {
+          "question": "Which food is strongly associated with Anhui cuisine?",
+          "answer": "Tofu is strongly associated with Anhui cuisine."
+        },
+        {
+          "question": "Who is credited in folklore with inventing tofu?",
+          "answer": "Chinese folklore credits Prince Liu An with creating tofu."
+        },
+        {
+          "question": "What unusual tofu snack originates from Anhui?",
+          "answer": "Hairy tofu is a popular snack originating from Anhui."
+        },
+        {
+          "question": "How many styles of Anhui cuisine exist?",
+          "answer": "Anhui cuisine consists of three styles: Yangtze River, Huai River, and southern Anhui."
+        },
+        {
+          "question": "Which cooking method is less common in Anhui cuisine compared to others?",
+          "answer": "Frying and stir-frying are less common in Anhui cuisine."
+        },
+        {
+          "question": "What natural environment influences Anhui cuisine ingredients?",
+          "answer": "The mountainous and forested environment influences the use of wild herbs."
+        },
+        {
+          "question": "What is another name for Beijing cuisine?",
+          "answer": "Beijing cuisine is also known as Jing cuisine or Peking cuisine."
+        },
+        {
+          "question": "Which regional cuisine most influenced Beijing cuisine?",
+          "answer": "Shandong cuisine had the greatest influence on Beijing cuisine."
+        },
+        {
+          "question": "Why is rice less emphasized in Beijing cuisine?",
+          "answer": "Rice is less emphasized because the dry climate limits local rice production."
+        },
+        {
+          "question": "What types of meat dishes are common in Beijing cuisine?",
+          "answer": "Lamb and beef dishes from Chinese Halal cuisine are common."
+        },
+        {
+          "question": "Which cuisine influenced the imperial kitchens in Beijing?",
+          "answer": "Huaiyang cuisine strongly influenced imperial kitchens."
+        },
+        {
+          "question": "What kind of establishments were Zhuang in Beijing cuisine history?",
+          "answer": "Zhuang were top-ranking establishments providing food and entertainment."
+        },
+        {
+          "question": "What entertainment was commonly offered in top Beijing restaurants?",
+          "answer": "Beijing opera performances were commonly offered."
+        },
+        {
+          "question": "What was the lowest ranking food establishment in Beijing cuisine hierarchy?",
+          "answer": "Tan food stands were the lowest ranking establishments."
+        },
+        {
+          "question": "How did the end of the Qing dynasty affect Beijing cuisine?",
+          "answer": "It removed restrictions so dishes once limited to elites became widely available."
+        },
+        {
+          "question": "Why is Beijing cuisine influenced by many regional traditions?",
+          "answer": "Because Beijing served as China's capital for centuries and attracted chefs from many regions."
+        },
+        {
+          "question": "What does the word bibimbap mean?",
+          "answer": "Bibimbap means mixed rice."
+        },
+        {
+          "question": "What are the main components of bibimbap?",
+          "answer": "Rice topped with vegetables, gochujang, egg, and often sliced meat."
+        },
+        {
+          "question": "Which sauce is commonly added to bibimbap?",
+          "answer": "Gochujang chili pepper paste is commonly added."
+        },
+        {
+          "question": "How are bibimbap ingredients usually eaten?",
+          "answer": "They are stirred together thoroughly before eating."
+        },
+        {
+          "question": "Which Korean cities are famous for their versions of bibimbap?",
+          "answer": "Jeonju, Jinju, and Tongyeong are famous for their versions."
+        },
+        {
+          "question": "Why might bibimbap have originated from ancestral rites?",
+          "answer": "Food offerings were mixed together in a bowl during ceremonies."
+        },
+        {
+          "question": "Why did farmers eat bibimbap during farming season?",
+          "answer": "It was quick and easy to prepare by mixing rice with leftover vegetables."
+        },
+        {
+          "question": "What is dolsot bibimbap?",
+          "answer": "It is bibimbap served in a hot stone pot that crisps the rice."
+        },
+        {
+          "question": "Which cooking effect occurs in a hot stone pot bibimbap?",
+          "answer": "The rice at the bottom becomes crispy and golden brown."
+        },
+        {
+          "question": "Why did bibimbap become globally popular?",
+          "answer": "Its simplicity, affordability, and taste helped spread it worldwide."
+        },
+        {
+          "question": "What is Canadian Chinese cuisine?",
+          "answer": "It is a style of Chinese cuisine adapted by Chinese immigrants in Canada."
+        },
+        {
+          "question": "Why was Canadian Chinese cuisine created?",
+          "answer": "Chinese immigrants adapted traditional dishes to Western tastes and local ingredients."
+        },
+        {
+          "question": "When did Canadian Chinese cuisine originate?",
+          "answer": "It originated in the mid-19th century."
+        },
+        {
+          "question": "What historical project brought many Chinese immigrants to Canada?",
+          "answer": "The construction of the Canadian Pacific Railway."
+        },
+        {
+          "question": "Why were many Chinese immigrants limited to restaurant work?",
+          "answer": "Due to anti-Chinese laws and discrimination limiting employment options."
+        },
+        {
+          "question": "What cooking style influenced early Canadian Chinese restaurants?",
+          "answer": "Cantonese cooking traditions influenced them."
+        },
+        {
+          "question": "Why are bean sprouts common in Canadian Chinese cuisine?",
+          "answer": "Because they are easy and cheap to grow locally."
+        },
+        {
+          "question": "What popular Canadian Chinese dish was invented in Calgary?",
+          "answer": "Ginger beef was invented in Calgary."
+        },
+        {
+          "question": "Why did Chinese restaurants modify their menus in Canada?",
+          "answer": "To appeal to Western tastes of Canadian customers."
+        },
+        {
+          "question": "How did immigration changes affect Chinese cuisine in Canada?",
+          "answer": "More authentic regional Chinese cuisines appeared after immigration restrictions eased."
+        },
+        {
+          "question": "What is the primary grain used in Korean cuisine meals?",
+          "answer": "Rice is the primary grain in Korean cuisine."
+        },
+        {
+          "question": "What fermented dish is commonly served with Korean meals?",
+          "answer": "Kimchi is commonly served with Korean meals."
+        },
+        {
+          "question": "What cooking method is used in Korean barbecue?",
+          "answer": "Meat is grilled at the table over gas or charcoal grills."
+        },
+        {
+          "question": "What are banchan in Korean cuisine?",
+          "answer": "Banchan are side dishes served with rice."
+        },
+        {
+          "question": "Why does Mongolian cuisine rely heavily on meat and dairy?",
+          "answer": "Because Mongolia has an extreme continental climate with limited agriculture."
+        },
+        {
+          "question": "What characteristic defines traditional Japanese cuisine?",
+          "answer": "It emphasizes seasonality, ingredient quality, and presentation."
+        },
+        {
+          "question": "Why did traditional Japanese cooking avoid heavy oils?",
+          "answer": "To highlight the natural flavors of ingredients."
+        },
+        {
+          "question": "What role does seafood play in Japanese cuisine?",
+          "answer": "Seafood is widely used due to Japan's abundant marine resources."
+        },
+        {
+          "question": "What are kyodo ryori in Japan?",
+          "answer": "They are regional specialty dishes in Japanese cuisine."
+        },
+        {
+          "question": "Why does Japanese cuisine feature many regional specialties?",
+          "answer": "Because different regions use local ingredients and traditional recipes."
+        }
+      ]
+    }
+  ]
+}
