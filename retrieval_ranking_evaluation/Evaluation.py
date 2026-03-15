@@ -1,5 +1,7 @@
 import argparse
 import json
+import re
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -34,6 +36,16 @@ RETRIEVAL_TYPES = [
 
 MODEL_ALIASES = ["minilm", "nomic",]
 
+ANSWER_MATCH_THRESHOLD = 0.6
+STOPWORDS = {
+    "the", "a", "an", "is", "are", "was", "were", "be", "been", "being",
+    "to", "of", "and", "or", "in", "on", "for", "with", "by", "from",
+    "that", "this", "it", "as", "at", "its", "their", "his", "her",
+    "into", "than", "then", "which", "what", "who", "when", "where",
+    "how", "means", "meaning", "describe", "describing", "term", "word",
+    "called", "also", "known", "used", "using", "made", "make",
+}
+
 
 # =========================================================
 # 2. IO helpers
@@ -66,6 +78,38 @@ def normalize_doc_id(chunk_id: str) -> str:
     return chunk_id
 
 
+def normalize_text(text: str) -> str:
+    text = unicodedata.normalize("NFKC", text or "").lower()
+    text = (
+        text.replace("’", "'")
+        .replace("“", " ")
+        .replace("”", " ")
+        .replace("—", " ")
+        .replace("–", " ")
+    )
+    text = re.sub(r"[^a-z0-9\s]", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def content_tokens(text: str):
+    return [
+        token
+        for token in normalize_text(text).split()
+        if len(token) > 2 and token not in STOPWORDS
+    ]
+
+
+def answer_match_ratio(gold_answer: str, retrieved_text: str) -> float:
+    answer_tokens = content_tokens(gold_answer)
+    if not answer_tokens:
+        return 0.0
+
+    retrieved_token_set = set(content_tokens(retrieved_text))
+    overlap = sum(1 for token in answer_tokens if token in retrieved_token_set)
+    return overlap / len(answer_tokens)
+
+
 def build_retrieval_candidates(
     results_dir: Path,
     retrieval_type: str,
@@ -77,10 +121,14 @@ def build_retrieval_candidates(
     Preferred format:
     retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl
 
-    Legacy MiniLM format:
+    Current teammate format:
+    retrieval_biencoder_top20_nomic_chunks_fixed300_overlap0_benchmark_dataset.jsonl
+
+    Legacy MiniLM formats:
     retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset.jsonl
     """
     candidates = [
+        results_dir / f"retrieval_{retrieval_type}_{model_alias}_{file_name}_{benchmark_name}.jsonl",
         results_dir / f"retrieval_{retrieval_type}_{file_name}_{benchmark_name}_{model_alias}.jsonl"
     ]
     if model_alias == "minilm":
@@ -126,21 +174,6 @@ def flatten_benchmark_records(data):
 
 
 def load_benchmark(path: Path, unified_index):
-    """
-    benchmark json format:
-    [
-      {
-        "id": "...",
-        "question": "...",
-        "answer": "...",
-        "doc_id": "...",
-        "cuisine": "...",
-        "difficulty": "...",
-        "type": "..."
-      },
-      ...
-    ]
-    """
     benchmark = {}
     data = flatten_benchmark_records(read_json(path))
     source_name = path.stem
@@ -163,7 +196,7 @@ def load_benchmark(path: Path, unified_index):
             "id": match["query_id"],
             "question": question,
             "answer": rec.get("answer") or match.get("gold_answer", ""),
-            "doc_id": match["gold_doc_id"],
+            "source": rec.get("source") or match.get("source", "UNKNOWN"),
             "cuisine": match.get("cuisine", ""),
             "difficulty": match.get("difficulty", ""),
             "type": match.get("type", ""),
@@ -205,6 +238,7 @@ def evaluate_retrieval(benchmark, retrieval_dict):
     hit_at_20 = 0
     mrr = 0.0
 
+    by_source = defaultdict(empty_group_stats)
     by_cuisine = defaultdict(empty_group_stats)
     by_difficulty = defaultdict(empty_group_stats)
     by_type = defaultdict(empty_group_stats)
@@ -216,23 +250,26 @@ def evaluate_retrieval(benchmark, retrieval_dict):
             missing_queries.append(qid)
             continue
 
-        gold_doc_id = gold["doc_id"]
+        gold_answer = gold.get("answer", "")
+        source = gold.get("source", "UNKNOWN")
         cuisine = gold.get("cuisine", "UNKNOWN")
         difficulty = gold.get("difficulty", "UNKNOWN")
         qtype = gold.get("type", "UNKNOWN")
 
         retrieved = retrieval_dict[qid].get("retrieved", [])
-        retrieved_doc_ids = [normalize_doc_id(x["chunk_id"]) for x in retrieved]
+        answer_match_scores = [
+            answer_match_ratio(gold_answer, item.get("text", "")) for item in retrieved
+        ]
 
         total += 1
 
-        h1 = len(retrieved_doc_ids) >= 1 and retrieved_doc_ids[0] == gold_doc_id
-        h5 = gold_doc_id in retrieved_doc_ids[:5]
-        h20 = gold_doc_id in retrieved_doc_ids[:20]
+        h1 = len(answer_match_scores) >= 1 and answer_match_scores[0] >= ANSWER_MATCH_THRESHOLD
+        h5 = any(score >= ANSWER_MATCH_THRESHOLD for score in answer_match_scores[:5])
+        h20 = any(score >= ANSWER_MATCH_THRESHOLD for score in answer_match_scores[:20])
 
         rr = 0.0
-        for rank, doc_id in enumerate(retrieved_doc_ids, start=1):
-            if doc_id == gold_doc_id:
+        for rank, score in enumerate(answer_match_scores, start=1):
+            if score >= ANSWER_MATCH_THRESHOLD:
                 rr = 1.0 / rank
                 break
 
@@ -242,6 +279,7 @@ def evaluate_retrieval(benchmark, retrieval_dict):
         mrr += rr
 
         for key, group_stats in [
+            (source, by_source),
             (cuisine, by_cuisine),
             (difficulty, by_difficulty),
             (qtype, by_type),
@@ -253,6 +291,8 @@ def evaluate_retrieval(benchmark, retrieval_dict):
             group_stats[key]["mrr"] += rr
 
     result = {
+        "evaluation_mode": "answer_match",
+        "answer_match_threshold": ANSWER_MATCH_THRESHOLD,
         "n_queries_evaluated": total,
         "n_queries_in_benchmark": len(benchmark),
         "n_missing_queries": len(missing_queries),
@@ -261,6 +301,7 @@ def evaluate_retrieval(benchmark, retrieval_dict):
         "Hit@5": hit_at_5 / total if total else 0.0,
         "Recall@20": hit_at_20 / total if total else 0.0,
         "MRR": mrr / total if total else 0.0,
+        "by_source": convert_group_stats(by_source),
         "by_cuisine": convert_group_stats(by_cuisine),
         "by_difficulty": convert_group_stats(by_difficulty),
         "by_type": convert_group_stats(by_type),
