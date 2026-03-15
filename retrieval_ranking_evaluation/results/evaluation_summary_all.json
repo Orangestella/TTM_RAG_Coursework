@@ -1,173 +1,121 @@
 {
-  "minilm | benchmark_dataset | chunks_structure_aware_fine | biencoder_top20": {
-    "model": "minilm",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_structure_aware_fine",
-    "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 72,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.8333333333333334,
-      "Hit@5": 0.9444444444444444,
-      "Recall@20": 0.9583333333333334,
-      "MRR": 0.8883101851851852,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 18,
-          "Hit@1": 0.8333333333333334,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.9074074074074073
-        },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.6842105263157895,
-          "Hit@5": 0.8947368421052632,
-          "Recall@20": 0.8947368421052632,
-          "MRR": 0.7894736842105263
-        },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.9142857142857143,
-          "Hit@5": 0.9428571428571428,
-          "Recall@20": 0.9714285714285714,
-          "MRR": 0.9321428571428572
-        }
-      }
-    }
-  },
-  "minilm | benchmark_dataset | chunks_structure_aware_fine | biencoder_top5": {
-    "model": "minilm",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_structure_aware_fine",
-    "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 72,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.8333333333333334,
-      "Hit@5": 0.9444444444444444,
-      "Recall@20": 0.9444444444444444,
-      "MRR": 0.8865740740740741,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 18,
-          "Hit@1": 0.8333333333333334,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.9074074074074073
-        },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.6842105263157895,
-          "Hit@5": 0.8947368421052632,
-          "Recall@20": 0.8947368421052632,
-          "MRR": 0.7894736842105263
-        },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.9142857142857143,
-          "Hit@5": 0.9428571428571428,
-          "Recall@20": 0.9428571428571428,
-          "MRR": 0.9285714285714286
-        }
-      }
-    }
-  },
-  "minilm | benchmark_dataset | chunks_structure_aware_fine | reranked_top5": {
-    "model": "minilm",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_structure_aware_fine",
-    "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 72,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.9166666666666666,
-      "Hit@5": 0.9583333333333334,
-      "Recall@20": 0.9583333333333334,
-      "MRR": 0.9351851851851853,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 18,
-          "Hit@1": 1.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 1.0
-        },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.7368421052631579,
-          "Hit@5": 0.8947368421052632,
-          "Recall@20": 0.8947368421052632,
-          "MRR": 0.8070175438596492
-        },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.9714285714285714,
-          "Hit@5": 0.9714285714285714,
-          "Recall@20": 0.9714285714285714,
-          "MRR": 0.9714285714285714
-        }
-      }
-    }
-  },
   "nomic | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top20": {
     "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.18333333333333332,
-      "Recall@20": 0.3,
-      "MRR": 0.09249465811965812,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.13888888888888887
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7666666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.825,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8095238095238095
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.42105263157894735,
-          "MRR": 0.1309041835357625
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9206349206349206
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.11428571428571428,
-          "Recall@20": 0.22857142857142856,
-          "MRR": 0.06369047619047619
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.7333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7888888888888889
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7833333333333333
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.95,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9666666666666666
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6833333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5476190476190477
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7833333333333333
         }
       }
     }
@@ -177,50 +125,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.18333333333333332,
-      "Recall@20": 0.18333333333333332,
-      "MRR": 0.08277777777777778,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.13888888888888887
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7666666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.825,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8095238095238095
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.11754385964912281
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9206349206349206
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.11428571428571428,
-          "Recall@20": 0.11428571428571428,
-          "MRR": 0.054285714285714284
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.7333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7888888888888889
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7833333333333333
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.95,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9666666666666666
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6833333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5476190476190477
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7833333333333333
         }
       }
     }
@@ -230,50 +246,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.16666666666666666,
-      "Recall@20": 0.16666666666666666,
-      "MRR": 0.08361111111111111,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6833333333333333,
+      "Hit@5": 0.8666666666666667,
+      "Recall@20": 0.8666666666666667,
+      "MRR": 0.7652777777777778,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.9047619047619048,
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.9166666666666666
+        },
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.4666666666666667,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6555555555555554
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
           "Hit@5": 0.3333333333333333,
           "Recall@20": 0.3333333333333333,
-          "MRR": 0.11666666666666665
+          "MRR": 0.3333333333333333
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.2,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.4583333333333333
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.10526315789473684,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.14649122807017542
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.9,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9416666666666668
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.043809523809523805
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.7,
+          "Recall@20": 0.7,
+          "MRR": 0.65
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.8
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.5714285714285714,
+          "Recall@20": 0.5714285714285714,
+          "MRR": 0.5
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7777777777777777
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8333333333333334
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.2,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.4583333333333333
         }
       }
     }
@@ -283,50 +367,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap20",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.31666666666666665,
-      "MRR": 0.08471160611833987,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.09444444444444444
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7333333333333333,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.8069444444444444,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8095238095238095
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.47368421052631576,
-          "MRR": 0.12853024168813643
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666666
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.22857142857142856,
-          "MRR": 0.05925586023883237
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7222222222222221
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.775
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.9,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9416666666666667
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.2857142857142857,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.4761904761904762
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.775
         }
       }
     }
@@ -336,50 +488,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap20",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.06944444444444443,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.08333333333333333
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7333333333333333,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.8069444444444444,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8095238095238095
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.10526315789473684
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666666
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.047619047619047616
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7222222222222221
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.775
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.9,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9416666666666667
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.2857142857142857,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.4761904761904762
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.775
         }
       }
     }
@@ -389,50 +609,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap20",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.08111111111111112,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.08333333333333333
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.75,
+      "Hit@5": 0.8666666666666667,
+      "Recall@20": 0.8666666666666667,
+      "MRR": 0.8013888888888888,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8571428571428571
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.10526315789473684,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.14912280701754385
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.8928571428571429
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.043809523809523805
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.5333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6888888888888888
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.3333333333333333,
+          "Recall@20": 0.3333333333333333,
+          "MRR": 0.3333333333333333
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.625
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.9,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9416666666666667
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.7,
+          "Recall@20": 0.7,
+          "MRR": 0.65
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.825
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.5714285714285714,
+          "Recall@20": 0.5714285714285714,
+          "MRR": 0.5
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8015873015873015
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.625
         }
       }
     }
@@ -442,50 +730,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap1",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.11666666666666667,
-      "Recall@20": 0.25,
-      "MRR": 0.07703197945845004,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.09722222222222222
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7166666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9166666666666666,
+      "MRR": 0.8016666666666669,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.9047619047619048,
+          "MRR": 0.8380952380952381
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.15789473684210525,
-          "Recall@20": 0.3684210526315789,
-          "MRR": 0.11167993513194752
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8730158730158729
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.17142857142857143,
-          "MRR": 0.05476190476190476
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7222222222222221
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 1.0,
+          "MRR": 0.7433333333333333
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.85,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666667
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.8
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.2857142857142857,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.4761904761904762
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 1.0,
+          "MRR": 0.7433333333333333
         }
       }
     }
@@ -495,50 +851,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap1",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.11666666666666667,
-      "Recall@20": 0.11666666666666667,
-      "MRR": 0.06305555555555556,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.08333333333333333
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7166666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.8000000000000002,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8333333333333334
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.15789473684210525,
-          "Recall@20": 0.15789473684210525,
-          "MRR": 0.08947368421052632
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8730158730158729
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.04523809523809524
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7222222222222221
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7333333333333333
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.85,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666667
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.8
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.2857142857142857,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.4761904761904762
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7333333333333333
         }
       }
     }
@@ -548,50 +972,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap1",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.06861111111111112,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.08333333333333333
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7166666666666667,
+      "Hit@5": 0.8833333333333333,
+      "Recall@20": 0.8833333333333333,
+      "MRR": 0.7861111111111113,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.9047619047619048,
+          "Recall@20": 0.9047619047619048,
+          "MRR": 0.8492063492063493
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.11140350877192982
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.888888888888889
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.04285714285714286
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.4666666666666667,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6444444444444444
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.3333333333333333,
+          "Recall@20": 0.3333333333333333,
+          "MRR": 0.3333333333333333
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6666666666666666
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.85,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666667
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.7,
+          "Recall@20": 0.7,
+          "MRR": 0.6333333333333334
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.7916666666666667
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.5714285714285714,
+          "Recall@20": 0.5714285714285714,
+          "MRR": 0.4761904761904762
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7698412698412698
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6666666666666666
         }
       }
     }
@@ -601,50 +1093,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap2",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.25,
-      "MRR": 0.08591545709192767,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.17857142857142858
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7847222222222222,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8015873015873015
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.15789473684210525,
-          "Recall@20": 0.3684210526315789,
-          "MRR": 0.10487314543042096
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8690476190476191
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.11428571428571428,
-          "Recall@20": 0.17142857142857143,
-          "MRR": 0.05974025974025974
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.725
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8833333333333332
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6666666666666667
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5238095238095238
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9285714285714286
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.725
         }
       }
     }
@@ -654,50 +1214,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap2",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.07277777777777779,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.16666666666666666
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7847222222222222,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8015873015873015
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.15789473684210525,
-          "Recall@20": 0.15789473684210525,
-          "MRR": 0.0807017543859649
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8690476190476191
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.11428571428571428,
-          "Recall@20": 0.11428571428571428,
-          "MRR": 0.05238095238095238
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.725
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8833333333333332
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6666666666666667
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5238095238095238
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9285714285714286
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.725
         }
       }
     }
@@ -707,50 +1335,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap2",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.16666666666666666,
-      "Recall@20": 0.16666666666666666,
-      "MRR": 0.07888888888888888,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.08333333333333333
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.8666666666666667,
+      "Recall@20": 0.8666666666666667,
+      "MRR": 0.7694444444444444,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8015873015873015
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.3157894736842105,
-          "Recall@20": 0.3157894736842105,
-          "MRR": 0.13947368421052633
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.8690476190476191
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.04523809523809524
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.5333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6722222222222222
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.3333333333333333,
+          "Recall@20": 0.3333333333333333,
+          "MRR": 0.3333333333333333
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.625
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8708333333333332
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.7,
+          "Recall@20": 0.7,
+          "MRR": 0.65
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.8
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.5714285714285714,
+          "Recall@20": 0.5714285714285714,
+          "MRR": 0.5
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.746031746031746
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9107142857142857
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.625
         }
       }
     }
@@ -760,50 +1456,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.15,
-      "Recall@20": 0.31666666666666665,
-      "MRR": 0.09283688533688533,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.5,
-          "MRR": 0.2043650793650794
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7861111111111113,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8333333333333334
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.42105263157894735,
-          "MRR": 0.12809295967190706
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8412698412698412
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.22857142857142856,
-          "MRR": 0.05457875457875458
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8916666666666668
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.7333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.7916666666666667
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.619047619047619
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         }
       }
     }
@@ -813,50 +1577,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.07694444444444445,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.16666666666666666
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7861111111111113,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8333333333333334
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.11140350877192982
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8412698412698412
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.04285714285714286
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8916666666666668
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.7333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.7916666666666667
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.619047619047619
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         }
       }
     }
@@ -866,50 +1698,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.07972222222222222,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.16666666666666666
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.85,
+      "Recall@20": 0.85,
+      "MRR": 0.7041666666666668,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8095238095238095,
+          "Recall@20": 0.8095238095238095,
+          "MRR": 0.7142857142857143
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.10526315789473684,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.14210526315789473
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.8373015873015872
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.0,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.03095238095238095
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.5777777777777777
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.3333333333333333,
+          "Recall@20": 0.3333333333333333,
+          "MRR": 0.3333333333333333
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.1,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.3916666666666667
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.875
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.6,
+          "Recall@20": 0.6,
+          "MRR": 0.55
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.7666666666666667
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.5714285714285714,
+          "Recall@20": 0.5714285714285714,
+          "MRR": 0.5
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.8214285714285714
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.1,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.3916666666666667
         }
       }
     }
@@ -919,50 +1819,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.15,
-      "Recall@20": 0.2833333333333333,
-      "MRR": 0.09118964368964369,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.5,
-          "MRR": 0.20329670329670332
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7861111111111113,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8333333333333334
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.42105263157894735,
-          "MRR": 0.12410571884256096
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8412698412698412
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.17142857142857143,
-          "MRR": 0.0541025641025641
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8916666666666668
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.7333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.7916666666666667
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.619047619047619
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         }
       }
     }
@@ -972,50 +1940,118 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.07694444444444445,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.16666666666666666
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7861111111111113,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8333333333333334
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.10701754385964912
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8412698412698412
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.04523809523809524
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8916666666666668
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.7333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.7916666666666667
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.619047619047619
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         }
       }
     }
@@ -1025,1004 +2061,2296 @@
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.07138888888888889,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.16666666666666666
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6166666666666667,
+      "Hit@5": 0.8666666666666667,
+      "Recall@20": 0.8666666666666667,
+      "MRR": 0.7319444444444445,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7857142857142857
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.11578947368421054
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.8452380952380952
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.0,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.03095238095238095
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.5777777777777777
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.3333333333333333,
+          "Recall@20": 0.3333333333333333,
+          "MRR": 0.3333333333333333
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.1,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.3916666666666667
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.7,
+          "Recall@20": 0.7,
+          "MRR": 0.65
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.5714285714285714,
+          "Recall@20": 0.5714285714285714,
+          "MRR": 0.5
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7619047619047619
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9285714285714286
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.1,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.3916666666666667
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top20": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap0 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.16666666666666666,
-      "Recall@20": 0.31666666666666665,
-      "MRR": 0.08765223882870941,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5666666666666667,
+      "Hit@5": 0.8,
+      "Recall@20": 0.95,
+      "MRR": 0.673450345950346,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8717948717948718,
+          "Recall@20": 0.9743589743589743,
+          "MRR": 0.7805641651795497
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.5,
-          "MRR": 0.08425925925925926
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.42105263157894735,
-          "MRR": 0.13218010060115323
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 1.0,
+          "MRR": 0.17761904761904762
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.11428571428571428,
-          "Recall@20": 0.22857142857142856,
-          "MRR": 0.06406162464985994
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.6126373626373626
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.4642857142857143,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.9642857142857143,
+          "MRR": 0.6221611721611721
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.75,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7066609977324264
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6292517006802721
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7184615384615384
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 1.0,
+          "MRR": 0.5133089133089132
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.6944444444444444
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 1.0,
+          "MRR": 0.6333333333333334
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap0 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.16666666666666666,
-      "Recall@20": 0.16666666666666666,
-      "MRR": 0.07555555555555557,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5666666666666667,
+      "Hit@5": 0.8,
+      "Recall@20": 0.8,
+      "MRR": 0.6594444444444445,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8717948717948718,
+          "Recall@20": 0.8717948717948718,
+          "MRR": 0.770940170940171
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.075
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.11403508771929824
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.1
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.11428571428571428,
-          "Recall@20": 0.11428571428571428,
-          "MRR": 0.054761904761904755
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6071428571428571
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.4642857142857143,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8214285714285714,
+          "MRR": 0.6083333333333334
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.6904761904761905
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.6190476190476192
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7022222222222222
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.48148148148148145
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6818181818181818
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6190476190476192
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_fixed300_overlap0 | reranked_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap0 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap0_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap0_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.08027777777777777,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5333333333333333,
+      "Hit@5": 0.8166666666666667,
+      "Recall@20": 0.8166666666666667,
+      "MRR": 0.6444444444444445,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.8974358974358975,
+          "MRR": 0.7841880341880342
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.4,
+          "Recall@20": 0.4,
           "MRR": 0.11666666666666665
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.10526315789473684,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.13596491228070173
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.2857142857142857,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.49999999999999994
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.043809523809523805
-        }
-      }
-    }
-  },
-  "openai_small | benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top20": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_fixed300_overlap20",
-    "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap20_benchmark_dataset_openai_small.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.2833333333333333,
-      "MRR": 0.08407102157102157,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.08333333333333333
-        },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.42105263157894735,
-          "MRR": 0.13671357881884197
-        },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.05714285714285714,
-          "Recall@20": 0.2,
-          "MRR": 0.05562009419152276
-        }
-      }
-    }
-  },
-  "openai_small | benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_fixed300_overlap20",
-    "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap20_benchmark_dataset_openai_small.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.07,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.08333333333333333
-        },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.11578947368421054
-        },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.05714285714285714,
-          "Recall@20": 0.05714285714285714,
-          "MRR": 0.04285714285714286
-        }
-      }
-    }
-  },
-  "openai_small | benchmark_dataset | chunks_fixed300_overlap20 | reranked_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_fixed300_overlap20",
-    "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap20_benchmark_dataset_openai_small.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.07833333333333334,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.05555555555555555
-        },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.10526315789473684,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.14912280701754385
-        },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.043809523809523805
-        }
-      }
-    }
-  },
-  "openai_small | benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top20": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap1",
-    "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap1_benchmark_dataset_openai_small.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.2833333333333333,
-      "MRR": 0.07324214964888338,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.03133903133903134
-        },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.3684210526315789,
-          "MRR": 0.12602339181286548
-        },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.22857142857142856,
-          "MRR": 0.05177286704155346
-        }
-      }
-    }
-  },
-  "openai_small | benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap1",
-    "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap1_benchmark_dataset_openai_small.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.05861111111111112,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+        "Mongolian": {
+          "n": 1,
           "Hit@1": 0.0,
           "Hit@5": 0.0,
           "Recall@20": 0.0,
           "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.4642857142857143,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.5922619047619049
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.11140350877192982
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.5,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.7083333333333333
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.04
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6071428571428571,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8214285714285714,
+          "MRR": 0.6874999999999999
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5476190476190477
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6777777777777777
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.8030303030303029
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.2222222222222222,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.37962962962962965
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.6893939393939393
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.6904761904761906
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_sentence220_overlap1 | reranked_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap1",
-    "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap1_benchmark_dataset_openai_small.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.06861111111111112,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.08333333333333333
-        },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.11140350877192982
-        },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.04285714285714286
-        }
-      }
-    }
-  },
-  "openai_small | benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top20": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap2",
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap20 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_fixed300_overlap20",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap2_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap20_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.15,
-      "Recall@20": 0.31666666666666665,
-      "MRR": 0.09264941077441076,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.8,
+      "Recall@20": 0.9666666666666667,
+      "MRR": 0.6811599089907915,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.6923076923076923,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.9743589743589743,
+          "MRR": 0.7733729233729233
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.029629629629629627
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.3684210526315789,
-          "Recall@20": 0.3684210526315789,
-          "MRR": 0.1754385964912281
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.2,
+          "Hit@5": 0.2,
+          "Recall@20": 1.0,
+          "MRR": 0.27224736048265463
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.05714285714285714,
-          "Recall@20": 0.2857142857142857,
-          "MRR": 0.05851010101010102
-        }
-      }
-    }
-  },
-  "openai_small | benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap2",
-    "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap2_benchmark_dataset_openai_small.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.07777777777777777,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.6319152661064426
+        },
+        "Mongolian": {
+          "n": 1,
           "Hit@1": 0.0,
           "Hit@5": 0.0,
           "Recall@20": 0.0,
           "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.6434552987861812
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.3684210526315789,
-          "Recall@20": 0.3684210526315789,
-          "MRR": 0.1754385964912281
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.05714285714285714,
-          "Recall@20": 0.05714285714285714,
-          "MRR": 0.03809523809523809
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7018873633369431
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 1.0,
+          "MRR": 0.7342032967032966
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7240740740740741
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.2222222222222222,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 1.0,
+          "MRR": 0.41220043572984744
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7408847836655322
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 1.0,
+          "MRR": 0.6394557823129252
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_sentence220_overlap2 | reranked_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap20 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap20_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.8,
+      "Recall@20": 0.8,
+      "MRR": 0.6663888888888889,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.6923076923076923,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.8974358974358975,
+          "MRR": 0.7645299145299146
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.2,
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.2
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.619047619047619
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.625
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6886904761904761
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.7142857142857143
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7055555555555555
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.2222222222222222,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.3925925925925926
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.7272727272727273
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6190476190476192
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap20 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap20_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.8333333333333334,
+      "Recall@20": 0.8333333333333334,
+      "MRR": 0.6816666666666666,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.7692307692307693,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.8974358974358975,
+          "MRR": 0.8106837606837607
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.3333333333333333
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.06666666666666667
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.6154761904761904
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8928571428571429,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6440476190476191
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6785714285714286,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.7023809523809523
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.6428571428571429
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7277777777777777
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.8181818181818182,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.8363636363636363
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.5462962962962963
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6666666666666666
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.5761904761904761
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap1 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap1_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.8333333333333334,
+      "Recall@20": 0.9166666666666666,
+      "MRR": 0.6827627995642703,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.9743589743589743,
+          "MRR": 0.782371794871795
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.4,
+          "Recall@20": 0.6,
+          "MRR": 0.11843137254901961
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.6686507936507936
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5357142857142857,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.6519024276377218
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6968749999999998
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6476190476190478
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7094771241830065
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.7777777777777778,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.558641975308642
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.6742424242424242
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 1.0,
+          "MRR": 0.6875
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap1 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap1_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.8333333333333334,
+      "Recall@20": 0.8333333333333334,
+      "MRR": 0.6747222222222223,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.8974358974358975,
+          "MRR": 0.7743589743589744
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.4,
+          "Recall@20": 0.4,
+          "MRR": 0.10666666666666666
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6607142857142857
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5357142857142857,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8214285714285714,
+          "MRR": 0.6398809523809524
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8214285714285714,
+          "MRR": 0.6916666666666665
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6476190476190478
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6944444444444444
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.7777777777777778,
+          "Recall@20": 0.7777777777777778,
+          "MRR": 0.5462962962962963
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6666666666666666
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6785714285714286
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap1 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap1_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.85,
+      "Recall@20": 0.85,
+      "MRR": 0.695,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.7692307692307693,
+          "Hit@5": 0.9230769230769231,
+          "Recall@20": 0.9230769230769231,
+          "MRR": 0.8192307692307692
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.25
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.4,
+          "Recall@20": 0.4,
+          "MRR": 0.2
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6071428571428571
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6369047619047619
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6785714285714286,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8214285714285714,
+          "MRR": 0.738095238095238
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6428571428571429
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7222222222222221
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.8181818181818182,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.8363636363636363
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.7777777777777778,
+          "Recall@20": 0.7777777777777778,
+          "MRR": 0.48148148148148145
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6818181818181818
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.7619047619047619
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap2 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap2_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.85,
+      "Recall@20": 0.9333333333333333,
+      "MRR": 0.7000676937441646,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.9230769230769231,
+          "Recall@20": 0.9743589743589743,
+          "MRR": 0.7946886446886448
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 0.6,
+          "MRR": 0.10700280112044817
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 1.0,
+          "MRR": 0.7125850340136053
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8928571428571429,
+          "Recall@20": 0.9642857142857143,
+          "MRR": 0.7036314525810324
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6071428571428571,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6822278911564625
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 1.0,
+          "MRR": 0.7551020408163266
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9333333333333333,
+          "Recall@20": 1.0,
+          "MRR": 0.7483660130718953
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7303030303030303
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.7777777777777778,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.5806878306878307
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.6727272727272727
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.6904761904761905
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap2 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap2_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.85,
+      "Recall@20": 0.85,
+      "MRR": 0.6908333333333333,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.9230769230769231,
+          "Recall@20": 0.9230769230769231,
+          "MRR": 0.7893162393162393
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.06666666666666667
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7023809523809523
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8928571428571429,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6964285714285714
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6071428571428571,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.669642857142857
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.7142857142857143
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9333333333333333,
+          "Recall@20": 0.9333333333333333,
+          "MRR": 0.7444444444444444
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7303030303030303
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.7777777777777778,
+          "Recall@20": 0.7777777777777778,
+          "MRR": 0.5648148148148149
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6666666666666666
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.6904761904761905
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap2 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_sentence220_overlap2",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap2_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap2_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.0736111111111111,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6166666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7302777777777778,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.7692307692307693,
+          "Hit@5": 0.9487179487179487,
+          "Recall@20": 0.9487179487179487,
+          "MRR": 0.8320512820512821
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.08333333333333333
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.12280701754385963
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.6,
+          "Recall@20": 0.6,
+          "MRR": 0.20666666666666664
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.04523809523809524
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7023809523809523
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5357142857142857,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7005952380952382
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.75
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6785714285714286,
+          "Hit@5": 0.8928571428571429,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.7571428571428571
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.619047619047619
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.7522222222222222
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.7727272727272727
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7037037037037037
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.7000000000000001
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8095238095238094
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_structure_aware_coarse | biencoder_top20": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_coarse | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_coarse_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_coarse_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.31666666666666665,
-      "MRR": 0.08259259259259259,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.7666666666666667,
+      "Recall@20": 0.95,
+      "MRR": 0.6851060051060053,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8461538461538461,
+          "Recall@20": 0.9487179487179487,
+          "MRR": 0.7711421057574903
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.5,
-          "MRR": 0.07962962962962962
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.47368421052631576,
-          "MRR": 0.13391812865497077
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 1.0,
+          "MRR": 0.13262626262626262
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.2,
-          "MRR": 0.05523809523809524
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.7049062049062049
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.6885642135642136
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
+          "Recall@20": 1.0,
+          "MRR": 0.7857142857142857
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6071428571428571,
+          "Hit@5": 0.75,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.667275185132328
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 1.0,
+          "MRR": 0.6746031746031745
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7096296296296296
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.8181818181818182,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 1.0,
+          "MRR": 0.8381618381618381
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.5555555555555556,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.5119528619528619
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.621900826446281
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 1.0,
+          "MRR": 0.7244897959183673
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_structure_aware_coarse | biencoder_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_coarse | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_coarse_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_coarse_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.06361111111111112,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.7666666666666667,
+      "Recall@20": 0.7666666666666667,
+      "MRR": 0.6644444444444445,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8461538461538461,
+          "Recall@20": 0.8461538461538461,
+          "MRR": 0.7594017094017094
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.03333333333333333
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.10964912280701755
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.05
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.043809523809523805
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6785714285714286
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6619047619047619
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.75
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6071428571428571,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.6547619047619048
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.6428571428571429
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6911111111111111
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.8181818181818182,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.8181818181818182
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.5555555555555556,
+          "Recall@20": 0.5555555555555556,
+          "MRR": 0.4722222222222222
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6136363636363636
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7142857142857143
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_structure_aware_coarse | reranked_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_coarse | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_coarse_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_coarse_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.05,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.07888888888888888,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.16666666666666666
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.55,
+      "Hit@5": 0.8166666666666667,
+      "Recall@20": 0.8166666666666667,
+      "MRR": 0.6419444444444447,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.6410256410256411,
+          "Hit@5": 0.7948717948717948,
+          "Recall@20": 0.7948717948717948,
+          "MRR": 0.7038461538461538
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.10526315789473684,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.13947368421052633
-        },
-        "Wikipedia": {
-          "n": 35,
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.03095238095238095
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.25
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.18
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7083333333333334
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6273809523809523
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.25,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.5
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6767857142857142
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.75
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.5333333333333333,
+          "Hit@5": 0.7333333333333333,
+          "Recall@20": 0.7333333333333333,
+          "MRR": 0.5966666666666666
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7954545454545454
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.7777777777777778,
+          "Recall@20": 0.7777777777777778,
+          "MRR": 0.4851851851851852
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.6318181818181818
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6071428571428571
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_structure_aware_fine | biencoder_top20": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_fine | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.31666666666666665,
-      "MRR": 0.0822991506544138,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.7666666666666667,
+      "Recall@20": 0.95,
+      "MRR": 0.676772671772672,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.6923076923076923,
+          "Hit@5": 0.8461538461538461,
+          "Recall@20": 0.9487179487179487,
+          "MRR": 0.7583215929369775
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.5,
-          "MRR": 0.07962962962962962
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.47368421052631576,
-          "MRR": 0.13416875522138683
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 1.0,
+          "MRR": 0.13262626262626262
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.2,
-          "MRR": 0.054598997493734334
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.7049062049062049
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.6885642135642136
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
+          "Recall@20": 1.0,
+          "MRR": 0.7857142857142857
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.75,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6494180422751851
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 1.0,
+          "MRR": 0.6746031746031745
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7096296296296296
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.8181818181818182,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 1.0,
+          "MRR": 0.8381618381618381
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.5555555555555556,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.45639730639730636
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.621900826446281
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 1.0,
+          "MRR": 0.7244897959183673
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_structure_aware_fine | biencoder_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_fine | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.13333333333333333,
-      "Recall@20": 0.13333333333333333,
-      "MRR": 0.06361111111111112,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.7666666666666667,
+      "Recall@20": 0.7666666666666667,
+      "MRR": 0.6561111111111111,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.6923076923076923,
+          "Hit@5": 0.8461538461538461,
+          "Recall@20": 0.8461538461538461,
+          "MRR": 0.7465811965811966
+        },
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.03333333333333333
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.21052631578947367,
-          "Recall@20": 0.21052631578947367,
-          "MRR": 0.10964912280701755
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.05
         },
-        "Wikipedia": {
-          "n": 35,
-          "Hit@1": 0.02857142857142857,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.043809523809523805
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6785714285714286
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6619047619047619
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.75
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.6369047619047619
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.6428571428571429
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6911111111111111
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.8181818181818182,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.8181818181818182
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.5555555555555556,
+          "Recall@20": 0.5555555555555556,
+          "MRR": 0.4166666666666667
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6136363636363636
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7142857142857143
         }
       }
     }
   },
-  "openai_small | benchmark_dataset | chunks_structure_aware_fine | reranked_top5": {
-    "model": "openai_small",
-    "benchmark": "benchmark_dataset",
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_fine | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "C:\\Users\\SConductor\\Desktop\\Transforming Text Into Meaning\\Cw1\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset_openai_small.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 72,
-      "n_missing_queries": 12,
-      "missing_queries": [
-        "q_061",
-        "q_062",
-        "q_063",
-        "q_064",
-        "q_065",
-        "q_066",
-        "q_067",
-        "q_068",
-        "q_069",
-        "q_070",
-        "q_071",
-        "q_072"
-      ],
-      "Hit@1": 0.03333333333333333,
-      "Hit@5": 0.15,
-      "Recall@20": 0.15,
-      "MRR": 0.07055555555555555,
-      "by_source": {
-        "Around the World in 80 Cuisines Blog": {
-          "n": 6,
-          "Hit@1": 0.16666666666666666,
-          "Hit@5": 0.16666666666666666,
-          "Recall@20": 0.16666666666666666,
-          "MRR": 0.16666666666666666
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.55,
+      "Hit@5": 0.8166666666666667,
+      "Recall@20": 0.8166666666666667,
+      "MRR": 0.6419444444444447,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.6410256410256411,
+          "Hit@5": 0.7948717948717948,
+          "Recall@20": 0.7948717948717948,
+          "MRR": 0.7038461538461538
         },
-        "Wikibooks": {
-          "n": 19,
-          "Hit@1": 0.05263157894736842,
-          "Hit@5": 0.2631578947368421,
-          "Recall@20": 0.2631578947368421,
-          "MRR": 0.1131578947368421
-        },
-        "Wikipedia": {
-          "n": 35,
+        "East Asian": {
+          "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.08571428571428572,
-          "Recall@20": 0.08571428571428572,
-          "MRR": 0.03095238095238095
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.25
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.18
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7083333333333334
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6273809523809523
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.25,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.5
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6767857142857142
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.75
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.5333333333333333,
+          "Hit@5": 0.7333333333333333,
+          "Recall@20": 0.7333333333333333,
+          "MRR": 0.5966666666666666
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7954545454545454
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.7777777777777778,
+          "Recall@20": 0.7777777777777778,
+          "MRR": 0.4851851851851852
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.6318181818181818
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6071428571428571
         }
       }
     }
