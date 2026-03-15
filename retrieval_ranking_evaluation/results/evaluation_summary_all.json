@@ -1,73 +1,74 @@
 {
-  "benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top20": {
+  "nomic | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6833333333333333,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8666666666666667,
-      "MRR": 0.7489087301587303,
+      "Hit@1": 0.7666666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.825,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
           "Hit@1": 0.7619047619047619,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.8015873015873017
+          "MRR": 0.8095238095238095
         },
         "Japanese": {
           "n": 21,
-          "Hit@1": 0.8095238095238095,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8373015873015872
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9206349206349206
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.8,
+          "Hit@1": 0.7333333333333333,
+          "Hit@5": 0.8666666666666667,
           "Recall@20": 0.8666666666666667,
-          "MRR": 0.6261904761904762
+          "MRR": 0.7888888888888889
         },
         "Mongolian": {
           "n": 3,
           "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
           "Recall@20": 0.6666666666666666,
-          "MRR": 0.375
+          "MRR": 0.4444444444444444
         }
       },
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5333333333333333
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7833333333333333
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.85,
+          "Hit@1": 0.95,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.925
+          "MRR": 0.9666666666666666
         },
         "hard": {
           "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.6,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
           "Recall@20": 0.8,
-          "MRR": 0.5601190476190476
+          "MRR": 0.6833333333333333
         },
         "medium": {
           "n": 20,
-          "Hit@1": 0.75,
+          "Hit@1": 0.7,
           "Hit@5": 0.85,
           "Recall@20": 0.85,
           "MRR": 0.775
@@ -76,31 +77,31 @@
       "by_type": {
         "comparison": {
           "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.42857142857142855,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
           "Recall@20": 0.7142857142857143,
-          "MRR": 0.37159863945578225
+          "MRR": 0.5476190476190477
         },
         "descriptive": {
           "n": 21,
-          "Hit@1": 0.7619047619047619,
+          "Hit@1": 0.6666666666666666,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7976190476190477
+          "MRR": 0.753968253968254
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.8571428571428571,
+          "Hit@1": 1.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.9285714285714286
+          "MRR": 1.0
         },
         "how-to": {
           "n": 5,
-          "Hit@1": 0.8,
+          "Hit@1": 1.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.85
+          "MRR": 1.0
         },
         "list": {
           "n": 3,
@@ -111,83 +112,84 @@
         },
         "negative": {
           "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5333333333333333
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7833333333333333
         }
       }
     }
   },
-  "benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top5": {
+  "nomic | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6833333333333333,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.7444444444444446,
+      "Hit@1": 0.7666666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.825,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
           "Hit@1": 0.7619047619047619,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.8015873015873017
+          "MRR": 0.8095238095238095
         },
         "Japanese": {
           "n": 21,
-          "Hit@1": 0.8095238095238095,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8373015873015872
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9206349206349206
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.6166666666666667
+          "Hit@1": 0.7333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7888888888888889
         },
         "Mongolian": {
           "n": 3,
           "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.3333333333333333
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
         }
       },
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5333333333333333
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7833333333333333
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.85,
+          "Hit@1": 0.95,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.925
+          "MRR": 0.9666666666666666
         },
         "hard": {
           "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.5333333333333333
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6833333333333333
         },
         "medium": {
           "n": 20,
-          "Hit@1": 0.75,
+          "Hit@1": 0.7,
           "Hit@5": 0.85,
           "Recall@20": 0.85,
           "MRR": 0.775
@@ -196,31 +198,31 @@
       "by_type": {
         "comparison": {
           "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.42857142857142855,
-          "Recall@20": 0.42857142857142855,
-          "MRR": 0.3333333333333333
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5476190476190477
         },
         "descriptive": {
           "n": 21,
-          "Hit@1": 0.7619047619047619,
+          "Hit@1": 0.6666666666666666,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7976190476190477
+          "MRR": 0.753968253968254
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.8571428571428571,
+          "Hit@1": 1.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.9285714285714286
+          "MRR": 1.0
         },
         "how-to": {
           "n": 5,
-          "Hit@1": 0.8,
+          "Hit@1": 1.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.85
+          "MRR": 1.0
         },
         "list": {
           "n": 3,
@@ -231,28 +233,29 @@
         },
         "negative": {
           "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5333333333333333
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7833333333333333
         }
       }
     }
   },
-  "benchmark_dataset | chunks_fixed300_overlap0 | reranked_top5": {
+  "nomic | benchmark_dataset | chunks_fixed300_overlap0 | reranked_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap0_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
       "Hit@1": 0.6833333333333333,
-      "Hit@5": 0.85,
-      "Recall@20": 0.85,
-      "MRR": 0.7611111111111112,
+      "Hit@5": 0.8666666666666667,
+      "Recall@20": 0.8666666666666667,
+      "MRR": 0.7652777777777778,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
@@ -264,9 +267,9 @@
         "Japanese": {
           "n": 21,
           "Hit@1": 0.9047619047619048,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.9047619047619048
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.9166666666666666
         },
         "Korean": {
           "n": 15,
@@ -287,9 +290,9 @@
         "boundary": {
           "n": 10,
           "Hit@1": 0.2,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.4333333333333333
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.4583333333333333
         },
         "easy": {
           "n": 20,
@@ -352,115 +355,116 @@
         "negative": {
           "n": 10,
           "Hit@1": 0.2,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.4333333333333333
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.4583333333333333
         }
       }
     }
   },
-  "benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top20": {
+  "nomic | benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap20",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6833333333333333,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8666666666666667,
-      "MRR": 0.7476587301587302,
+      "Hit@1": 0.7333333333333333,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.8069444444444444,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
-          "Hit@1": 0.6666666666666666,
+          "Hit@1": 0.7619047619047619,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7396825396825396
+          "MRR": 0.8095238095238095
         },
         "Japanese": {
           "n": 21,
-          "Hit@1": 0.9047619047619048,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.9047619047619048
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666666
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.8,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
           "Recall@20": 0.8666666666666667,
-          "MRR": 0.6150793650793651
+          "MRR": 0.7222222222222221
         },
         "Mongolian": {
           "n": 3,
           "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
           "Recall@20": 0.6666666666666666,
-          "MRR": 0.3666666666666667
+          "MRR": 0.4444444444444444
         }
       },
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5833333333333333
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.775
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.8,
+          "Hit@1": 0.9,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8916666666666666
+          "MRR": 0.9416666666666667
         },
         "hard": {
           "n": 10,
           "Hit@1": 0.5,
-          "Hit@5": 0.6,
+          "Hit@5": 0.8,
           "Recall@20": 0.8,
-          "MRR": 0.5442857142857143
+          "MRR": 0.6333333333333333
         },
         "medium": {
           "n": 20,
-          "Hit@1": 0.75,
+          "Hit@1": 0.7,
           "Hit@5": 0.85,
           "Recall@20": 0.85,
-          "MRR": 0.7875
+          "MRR": 0.775
         }
       },
       "by_type": {
         "comparison": {
           "n": 7,
           "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
           "Recall@20": 0.7142857142857143,
-          "MRR": 0.34897959183673466
+          "MRR": 0.4761904761904762
         },
         "descriptive": {
           "n": 21,
-          "Hit@1": 0.7142857142857143,
+          "Hit@1": 0.6666666666666666,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7857142857142857
+          "MRR": 0.753968253968254
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.8571428571428571,
+          "Hit@1": 0.9285714285714286,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.9166666666666667
+          "MRR": 0.9642857142857143
         },
         "how-to": {
           "n": 5,
-          "Hit@1": 0.8,
+          "Hit@1": 1.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.85
+          "MRR": 1.0
         },
         "list": {
           "n": 3,
@@ -471,116 +475,117 @@
         },
         "negative": {
           "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5833333333333333
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.775
         }
       }
     }
   },
-  "benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top5": {
+  "nomic | benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap20",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6833333333333333,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.7436111111111111,
+      "Hit@1": 0.7333333333333333,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.8069444444444444,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
-          "Hit@1": 0.6666666666666666,
+          "Hit@1": 0.7619047619047619,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7396825396825396
+          "MRR": 0.8095238095238095
         },
         "Japanese": {
           "n": 21,
-          "Hit@1": 0.9047619047619048,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.9047619047619048
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666666
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.6055555555555555
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7222222222222221
         },
         "Mongolian": {
           "n": 3,
           "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.3333333333333333
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
         }
       },
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5833333333333333
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.775
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.8,
+          "Hit@1": 0.9,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8916666666666666
+          "MRR": 0.9416666666666667
         },
         "hard": {
           "n": 10,
           "Hit@1": 0.5,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.52
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6333333333333333
         },
         "medium": {
           "n": 20,
-          "Hit@1": 0.75,
+          "Hit@1": 0.7,
           "Hit@5": 0.85,
           "Recall@20": 0.85,
-          "MRR": 0.7875
+          "MRR": 0.775
         }
       },
       "by_type": {
         "comparison": {
           "n": 7,
           "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.42857142857142855,
-          "Recall@20": 0.42857142857142855,
-          "MRR": 0.31428571428571433
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.4761904761904762
         },
         "descriptive": {
           "n": 21,
-          "Hit@1": 0.7142857142857143,
+          "Hit@1": 0.6666666666666666,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7857142857142857
+          "MRR": 0.753968253968254
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.8571428571428571,
+          "Hit@1": 0.9285714285714286,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.9166666666666667
+          "MRR": 0.9642857142857143
         },
         "how-to": {
           "n": 5,
-          "Hit@1": 0.8,
+          "Hit@1": 1.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.85
+          "MRR": 1.0
         },
         "list": {
           "n": 3,
@@ -591,28 +596,29 @@
         },
         "negative": {
           "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5833333333333333
+          "Hit@1": 0.7,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.775
         }
       }
     }
   },
-  "benchmark_dataset | chunks_fixed300_overlap20 | reranked_top5": {
+  "nomic | benchmark_dataset | chunks_fixed300_overlap20 | reranked_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap20",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap20_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.7833333333333333,
-      "Hit@5": 0.85,
-      "Recall@20": 0.85,
-      "MRR": 0.8138888888888888,
+      "Hit@1": 0.75,
+      "Hit@5": 0.8666666666666667,
+      "Recall@20": 0.8666666666666667,
+      "MRR": 0.8013888888888888,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
@@ -624,16 +630,16 @@
         "Japanese": {
           "n": 21,
           "Hit@1": 0.8571428571428571,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8809523809523809
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.8928571428571429
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.6666666666666666,
+          "Hit@1": 0.5333333333333333,
           "Hit@5": 0.8666666666666667,
           "Recall@20": 0.8666666666666667,
-          "MRR": 0.7555555555555554
+          "MRR": 0.6888888888888888
         },
         "Mongolian": {
           "n": 3,
@@ -646,17 +652,17 @@
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.6,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.65
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.625
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.95,
+          "Hit@1": 0.9,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.9666666666666666
+          "MRR": 0.9416666666666667
         },
         "hard": {
           "n": 10,
@@ -690,10 +696,10 @@
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 1.0,
+          "Hit@1": 0.9285714285714286,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 1.0
+          "MRR": 0.9642857142857143
         },
         "how-to": {
           "n": 5,
@@ -711,268 +717,150 @@
         },
         "negative": {
           "n": 10,
-          "Hit@1": 0.6,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.65
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.625
         }
       }
     }
   },
-  "benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top20": {
+  "nomic | benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap1",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.65,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8666666666666667,
-      "MRR": 0.73,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 21,
-          "Hit@1": 0.6666666666666666,
-          "Hit@5": 0.8095238095238095,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.7341269841269841
-        },
-        "Japanese": {
-          "n": 21,
-          "Hit@1": 0.8571428571428571,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8809523809523809
-        },
-        "Korean": {
-          "n": 15,
-          "Hit@1": 0.4,
-          "Hit@5": 0.8666666666666667,
-          "Recall@20": 0.8666666666666667,
-          "MRR": 0.5855555555555555
-        },
-        "Mongolian": {
-          "n": 3,
-          "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.6666666666666666,
-          "MRR": 0.3666666666666667
-        }
-      },
-      "by_difficulty": {
-        "boundary": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5700000000000001
-        },
-        "easy": {
-          "n": 20,
-          "Hit@1": 0.75,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8625
-        },
-        "hard": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.6,
-          "Recall@20": 0.8,
-          "MRR": 0.5516666666666666
-        },
-        "medium": {
-          "n": 20,
-          "Hit@1": 0.7,
-          "Hit@5": 0.85,
-          "Recall@20": 0.85,
-          "MRR": 0.7666666666666667
-        }
-      },
-      "by_type": {
-        "comparison": {
-          "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.42857142857142855,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.3595238095238095
-        },
-        "descriptive": {
-          "n": 21,
-          "Hit@1": 0.7142857142857143,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.7738095238095238
-        },
-        "factoid": {
-          "n": 14,
-          "Hit@1": 0.7857142857142857,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8928571428571429
-        },
-        "how-to": {
-          "n": 5,
-          "Hit@1": 0.6,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.7666666666666667
-        },
-        "list": {
-          "n": 3,
-          "Hit@1": 1.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 1.0
-        },
-        "negative": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5700000000000001
-        }
-      }
-    }
-  },
-  "benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top5": {
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap1",
-    "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.65,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.7255555555555555,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 21,
-          "Hit@1": 0.6666666666666666,
-          "Hit@5": 0.8095238095238095,
-          "Recall@20": 0.8095238095238095,
-          "MRR": 0.7261904761904762
-        },
-        "Japanese": {
-          "n": 21,
-          "Hit@1": 0.8571428571428571,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8809523809523809
-        },
-        "Korean": {
-          "n": 15,
-          "Hit@1": 0.4,
-          "Hit@5": 0.8666666666666667,
-          "Recall@20": 0.8666666666666667,
-          "MRR": 0.5855555555555555
-        },
-        "Mongolian": {
-          "n": 3,
-          "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.3333333333333333
-        }
-      },
-      "by_difficulty": {
-        "boundary": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5700000000000001
-        },
-        "easy": {
-          "n": 20,
-          "Hit@1": 0.75,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8625
-        },
-        "hard": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.525
-        },
-        "medium": {
-          "n": 20,
-          "Hit@1": 0.7,
-          "Hit@5": 0.85,
-          "Recall@20": 0.85,
-          "MRR": 0.7666666666666667
-        }
-      },
-      "by_type": {
-        "comparison": {
-          "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.42857142857142855,
-          "Recall@20": 0.42857142857142855,
-          "MRR": 0.32142857142857145
-        },
-        "descriptive": {
-          "n": 21,
-          "Hit@1": 0.7142857142857143,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.7738095238095238
-        },
-        "factoid": {
-          "n": 14,
-          "Hit@1": 0.7857142857142857,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8928571428571429
-        },
-        "how-to": {
-          "n": 5,
-          "Hit@1": 0.6,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.7666666666666667
-        },
-        "list": {
-          "n": 3,
-          "Hit@1": 1.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 1.0
-        },
-        "negative": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5700000000000001
-        }
-      }
-    }
-  },
-  "benchmark_dataset | chunks_sentence220_overlap1 | reranked_top5": {
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap1",
-    "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
       "Hit@1": 0.7166666666666667,
-      "Hit@5": 0.85,
-      "Recall@20": 0.85,
-      "MRR": 0.7750000000000001,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9166666666666666,
+      "MRR": 0.8016666666666669,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.9047619047619048,
+          "MRR": 0.8380952380952381
+        },
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8730158730158729
+        },
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7222222222222221
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 1.0,
+          "MRR": 0.7433333333333333
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.85,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666667
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.8
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.2857142857142857,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.4761904761904762
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 1.0,
+          "MRR": 0.7433333333333333
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7166666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.8000000000000002,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
@@ -983,10 +871,131 @@
         },
         "Japanese": {
           "n": 21,
-          "Hit@1": 0.8571428571428571,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8730158730158729
+        },
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7222222222222221
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7333333333333333
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.85,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9166666666666667
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.8
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.2857142857142857,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.4761904761904762
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.753968253968254
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.9285714285714286,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9642857142857143
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.7333333333333333
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap1 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap1_benchmark_dataset_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7166666666666667,
+      "Hit@5": 0.8833333333333333,
+      "Recall@20": 0.8833333333333333,
+      "MRR": 0.7861111111111113,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
           "Hit@5": 0.9047619047619048,
           "Recall@20": 0.9047619047619048,
-          "MRR": 0.8730158730158731
+          "MRR": 0.8492063492063493
+        },
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.888888888888889
         },
         "Korean": {
           "n": 15,
@@ -1007,9 +1016,9 @@
         "boundary": {
           "n": 10,
           "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.6
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6666666666666666
         },
         "easy": {
           "n": 20,
@@ -1023,7 +1032,7 @@
           "Hit@1": 0.6,
           "Hit@5": 0.7,
           "Recall@20": 0.7,
-          "MRR": 0.6333333333333333
+          "MRR": 0.6333333333333334
         },
         "medium": {
           "n": 20,
@@ -1072,288 +1081,291 @@
         "negative": {
           "n": 10,
           "Hit@1": 0.5,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.6
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6666666666666666
         }
       }
     }
   },
-  "benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top20": {
+  "nomic | benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap2",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.6666666666666666,
-      "Hit@5": 0.8166666666666667,
-      "Recall@20": 0.8666666666666667,
-      "MRR": 0.7347883597883598,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 21,
-          "Hit@1": 0.6666666666666666,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.742063492063492
-        },
-        "Japanese": {
-          "n": 21,
-          "Hit@1": 0.8571428571428571,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8809523809523809
-        },
-        "Korean": {
-          "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.7333333333333333,
-          "Recall@20": 0.8666666666666667,
-          "MRR": 0.5928571428571429
-        },
-        "Mongolian": {
-          "n": 3,
-          "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.6666666666666666,
-          "MRR": 0.3703703703703704
-        }
-      },
-      "by_difficulty": {
-        "boundary": {
-          "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.6,
-          "Recall@20": 0.7,
-          "MRR": 0.5
-        },
-        "easy": {
-          "n": 20,
-          "Hit@1": 0.8,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8916666666666666
-        },
-        "hard": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.6,
-          "Recall@20": 0.8,
-          "MRR": 0.5503968253968254
-        },
-        "medium": {
-          "n": 20,
-          "Hit@1": 0.75,
-          "Hit@5": 0.85,
-          "Recall@20": 0.85,
-          "MRR": 0.7875
-        }
-      },
-      "by_type": {
-        "comparison": {
-          "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.42857142857142855,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.3577097505668934
-        },
-        "descriptive": {
-          "n": 21,
-          "Hit@1": 0.7142857142857143,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.7777777777777777
-        },
-        "factoid": {
-          "n": 14,
-          "Hit@1": 0.8571428571428571,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.9285714285714286
-        },
-        "how-to": {
-          "n": 5,
-          "Hit@1": 0.8,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.85
-        },
-        "list": {
-          "n": 3,
-          "Hit@1": 1.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 1.0
-        },
-        "negative": {
-          "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.6,
-          "Recall@20": 0.7,
-          "MRR": 0.5
-        }
-      }
-    }
-  },
-  "benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top5": {
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap2",
-    "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.6666666666666666,
-      "Hit@5": 0.8166666666666667,
-      "Recall@20": 0.8166666666666667,
-      "MRR": 0.7277777777777777,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 21,
-          "Hit@1": 0.6666666666666666,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.742063492063492
-        },
-        "Japanese": {
-          "n": 21,
-          "Hit@1": 0.8571428571428571,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8809523809523809
-        },
-        "Korean": {
-          "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.7333333333333333,
-          "Recall@20": 0.7333333333333333,
-          "MRR": 0.5722222222222222
-        },
-        "Mongolian": {
-          "n": 3,
-          "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.3333333333333333,
-          "Recall@20": 0.3333333333333333,
-          "MRR": 0.3333333333333333
-        }
-      },
-      "by_difficulty": {
-        "boundary": {
-          "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.4833333333333333
-        },
-        "easy": {
-          "n": 20,
-          "Hit@1": 0.8,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8916666666666666
-        },
-        "hard": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.525
-        },
-        "medium": {
-          "n": 20,
-          "Hit@1": 0.75,
-          "Hit@5": 0.85,
-          "Recall@20": 0.85,
-          "MRR": 0.7875
-        }
-      },
-      "by_type": {
-        "comparison": {
-          "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.42857142857142855,
-          "Recall@20": 0.42857142857142855,
-          "MRR": 0.32142857142857145
-        },
-        "descriptive": {
-          "n": 21,
-          "Hit@1": 0.7142857142857143,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.7777777777777777
-        },
-        "factoid": {
-          "n": 14,
-          "Hit@1": 0.8571428571428571,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.9285714285714286
-        },
-        "how-to": {
-          "n": 5,
-          "Hit@1": 0.8,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.85
-        },
-        "list": {
-          "n": 3,
-          "Hit@1": 1.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 1.0
-        },
-        "negative": {
-          "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.4833333333333333
-        }
-      }
-    }
-  },
-  "benchmark_dataset | chunks_sentence220_overlap2 | reranked_top5": {
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_sentence220_overlap2",
-    "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
       "Hit@1": 0.7,
-      "Hit@5": 0.85,
-      "Recall@20": 0.85,
-      "MRR": 0.7694444444444445,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7847222222222222,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
-          "Hit@1": 0.7142857142857143,
+          "Hit@1": 0.7619047619047619,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7777777777777777
+          "MRR": 0.8015873015873015
         },
         "Japanese": {
           "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8690476190476191
+        },
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.725
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8833333333333332
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6666666666666667
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5238095238095238
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
+        },
+        "factoid": {
+          "n": 14,
           "Hit@1": 0.8571428571428571,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8809523809523809
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9285714285714286
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.725
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7847222222222222,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8015873015873015
+        },
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8690476190476191
+        },
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.725
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8833333333333332
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6666666666666667
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.7,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.775
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5238095238095238
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9285714285714286
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.725
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap2 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap2_benchmark_dataset_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.8666666666666667,
+      "Recall@20": 0.8666666666666667,
+      "MRR": 0.7694444444444444,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.7619047619047619,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8015873015873015
+        },
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.8690476190476191
         },
         "Korean": {
           "n": 15,
           "Hit@1": 0.5333333333333333,
           "Hit@5": 0.8666666666666667,
           "Recall@20": 0.8666666666666667,
-          "MRR": 0.6888888888888888
+          "MRR": 0.6722222222222222
         },
         "Mongolian": {
           "n": 3,
@@ -1366,17 +1378,17 @@
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.4,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5333333333333333
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.625
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.85,
+          "Hit@1": 0.8,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.9166666666666667
+          "MRR": 0.8708333333333332
         },
         "hard": {
           "n": 10,
@@ -1406,7 +1418,128 @@
           "Hit@1": 0.6666666666666666,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.753968253968254
+          "MRR": 0.746031746031746
+        },
+        "factoid": {
+          "n": 14,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.9107142857142857
+        },
+        "how-to": {
+          "n": 5,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "list": {
+          "n": 3,
+          "Hit@1": 1.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 1.0
+        },
+        "negative": {
+          "n": 10,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.625
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_structure_aware_coarse | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_coarse",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7861111111111113,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 21,
+          "Hit@1": 0.8095238095238095,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.8333333333333334
+        },
+        "Japanese": {
+          "n": 21,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8412698412698412
+        },
+        "Korean": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
+        },
+        "Mongolian": {
+          "n": 3,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.4444444444444444
+        }
+      },
+      "by_difficulty": {
+        "boundary": {
+          "n": 10,
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
+        },
+        "easy": {
+          "n": 20,
+          "Hit@1": 0.8,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8916666666666668
+        },
+        "hard": {
+          "n": 10,
+          "Hit@1": 0.7,
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.7333333333333333
+        },
+        "medium": {
+          "n": 20,
+          "Hit@1": 0.75,
+          "Hit@5": 0.85,
+          "Recall@20": 0.85,
+          "MRR": 0.7916666666666667
+        }
+      },
+      "by_type": {
+        "comparison": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.619047619047619
+        },
+        "descriptive": {
+          "n": 21,
+          "Hit@1": 0.6190476190476191,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.7222222222222222
         },
         "factoid": {
           "n": 14,
@@ -1432,228 +1565,109 @@
         "negative": {
           "n": 10,
           "Hit@1": 0.4,
-          "Hit@5": 0.7,
-          "Recall@20": 0.7,
-          "MRR": 0.5333333333333333
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         }
       }
     }
   },
-  "benchmark_dataset | chunks_structure_aware_coarse | biencoder_top20": {
-    "benchmark": "benchmark_dataset",
-    "chunking": "chunks_structure_aware_coarse",
-    "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.6,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8666666666666667,
-      "MRR": 0.7040277777777778,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 21,
-          "Hit@1": 0.6190476190476191,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.7261904761904762
-        },
-        "Japanese": {
-          "n": 21,
-          "Hit@1": 0.7142857142857143,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.7936507936507937
-        },
-        "Korean": {
-          "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.7333333333333333,
-          "Recall@20": 0.8666666666666667,
-          "MRR": 0.6083333333333332
-        },
-        "Mongolian": {
-          "n": 3,
-          "Hit@1": 0.3333333333333333,
-          "Hit@5": 0.6666666666666666,
-          "Recall@20": 0.6666666666666666,
-          "MRR": 0.39999999999999997
-        }
-      },
-      "by_difficulty": {
-        "boundary": {
-          "n": 10,
-          "Hit@1": 0.3,
-          "Hit@5": 0.5,
-          "Recall@20": 0.7,
-          "MRR": 0.3958333333333333
-        },
-        "easy": {
-          "n": 20,
-          "Hit@1": 0.7,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.85
-        },
-        "hard": {
-          "n": 10,
-          "Hit@1": 0.5,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.595
-        },
-        "medium": {
-          "n": 20,
-          "Hit@1": 0.7,
-          "Hit@5": 0.85,
-          "Recall@20": 0.85,
-          "MRR": 0.7666666666666667
-        }
-      },
-      "by_type": {
-        "comparison": {
-          "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.42142857142857143
-        },
-        "descriptive": {
-          "n": 21,
-          "Hit@1": 0.6190476190476191,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.7301587301587302
-        },
-        "factoid": {
-          "n": 14,
-          "Hit@1": 0.7142857142857143,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8571428571428571
-        },
-        "how-to": {
-          "n": 5,
-          "Hit@1": 1.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 1.0
-        },
-        "list": {
-          "n": 3,
-          "Hit@1": 1.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 1.0
-        },
-        "negative": {
-          "n": 10,
-          "Hit@1": 0.3,
-          "Hit@5": 0.5,
-          "Recall@20": 0.7,
-          "MRR": 0.3958333333333333
-        }
-      }
-    }
-  },
-  "benchmark_dataset | chunks_structure_aware_coarse | biencoder_top5": {
+  "nomic | benchmark_dataset | chunks_structure_aware_coarse | biencoder_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.6991666666666667,
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7861111111111113,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
-          "Hit@1": 0.6190476190476191,
+          "Hit@1": 0.8095238095238095,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7261904761904762
+          "MRR": 0.8333333333333334
         },
         "Japanese": {
           "n": 21,
           "Hit@1": 0.7142857142857143,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.7936507936507937
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8412698412698412
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.7333333333333333,
-          "Recall@20": 0.7333333333333333,
-          "MRR": 0.5888888888888888
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
         },
         "Mongolian": {
           "n": 3,
           "Hit@1": 0.3333333333333333,
           "Hit@5": 0.6666666666666666,
           "Recall@20": 0.6666666666666666,
-          "MRR": 0.39999999999999997
+          "MRR": 0.4444444444444444
         }
       },
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.3,
-          "Hit@5": 0.5,
-          "Recall@20": 0.5,
-          "MRR": 0.36666666666666664
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.7,
+          "Hit@1": 0.8,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.85
+          "MRR": 0.8916666666666668
         },
         "hard": {
           "n": 10,
-          "Hit@1": 0.5,
+          "Hit@1": 0.7,
           "Hit@5": 0.8,
           "Recall@20": 0.8,
-          "MRR": 0.595
+          "MRR": 0.7333333333333333
         },
         "medium": {
           "n": 20,
-          "Hit@1": 0.7,
+          "Hit@1": 0.75,
           "Hit@5": 0.85,
           "Recall@20": 0.85,
-          "MRR": 0.7666666666666667
+          "MRR": 0.7916666666666667
         }
       },
       "by_type": {
         "comparison": {
           "n": 7,
-          "Hit@1": 0.2857142857142857,
+          "Hit@1": 0.5714285714285714,
           "Hit@5": 0.7142857142857143,
           "Recall@20": 0.7142857142857143,
-          "MRR": 0.42142857142857143
+          "MRR": 0.619047619047619
         },
         "descriptive": {
           "n": 21,
           "Hit@1": 0.6190476190476191,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7301587301587302
+          "MRR": 0.7222222222222222
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.7142857142857143,
+          "Hit@1": 0.9285714285714286,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8571428571428571
+          "MRR": 0.9642857142857143
         },
         "how-to": {
           "n": 5,
@@ -1671,28 +1685,29 @@
         },
         "negative": {
           "n": 10,
-          "Hit@1": 0.3,
-          "Hit@5": 0.5,
-          "Recall@20": 0.5,
-          "MRR": 0.36666666666666664
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         }
       }
     }
   },
-  "benchmark_dataset | chunks_structure_aware_coarse | reranked_top5": {
+  "nomic | benchmark_dataset | chunks_structure_aware_coarse | reranked_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_coarse_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6,
-      "Hit@5": 0.8166666666666667,
-      "Recall@20": 0.8166666666666667,
-      "MRR": 0.6972222222222223,
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.85,
+      "Recall@20": 0.85,
+      "MRR": 0.7041666666666668,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
@@ -1704,16 +1719,16 @@
         "Japanese": {
           "n": 21,
           "Hit@1": 0.7619047619047619,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8174603174603176
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.8373015873015872
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.5777777777777778
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.5777777777777777
         },
         "Mongolian": {
           "n": 3,
@@ -1727,16 +1742,16 @@
         "boundary": {
           "n": 10,
           "Hit@1": 0.1,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.3
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.3916666666666667
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.8,
+          "Hit@1": 0.75,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.9
+          "MRR": 0.875
         },
         "hard": {
           "n": 10,
@@ -1770,10 +1785,10 @@
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.7857142857142857,
+          "Hit@1": 0.7142857142857143,
           "Hit@5": 0.9285714285714286,
           "Recall@20": 0.9285714285714286,
-          "MRR": 0.8571428571428571
+          "MRR": 0.8214285714285714
         },
         "how-to": {
           "n": 5,
@@ -1792,108 +1807,109 @@
         "negative": {
           "n": 10,
           "Hit@1": 0.1,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.3
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.3916666666666667
         }
       }
     }
   },
-  "benchmark_dataset | chunks_structure_aware_fine | biencoder_top20": {
+  "nomic | benchmark_dataset | chunks_structure_aware_fine | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6166666666666667,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8666666666666667,
-      "MRR": 0.7123611111111111,
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7861111111111113,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
-          "Hit@1": 0.6666666666666666,
+          "Hit@1": 0.8095238095238095,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.75
+          "MRR": 0.8333333333333334
         },
         "Japanese": {
           "n": 21,
           "Hit@1": 0.7142857142857143,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.7936507936507937
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8412698412698412
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.7333333333333333,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
           "Recall@20": 0.8666666666666667,
-          "MRR": 0.6083333333333332
+          "MRR": 0.711111111111111
         },
         "Mongolian": {
           "n": 3,
           "Hit@1": 0.3333333333333333,
           "Hit@5": 0.6666666666666666,
           "Recall@20": 0.6666666666666666,
-          "MRR": 0.39999999999999997
+          "MRR": 0.4444444444444444
         }
       },
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.3,
-          "Hit@5": 0.5,
-          "Recall@20": 0.7,
-          "MRR": 0.3958333333333333
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.75,
+          "Hit@1": 0.8,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.875
+          "MRR": 0.8916666666666668
         },
         "hard": {
           "n": 10,
-          "Hit@1": 0.5,
+          "Hit@1": 0.7,
           "Hit@5": 0.8,
           "Recall@20": 0.8,
-          "MRR": 0.595
+          "MRR": 0.7333333333333333
         },
         "medium": {
           "n": 20,
-          "Hit@1": 0.7,
+          "Hit@1": 0.75,
           "Hit@5": 0.85,
           "Recall@20": 0.85,
-          "MRR": 0.7666666666666667
+          "MRR": 0.7916666666666667
         }
       },
       "by_type": {
         "comparison": {
           "n": 7,
-          "Hit@1": 0.2857142857142857,
+          "Hit@1": 0.5714285714285714,
           "Hit@5": 0.7142857142857143,
           "Recall@20": 0.7142857142857143,
-          "MRR": 0.42142857142857143
+          "MRR": 0.619047619047619
         },
         "descriptive": {
           "n": 21,
           "Hit@1": 0.6190476190476191,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7301587301587302
+          "MRR": 0.7222222222222222
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.7857142857142857,
+          "Hit@1": 0.9285714285714286,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8928571428571429
+          "MRR": 0.9642857142857143
         },
         "how-to": {
           "n": 5,
@@ -1911,109 +1927,110 @@
         },
         "negative": {
           "n": 10,
-          "Hit@1": 0.3,
-          "Hit@5": 0.5,
-          "Recall@20": 0.7,
-          "MRR": 0.3958333333333333
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         }
       }
     }
   },
-  "benchmark_dataset | chunks_structure_aware_fine | biencoder_top5": {
+  "nomic | benchmark_dataset | chunks_structure_aware_fine | biencoder_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6166666666666667,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.7075,
+      "Hit@1": 0.7,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7861111111111113,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
-          "Hit@1": 0.6666666666666666,
+          "Hit@1": 0.8095238095238095,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.75
+          "MRR": 0.8333333333333334
         },
         "Japanese": {
           "n": 21,
           "Hit@1": 0.7142857142857143,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.7936507936507937
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8412698412698412
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4666666666666667,
-          "Hit@5": 0.7333333333333333,
-          "Recall@20": 0.7333333333333333,
-          "MRR": 0.5888888888888888
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.711111111111111
         },
         "Mongolian": {
           "n": 3,
           "Hit@1": 0.3333333333333333,
           "Hit@5": 0.6666666666666666,
           "Recall@20": 0.6666666666666666,
-          "MRR": 0.39999999999999997
+          "MRR": 0.4444444444444444
         }
       },
       "by_difficulty": {
         "boundary": {
           "n": 10,
-          "Hit@1": 0.3,
-          "Hit@5": 0.5,
-          "Recall@20": 0.5,
-          "MRR": 0.36666666666666664
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.75,
+          "Hit@1": 0.8,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.875
+          "MRR": 0.8916666666666668
         },
         "hard": {
           "n": 10,
-          "Hit@1": 0.5,
+          "Hit@1": 0.7,
           "Hit@5": 0.8,
           "Recall@20": 0.8,
-          "MRR": 0.595
+          "MRR": 0.7333333333333333
         },
         "medium": {
           "n": 20,
-          "Hit@1": 0.7,
+          "Hit@1": 0.75,
           "Hit@5": 0.85,
           "Recall@20": 0.85,
-          "MRR": 0.7666666666666667
+          "MRR": 0.7916666666666667
         }
       },
       "by_type": {
         "comparison": {
           "n": 7,
-          "Hit@1": 0.2857142857142857,
+          "Hit@1": 0.5714285714285714,
           "Hit@5": 0.7142857142857143,
           "Recall@20": 0.7142857142857143,
-          "MRR": 0.42142857142857143
+          "MRR": 0.619047619047619
         },
         "descriptive": {
           "n": 21,
           "Hit@1": 0.6190476190476191,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.7301587301587302
+          "MRR": 0.7222222222222222
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.7857142857142857,
+          "Hit@1": 0.9285714285714286,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8928571428571429
+          "MRR": 0.9642857142857143
         },
         "how-to": {
           "n": 5,
@@ -2031,28 +2048,29 @@
         },
         "negative": {
           "n": 10,
-          "Hit@1": 0.3,
-          "Hit@5": 0.5,
-          "Recall@20": 0.5,
-          "MRR": 0.36666666666666664
+          "Hit@1": 0.4,
+          "Hit@5": 0.9,
+          "Recall@20": 0.9,
+          "MRR": 0.6166666666666667
         }
       }
     }
   },
-  "benchmark_dataset | chunks_structure_aware_fine | reranked_top5": {
+  "nomic | benchmark_dataset | chunks_structure_aware_fine | reranked_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.6333333333333333,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.7236111111111112,
+      "Hit@1": 0.6166666666666667,
+      "Hit@5": 0.8666666666666667,
+      "Recall@20": 0.8666666666666667,
+      "MRR": 0.7319444444444445,
       "by_cuisine": {
         "Chinese": {
           "n": 21,
@@ -2064,16 +2082,16 @@
         "Japanese": {
           "n": 21,
           "Hit@1": 0.7619047619047619,
-          "Hit@5": 0.9047619047619048,
-          "Recall@20": 0.9047619047619048,
-          "MRR": 0.8214285714285714
+          "Hit@5": 0.9523809523809523,
+          "Recall@20": 0.9523809523809523,
+          "MRR": 0.8452380952380952
         },
         "Korean": {
           "n": 15,
-          "Hit@1": 0.4,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.5777777777777778
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.5777777777777777
         },
         "Mongolian": {
           "n": 3,
@@ -2087,16 +2105,16 @@
         "boundary": {
           "n": 10,
           "Hit@1": 0.1,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.2916666666666667
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.3916666666666667
         },
         "easy": {
           "n": 20,
-          "Hit@1": 0.85,
+          "Hit@1": 0.8,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.925
+          "MRR": 0.9
         },
         "hard": {
           "n": 10,
@@ -2130,10 +2148,10 @@
         },
         "factoid": {
           "n": 14,
-          "Hit@1": 0.9285714285714286,
+          "Hit@1": 0.8571428571428571,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.9642857142857143
+          "MRR": 0.9285714285714286
         },
         "how-to": {
           "n": 5,
@@ -2152,55 +2170,56 @@
         "negative": {
           "n": 10,
           "Hit@1": 0.1,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.2916666666666667
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.3916666666666667
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_fixed300_overlap0 | biencoder_top20": {
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap0 | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap0_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.48333333333333334,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.9666666666666667,
-      "MRR": 0.6406949831214538,
+      "Hit@1": 0.5666666666666667,
+      "Hit@5": 0.8,
+      "Recall@20": 0.95,
+      "MRR": 0.673450345950346,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.6153846153846154,
-          "Hit@5": 0.8461538461538461,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8717948717948718,
           "Recall@20": 0.9743589743589743,
-          "MRR": 0.7241883933060403
+          "MRR": 0.7805641651795497
         },
         "East Asian": {
           "n": 1,
           "Hit@1": 0.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.2
+          "MRR": 0.5
         },
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
-          "Hit@5": 0.8,
+          "Hit@5": 0.2,
           "Recall@20": 1.0,
-          "MRR": 0.33095238095238094
+          "MRR": 0.17761904761904762
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.35714285714285715,
+          "Hit@1": 0.42857142857142855,
           "Hit@5": 0.8571428571428571,
-          "Recall@20": 1.0,
-          "MRR": 0.5959706959706959
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.6126373626373626
         },
         "Mongolian": {
           "n": 1,
@@ -2213,114 +2232,115 @@
       "by_difficulty": {
         "easy": {
           "n": 28,
-          "Hit@1": 0.42857142857142855,
+          "Hit@1": 0.4642857142857143,
           "Hit@5": 0.8214285714285714,
-          "Recall@20": 1.0,
-          "MRR": 0.5992183411826268
+          "Recall@20": 0.9642857142857143,
+          "MRR": 0.6221611721611721
         },
         "hard": {
           "n": 4,
           "Hit@1": 0.75,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8333333333333333
+          "MRR": 0.8
         },
         "medium": {
           "n": 28,
-          "Hit@1": 0.5,
-          "Hit@5": 0.8214285714285714,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.75,
           "Recall@20": 0.9285714285714286,
-          "MRR": 0.6546518607442977
+          "MRR": 0.7066609977324264
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
           "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 1.0,
-          "MRR": 0.7014652014652015
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6292517006802721
         },
         "fact": {
           "n": 15,
-          "Hit@1": 0.5333333333333333,
+          "Hit@1": 0.6,
           "Hit@5": 0.8666666666666667,
           "Recall@20": 1.0,
-          "MRR": 0.6694444444444445
+          "MRR": 0.7184615384615384
         },
         "history": {
           "n": 11,
-          "Hit@1": 0.8181818181818182,
+          "Hit@1": 0.7272727272727273,
           "Hit@5": 0.9090909090909091,
-          "Recall@20": 1.0,
-          "MRR": 0.8538324420677362
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
         },
         "ingredient": {
           "n": 9,
-          "Hit@1": 0.1111111111111111,
-          "Hit@5": 0.7777777777777778,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
           "Recall@20": 1.0,
-          "MRR": 0.4092592592592593
+          "MRR": 0.5133089133089132
         },
         "reasoning": {
           "n": 11,
-          "Hit@1": 0.45454545454545453,
-          "Hit@5": 0.8181818181818182,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
           "Recall@20": 0.9090909090909091,
-          "MRR": 0.6155844155844156
+          "MRR": 0.6944444444444444
         },
         "technique": {
           "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.5204081632653061
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 1.0,
+          "MRR": 0.6333333333333334
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_fixed300_overlap0 | biencoder_top5": {
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap0 | biencoder_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap0_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.48333333333333334,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.6275000000000001,
+      "Hit@1": 0.5666666666666667,
+      "Hit@5": 0.8,
+      "Recall@20": 0.8,
+      "MRR": 0.6594444444444445,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.6153846153846154,
-          "Hit@5": 0.8461538461538461,
-          "Recall@20": 0.8461538461538461,
-          "MRR": 0.7102564102564103
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8717948717948718,
+          "Recall@20": 0.8717948717948718,
+          "MRR": 0.770940170940171
         },
         "East Asian": {
           "n": 1,
           "Hit@1": 0.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.2
+          "MRR": 0.5
         },
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.31666666666666665
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.1
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.35714285714285715,
+          "Hit@1": 0.42857142857142855,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.5833333333333333
+          "MRR": 0.6071428571428571
         },
         "Mongolian": {
           "n": 1,
@@ -2333,93 +2353,94 @@
       "by_difficulty": {
         "easy": {
           "n": 28,
-          "Hit@1": 0.42857142857142855,
+          "Hit@1": 0.4642857142857143,
           "Hit@5": 0.8214285714285714,
           "Recall@20": 0.8214285714285714,
-          "MRR": 0.5815476190476191
+          "MRR": 0.6083333333333334
         },
         "hard": {
           "n": 4,
           "Hit@1": 0.75,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8333333333333333
+          "MRR": 0.8
         },
         "medium": {
           "n": 28,
-          "Hit@1": 0.5,
-          "Hit@5": 0.8214285714285714,
-          "Recall@20": 0.8214285714285714,
-          "MRR": 0.644047619047619
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.6904761904761905
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
           "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6904761904761906
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.6190476190476192
         },
         "fact": {
           "n": 15,
-          "Hit@1": 0.5333333333333333,
+          "Hit@1": 0.6,
           "Hit@5": 0.8666666666666667,
           "Recall@20": 0.8666666666666667,
-          "MRR": 0.6577777777777778
+          "MRR": 0.7022222222222222
         },
         "history": {
           "n": 11,
-          "Hit@1": 0.8181818181818182,
+          "Hit@1": 0.7272727272727273,
           "Hit@5": 0.9090909090909091,
           "Recall@20": 0.9090909090909091,
-          "MRR": 0.8484848484848484
+          "MRR": 0.7757575757575758
         },
         "ingredient": {
           "n": 9,
-          "Hit@1": 0.1111111111111111,
-          "Hit@5": 0.7777777777777778,
-          "Recall@20": 0.7777777777777778,
-          "MRR": 0.37962962962962965
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.48148148148148145
         },
         "reasoning": {
           "n": 11,
-          "Hit@1": 0.45454545454545453,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.8181818181818182,
-          "MRR": 0.6090909090909091
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6818181818181818
         },
         "technique": {
           "n": 7,
-          "Hit@1": 0.2857142857142857,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.5
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6190476190476192
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_fixed300_overlap0 | reranked_top5": {
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap0 | reranked_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_fixed300_overlap0",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_fixed300_overlap0_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap0_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
       "Hit@1": 0.5333333333333333,
-      "Hit@5": 0.85,
-      "Recall@20": 0.85,
-      "MRR": 0.6447222222222223,
+      "Hit@5": 0.8166666666666667,
+      "Recall@20": 0.8166666666666667,
+      "MRR": 0.6444444444444445,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
           "Hit@1": 0.717948717948718,
           "Hit@5": 0.8974358974358975,
           "Recall@20": 0.8974358974358975,
-          "MRR": 0.7743589743589744
+          "MRR": 0.7841880341880342
         },
         "East Asian": {
           "n": 1,
@@ -2431,9 +2452,9 @@
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.19666666666666668
+          "Hit@5": 0.4,
+          "Recall@20": 0.4,
+          "MRR": 0.11666666666666665
         },
         "Korean": {
           "n": 14,
@@ -2454,9 +2475,9 @@
         "easy": {
           "n": 28,
           "Hit@1": 0.4642857142857143,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6035714285714286
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.5922619047619049
         },
         "hard": {
           "n": 4,
@@ -2470,23 +2491,23 @@
           "Hit@1": 0.6071428571428571,
           "Hit@5": 0.8214285714285714,
           "Recall@20": 0.8214285714285714,
-          "MRR": 0.6767857142857141
+          "MRR": 0.6874999999999999
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
           "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.5761904761904761
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.5476190476190477
         },
         "fact": {
           "n": 15,
           "Hit@1": 0.6,
-          "Hit@5": 0.9333333333333333,
-          "Recall@20": 0.9333333333333333,
-          "MRR": 0.6988888888888888
+          "Hit@5": 0.8,
+          "Recall@20": 0.8,
+          "MRR": 0.6777777777777777
         },
         "history": {
           "n": 11,
@@ -2512,295 +2533,56 @@
         "technique": {
           "n": 7,
           "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6190476190476192
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.6904761904761906
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_fixed300_overlap20 | biencoder_top20": {
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap20 | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_fixed300_overlap20",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_fixed300_overlap20_benchmark_dataset_2.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.5666666666666667,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.9666666666666667,
-      "MRR": 0.682413604913605,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 39,
-          "Hit@1": 0.717948717948718,
-          "Hit@5": 0.8461538461538461,
-          "Recall@20": 0.9743589743589743,
-          "MRR": 0.7608560954714801
-        },
-        "East Asian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 1.0,
-          "MRR": 0.16666666666666666
-        },
-        "Japanese": {
-          "n": 5,
-          "Hit@1": 0.2,
-          "Hit@5": 0.8,
-          "Recall@20": 1.0,
-          "MRR": 0.42095238095238097
-        },
-        "Korean": {
-          "n": 14,
-          "Hit@1": 0.35714285714285715,
-          "Hit@5": 0.9285714285714286,
-          "Recall@20": 1.0,
-          "MRR": 0.6428571428571427
-        },
-        "Mongolian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.0,
-          "MRR": 0.0
-        }
-      },
-      "by_difficulty": {
-        "easy": {
-          "n": 28,
-          "Hit@1": 0.4642857142857143,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 1.0,
-          "MRR": 0.639556277056277
-        },
-        "hard": {
-          "n": 4,
-          "Hit@1": 0.75,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8125
-        },
-        "medium": {
-          "n": 28,
-          "Hit@1": 0.6428571428571429,
-          "Hit@5": 0.7857142857142857,
-          "Recall@20": 0.9285714285714286,
-          "MRR": 0.7066871620443049
-        }
-      },
-      "by_type": {
-        "definition": {
-          "n": 7,
-          "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 1.0,
-          "MRR": 0.7380952380952381
-        },
-        "fact": {
-          "n": 15,
-          "Hit@1": 0.6,
-          "Hit@5": 0.7333333333333333,
-          "Recall@20": 1.0,
-          "MRR": 0.6722999222999224
-        },
-        "history": {
-          "n": 11,
-          "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
-          "Recall@20": 1.0,
-          "MRR": 0.8454545454545456
-        },
-        "ingredient": {
-          "n": 9,
-          "Hit@1": 0.2222222222222222,
-          "Hit@5": 0.8888888888888888,
-          "Recall@20": 1.0,
-          "MRR": 0.4765432098765432
-        },
-        "reasoning": {
-          "n": 11,
-          "Hit@1": 0.6363636363636364,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.9090909090909091,
-          "MRR": 0.7186147186147186
-        },
-        "technique": {
-          "n": 7,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6
-        }
-      }
-    }
-  },
-  "benchmark_dataset_2 | chunks_fixed300_overlap20 | biencoder_top5": {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_fixed300_overlap20",
-    "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_fixed300_overlap20_benchmark_dataset_2.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.5666666666666667,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.6683333333333334,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 39,
-          "Hit@1": 0.717948717948718,
-          "Hit@5": 0.8461538461538461,
-          "Recall@20": 0.8461538461538461,
-          "MRR": 0.7495726495726496
-        },
-        "East Asian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.0,
-          "MRR": 0.0
-        },
-        "Japanese": {
-          "n": 5,
-          "Hit@1": 0.2,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.4066666666666666
-        },
-        "Korean": {
-          "n": 14,
-          "Hit@1": 0.35714285714285715,
-          "Hit@5": 0.9285714285714286,
-          "Recall@20": 0.9285714285714286,
-          "MRR": 0.6309523809523808
-        },
-        "Mongolian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.0,
-          "MRR": 0.0
-        }
-      },
-      "by_difficulty": {
-        "easy": {
-          "n": 28,
-          "Hit@1": 0.4642857142857143,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6184523809523809
-        },
-        "hard": {
-          "n": 4,
-          "Hit@1": 0.75,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8125
-        },
-        "medium": {
-          "n": 28,
-          "Hit@1": 0.6428571428571429,
-          "Hit@5": 0.7857142857142857,
-          "Recall@20": 0.7857142857142857,
-          "MRR": 0.6976190476190476
-        }
-      },
-      "by_type": {
-        "definition": {
-          "n": 7,
-          "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.7142857142857143
-        },
-        "fact": {
-          "n": 15,
-          "Hit@1": 0.6,
-          "Hit@5": 0.7333333333333333,
-          "Recall@20": 0.7333333333333333,
-          "MRR": 0.638888888888889
-        },
-        "history": {
-          "n": 11,
-          "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
-          "Recall@20": 0.9090909090909091,
-          "MRR": 0.8409090909090909
-        },
-        "ingredient": {
-          "n": 9,
-          "Hit@1": 0.2222222222222222,
-          "Hit@5": 0.8888888888888888,
-          "Recall@20": 0.8888888888888888,
-          "MRR": 0.4703703703703704
-        },
-        "reasoning": {
-          "n": 11,
-          "Hit@1": 0.6363636363636364,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.8181818181818182,
-          "MRR": 0.712121212121212
-        },
-        "technique": {
-          "n": 7,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6
-        }
-      }
-    }
-  },
-  "benchmark_dataset_2 | chunks_fixed300_overlap20 | reranked_top5": {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_fixed300_overlap20",
-    "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_fixed300_overlap20_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_fixed300_overlap20_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
       "Hit@1": 0.5833333333333334,
-      "Hit@5": 0.8833333333333333,
-      "Recall@20": 0.8833333333333333,
-      "MRR": 0.6758333333333334,
+      "Hit@5": 0.8,
+      "Recall@20": 0.9666666666666667,
+      "MRR": 0.6811599089907915,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.7435897435897436,
+          "Hit@1": 0.6923076923076923,
           "Hit@5": 0.8974358974358975,
-          "Recall@20": 0.8974358974358975,
-          "MRR": 0.7867521367521367
+          "Recall@20": 0.9743589743589743,
+          "MRR": 0.7733729233729233
         },
         "East Asian": {
           "n": 1,
           "Hit@1": 0.0,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.3333333333333333
+          "MRR": 0.5
         },
         "Japanese": {
           "n": 5,
-          "Hit@1": 0.0,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.20666666666666664
+          "Hit@1": 0.2,
+          "Hit@5": 0.2,
+          "Recall@20": 1.0,
+          "MRR": 0.27224736048265463
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.9285714285714286,
-          "Recall@20": 0.9285714285714286,
-          "MRR": 0.6071428571428571
+          "Hit@1": 0.5,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.6319152661064426
         },
         "Mongolian": {
           "n": 1,
@@ -2814,9 +2596,493 @@
         "easy": {
           "n": 28,
           "Hit@1": 0.5,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.6434552987861812
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7018873633369431
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 1.0,
+          "MRR": 0.7342032967032966
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7240740740740741
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.2222222222222222,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 1.0,
+          "MRR": 0.41220043572984744
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7408847836655322
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 1.0,
+          "MRR": 0.6394557823129252
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap20 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_fixed300_overlap20_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.8,
+      "Recall@20": 0.8,
+      "MRR": 0.6663888888888889,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.6923076923076923,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.8974358974358975,
+          "MRR": 0.7645299145299146
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.2,
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.2
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.619047619047619
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.625
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6886904761904761
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.7142857142857143
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7055555555555555
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.2222222222222222,
+          "Hit@5": 0.6666666666666666,
+          "Recall@20": 0.6666666666666666,
+          "MRR": 0.3925925925925926
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.7272727272727273
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6190476190476192
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_fixed300_overlap20 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_fixed300_overlap20_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.8333333333333334,
+      "Recall@20": 0.8333333333333334,
+      "MRR": 0.6816666666666666,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.7692307692307693,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.8974358974358975,
+          "MRR": 0.8106837606837607
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.3333333333333333
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.06666666666666667
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.42857142857142855,
           "Hit@5": 0.9285714285714286,
           "Recall@20": 0.9285714285714286,
-          "MRR": 0.6422619047619048
+          "MRR": 0.6154761904761904
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5,
+          "Hit@5": 0.8928571428571429,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6440476190476191
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6785714285714286,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.7023809523809523
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.6428571428571429
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.7277777777777777
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.8181818181818182,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.8363636363636363
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.5462962962962963
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6666666666666666
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.5761904761904761
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap1 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap1_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.8333333333333334,
+      "Recall@20": 0.9166666666666666,
+      "MRR": 0.6827627995642703,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.9743589743589743,
+          "MRR": 0.782371794871795
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.4,
+          "Recall@20": 0.6,
+          "MRR": 0.11843137254901961
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.6686507936507936
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5357142857142857,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.6519024276377218
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6428571428571429,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6968749999999998
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6476190476190478
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7094771241830065
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7757575757575758
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.7777777777777778,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.558641975308642
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.6742424242424242
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 1.0,
+          "MRR": 0.6875
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap1 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap1_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6,
+      "Hit@5": 0.8333333333333334,
+      "Recall@20": 0.8333333333333334,
+      "MRR": 0.6747222222222223,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8974358974358975,
+          "Recall@20": 0.8974358974358975,
+          "MRR": 0.7743589743589744
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.4,
+          "Recall@20": 0.4,
+          "MRR": 0.10666666666666666
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6607142857142857
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5357142857142857,
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8214285714285714,
+          "MRR": 0.6398809523809524
         },
         "hard": {
           "n": 4,
@@ -2839,307 +3105,68 @@
           "Hit@1": 0.5714285714285714,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.6785714285714286
+          "MRR": 0.6476190476190478
         },
         "fact": {
           "n": 15,
-          "Hit@1": 0.6666666666666666,
+          "Hit@1": 0.6,
           "Hit@5": 0.8666666666666667,
           "Recall@20": 0.8666666666666667,
-          "MRR": 0.7155555555555555
+          "MRR": 0.6944444444444444
         },
         "history": {
           "n": 11,
-          "Hit@1": 0.8181818181818182,
+          "Hit@1": 0.7272727272727273,
           "Hit@5": 0.9090909090909091,
           "Recall@20": 0.9090909090909091,
-          "MRR": 0.8363636363636363
+          "MRR": 0.7757575757575758
         },
         "ingredient": {
           "n": 9,
-          "Hit@1": 0.2222222222222222,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.4722222222222222
-        },
-        "reasoning": {
-          "n": 11,
-          "Hit@1": 0.6363636363636364,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.8181818181818182,
-          "MRR": 0.6848484848484848
-        },
-        "technique": {
-          "n": 7,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.5833333333333334
-        }
-      }
-    }
-  },
-  "benchmark_dataset_2 | chunks_sentence220_overlap1 | biencoder_top20": {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_sentence220_overlap1",
-    "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_sentence220_overlap1_benchmark_dataset_2.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.5666666666666667,
-      "Hit@5": 0.7833333333333333,
-      "Recall@20": 0.9166666666666666,
-      "MRR": 0.657077320827321,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 39,
-          "Hit@1": 0.717948717948718,
-          "Hit@5": 0.8205128205128205,
-          "Recall@20": 0.9743589743589743,
-          "MRR": 0.7694962444962444
-        },
-        "East Asian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 1.0,
-          "MRR": 0.14285714285714285
-        },
-        "Japanese": {
-          "n": 5,
-          "Hit@1": 0.0,
-          "Hit@5": 0.2,
-          "Recall@20": 0.4,
-          "MRR": 0.06428571428571428
-        },
-        "Korean": {
-          "n": 14,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.6392857142857142
-        },
-        "Mongolian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.0,
-          "MRR": 0.0
-        }
-      },
-      "by_difficulty": {
-        "easy": {
-          "n": 28,
-          "Hit@1": 0.4642857142857143,
-          "Hit@5": 0.7857142857142857,
-          "Recall@20": 0.9642857142857143,
-          "MRR": 0.5981021954236241
-        },
-        "hard": {
-          "n": 4,
-          "Hit@1": 0.75,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8333333333333333
-        },
-        "medium": {
-          "n": 28,
-          "Hit@1": 0.6428571428571429,
-          "Hit@5": 0.75,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6908730158730159
-        }
-      },
-      "by_type": {
-        "definition": {
-          "n": 7,
-          "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6785714285714286
-        },
-        "fact": {
-          "n": 15,
-          "Hit@1": 0.6,
-          "Hit@5": 0.6,
-          "Recall@20": 1.0,
-          "MRR": 0.6453463203463203
-        },
-        "history": {
-          "n": 11,
-          "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
-          "Recall@20": 0.9090909090909091,
-          "MRR": 0.8484848484848484
-        },
-        "ingredient": {
-          "n": 9,
-          "Hit@1": 0.2222222222222222,
-          "Hit@5": 0.7777777777777778,
-          "Recall@20": 0.8888888888888888,
-          "MRR": 0.4234567901234568
-        },
-        "reasoning": {
-          "n": 11,
-          "Hit@1": 0.6363636363636364,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.8181818181818182,
-          "MRR": 0.7045454545454546
-        },
-        "technique": {
-          "n": 7,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 1.0,
-          "MRR": 0.5857142857142856
-        }
-      }
-    }
-  },
-  "benchmark_dataset_2 | chunks_sentence220_overlap1 | biencoder_top5": {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_sentence220_overlap1",
-    "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_sentence220_overlap1_benchmark_dataset_2.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.5666666666666667,
-      "Hit@5": 0.7833333333333333,
-      "Recall@20": 0.7833333333333333,
-      "MRR": 0.6427777777777778,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 39,
-          "Hit@1": 0.717948717948718,
-          "Hit@5": 0.8205128205128205,
-          "Recall@20": 0.8205128205128205,
-          "MRR": 0.752991452991453
-        },
-        "East Asian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.0,
-          "MRR": 0.0
-        },
-        "Japanese": {
-          "n": 5,
-          "Hit@1": 0.0,
-          "Hit@5": 0.2,
-          "Recall@20": 0.2,
-          "MRR": 0.05
-        },
-        "Korean": {
-          "n": 14,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.6392857142857142
-        },
-        "Mongolian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.0,
-          "MRR": 0.0
-        }
-      },
-      "by_difficulty": {
-        "easy": {
-          "n": 28,
-          "Hit@1": 0.4642857142857143,
-          "Hit@5": 0.7857142857142857,
-          "Recall@20": 0.7857142857142857,
-          "MRR": 0.5767857142857142
-        },
-        "hard": {
-          "n": 4,
-          "Hit@1": 0.75,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8333333333333333
-        },
-        "medium": {
-          "n": 28,
-          "Hit@1": 0.6428571428571429,
-          "Hit@5": 0.75,
-          "Recall@20": 0.75,
-          "MRR": 0.681547619047619
-        }
-      },
-      "by_type": {
-        "definition": {
-          "n": 7,
-          "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6785714285714286
-        },
-        "fact": {
-          "n": 15,
-          "Hit@1": 0.6,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.6
-        },
-        "history": {
-          "n": 11,
-          "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
-          "Recall@20": 0.9090909090909091,
-          "MRR": 0.8484848484848484
-        },
-        "ingredient": {
-          "n": 9,
-          "Hit@1": 0.2222222222222222,
+          "Hit@1": 0.4444444444444444,
           "Hit@5": 0.7777777777777778,
           "Recall@20": 0.7777777777777778,
-          "MRR": 0.41111111111111115
+          "MRR": 0.5462962962962963
         },
         "reasoning": {
           "n": 11,
           "Hit@1": 0.6363636363636364,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.8181818181818182,
-          "MRR": 0.7045454545454546
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6666666666666666
         },
         "technique": {
           "n": 7,
-          "Hit@1": 0.42857142857142855,
+          "Hit@1": 0.5714285714285714,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.5761904761904761
+          "MRR": 0.6785714285714286
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_sentence220_overlap1 | reranked_top5": {
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap1 | reranked_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_sentence220_overlap1",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_sentence220_overlap1_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap1_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
       "Hit@1": 0.6,
-      "Hit@5": 0.8333333333333334,
-      "Recall@20": 0.8333333333333334,
-      "MRR": 0.6858333333333333,
+      "Hit@5": 0.85,
+      "Recall@20": 0.85,
+      "MRR": 0.695,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
           "Hit@1": 0.7692307692307693,
-          "Hit@5": 0.8974358974358975,
-          "Recall@20": 0.8974358974358975,
-          "MRR": 0.814957264957265
+          "Hit@5": 0.9230769230769231,
+          "Recall@20": 0.9230769230769231,
+          "MRR": 0.8192307692307692
         },
         "East Asian": {
           "n": 1,
@@ -3153,14 +3180,14 @@
           "Hit@1": 0.0,
           "Hit@5": 0.4,
           "Recall@20": 0.4,
-          "MRR": 0.13999999999999999
+          "MRR": 0.2
         },
         "Korean": {
           "n": 14,
           "Hit@1": 0.42857142857142855,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.6011904761904762
+          "MRR": 0.6071428571428571
         },
         "Mongolian": {
           "n": 1,
@@ -3176,51 +3203,51 @@
           "Hit@1": 0.5,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.6273809523809524
+          "MRR": 0.6369047619047619
         },
         "hard": {
           "n": 4,
           "Hit@1": 0.75,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8125
+          "MRR": 0.8
         },
         "medium": {
           "n": 28,
           "Hit@1": 0.6785714285714286,
-          "Hit@5": 0.7857142857142857,
-          "Recall@20": 0.7857142857142857,
-          "MRR": 0.7261904761904762
+          "Hit@5": 0.8214285714285714,
+          "Recall@20": 0.8214285714285714,
+          "MRR": 0.738095238095238
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
           "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.5714285714285714
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.6428571428571429
         },
         "fact": {
           "n": 15,
           "Hit@1": 0.6666666666666666,
           "Hit@5": 0.8666666666666667,
           "Recall@20": 0.8666666666666667,
-          "MRR": 0.7099999999999999
+          "MRR": 0.7222222222222221
         },
         "history": {
           "n": 11,
           "Hit@1": 0.8181818181818182,
           "Hit@5": 0.9090909090909091,
           "Recall@20": 0.9090909090909091,
-          "MRR": 0.8409090909090909
+          "MRR": 0.8363636363636363
         },
         "ingredient": {
           "n": 9,
           "Hit@1": 0.3333333333333333,
           "Hit@5": 0.7777777777777778,
           "Recall@20": 0.7777777777777778,
-          "MRR": 0.4722222222222222
+          "MRR": 0.48148148148148145
         },
         "reasoning": {
           "n": 11,
@@ -3234,173 +3261,175 @@
           "Hit@1": 0.5714285714285714,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.7857142857142857
+          "MRR": 0.7619047619047619
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_sentence220_overlap2 | biencoder_top20": {
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap2 | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_sentence220_overlap2",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_sentence220_overlap2_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_sentence220_overlap2_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.5666666666666667,
-      "Hit@5": 0.7166666666666667,
-      "Recall@20": 0.9166666666666666,
-      "MRR": 0.6444381527198865,
+      "Hit@1": 0.6,
+      "Hit@5": 0.85,
+      "Recall@20": 0.9333333333333333,
+      "MRR": 0.7000676937441646,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.6923076923076923,
-          "Hit@5": 0.7692307692307693,
-          "Recall@20": 0.9487179487179487,
-          "MRR": 0.7385854885854887
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.9230769230769231,
+          "Recall@20": 0.9743589743589743,
+          "MRR": 0.7946886446886448
         },
         "East Asian": {
           "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.0,
+          "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.125
+          "MRR": 0.5
         },
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
           "Hit@5": 0.2,
-          "Recall@20": 0.4,
-          "MRR": 0.061764705882352944
+          "Recall@20": 0.6,
+          "MRR": 0.10700280112044817
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.5,
-          "Hit@5": 0.8571428571428571,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.9285714285714286,
           "Recall@20": 1.0,
-          "MRR": 0.6696428571428571
+          "MRR": 0.7125850340136053
         },
         "Mongolian": {
           "n": 1,
           "Hit@1": 0.0,
           "Hit@5": 0.0,
-          "Recall@20": 1.0,
-          "MRR": 0.05263157894736842
+          "Recall@20": 0.0,
+          "MRR": 0.0
         }
       },
       "by_difficulty": {
         "easy": {
           "n": 28,
-          "Hit@1": 0.4642857142857143,
-          "Hit@5": 0.6785714285714286,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.8928571428571429,
           "Recall@20": 0.9642857142857143,
-          "MRR": 0.5890932130427929
+          "MRR": 0.7036314525810324
         },
         "hard": {
           "n": 4,
           "Hit@1": 0.75,
           "Hit@5": 1.0,
           "Recall@20": 1.0,
-          "MRR": 0.8125
+          "MRR": 0.8
         },
         "medium": {
           "n": 28,
-          "Hit@1": 0.6428571428571429,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6757742570712496
+          "Hit@1": 0.6071428571428571,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6822278911564625
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
-          "Hit@1": 0.5714285714285714,
+          "Hit@1": 0.7142857142857143,
           "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.625
+          "Recall@20": 1.0,
+          "MRR": 0.7551020408163266
         },
         "fact": {
           "n": 15,
-          "Hit@1": 0.5333333333333333,
-          "Hit@5": 0.6,
+          "Hit@1": 0.6,
+          "Hit@5": 0.9333333333333333,
           "Recall@20": 1.0,
-          "MRR": 0.6032120929179752
+          "MRR": 0.7483660130718953
         },
         "history": {
           "n": 11,
-          "Hit@1": 0.8181818181818182,
+          "Hit@1": 0.6363636363636364,
           "Hit@5": 0.9090909090909091,
           "Recall@20": 0.9090909090909091,
-          "MRR": 0.8409090909090909
+          "MRR": 0.7303030303030303
         },
         "ingredient": {
           "n": 9,
-          "Hit@1": 0.2222222222222222,
-          "Hit@5": 0.5555555555555556,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.7777777777777778,
           "Recall@20": 0.8888888888888888,
-          "MRR": 0.41269841269841273
+          "MRR": 0.5806878306878307
         },
         "reasoning": {
           "n": 11,
           "Hit@1": 0.6363636363636364,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.9090909090909091,
-          "MRR": 0.6941786283891547
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.6727272727272727
         },
         "technique": {
           "n": 7,
           "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6632653061224489
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.6904761904761905
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_sentence220_overlap2 | biencoder_top5": {
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap2 | biencoder_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_sentence220_overlap2",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_sentence220_overlap2_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_sentence220_overlap2_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.5666666666666667,
-      "Hit@5": 0.7166666666666667,
-      "Recall@20": 0.7166666666666667,
-      "MRR": 0.6236111111111111,
+      "Hit@1": 0.6,
+      "Hit@5": 0.85,
+      "Recall@20": 0.85,
+      "MRR": 0.6908333333333333,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.6923076923076923,
-          "Hit@5": 0.7692307692307693,
-          "Recall@20": 0.7692307692307693,
-          "MRR": 0.7200854700854701
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.9230769230769231,
+          "Recall@20": 0.9230769230769231,
+          "MRR": 0.7893162393162393
         },
         "East Asian": {
           "n": 1,
           "Hit@1": 0.0,
-          "Hit@5": 0.0,
-          "Recall@20": 0.0,
-          "MRR": 0.0
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
         },
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
           "Hit@5": 0.2,
           "Recall@20": 0.2,
-          "MRR": 0.05
+          "MRR": 0.06666666666666667
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.5,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6488095238095237
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7023809523809523
         },
         "Mongolian": {
           "n": 1,
@@ -3413,130 +3442,10 @@
       "by_difficulty": {
         "easy": {
           "n": 28,
-          "Hit@1": 0.4642857142857143,
-          "Hit@5": 0.6785714285714286,
-          "Recall@20": 0.6785714285714286,
-          "MRR": 0.556547619047619
-        },
-        "hard": {
-          "n": 4,
-          "Hit@1": 0.75,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8125
-        },
-        "medium": {
-          "n": 28,
-          "Hit@1": 0.6428571428571429,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.6636904761904762
-        }
-      },
-      "by_type": {
-        "definition": {
-          "n": 7,
           "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.6071428571428571
-        },
-        "fact": {
-          "n": 15,
-          "Hit@1": 0.5333333333333333,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.5666666666666667
-        },
-        "history": {
-          "n": 11,
-          "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
-          "Recall@20": 0.9090909090909091,
-          "MRR": 0.8409090909090909
-        },
-        "ingredient": {
-          "n": 9,
-          "Hit@1": 0.2222222222222222,
-          "Hit@5": 0.5555555555555556,
-          "Recall@20": 0.5555555555555556,
-          "MRR": 0.3703703703703704
-        },
-        "reasoning": {
-          "n": 11,
-          "Hit@1": 0.6363636363636364,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.8181818181818182,
-          "MRR": 0.6893939393939393
-        },
-        "technique": {
-          "n": 7,
-          "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.6428571428571429
-        }
-      }
-    }
-  },
-  "benchmark_dataset_2 | chunks_sentence220_overlap2 | reranked_top5": {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_sentence220_overlap2",
-    "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_sentence220_overlap2_benchmark_dataset_2.jsonl",
-    "metrics": {
-      "n_queries_evaluated": 60,
-      "n_queries_in_benchmark": 60,
-      "n_missing_queries": 0,
-      "missing_queries": [],
-      "Hit@1": 0.5833333333333334,
-      "Hit@5": 0.8666666666666667,
-      "Recall@20": 0.8666666666666667,
-      "MRR": 0.6975,
-      "by_cuisine": {
-        "Chinese": {
-          "n": 39,
-          "Hit@1": 0.717948717948718,
-          "Hit@5": 0.8717948717948718,
-          "Recall@20": 0.8717948717948718,
-          "MRR": 0.770940170940171
-        },
-        "East Asian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.5
-        },
-        "Japanese": {
-          "n": 5,
-          "Hit@1": 0.0,
-          "Hit@5": 0.4,
-          "Recall@20": 0.4,
-          "MRR": 0.13999999999999999
-        },
-        "Korean": {
-          "n": 14,
-          "Hit@1": 0.5,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.7202380952380951
-        },
-        "Mongolian": {
-          "n": 1,
-          "Hit@1": 0.0,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.5
-        }
-      },
-      "by_difficulty": {
-        "easy": {
-          "n": 28,
-          "Hit@1": 0.5357142857142857,
-          "Hit@5": 0.9285714285714286,
-          "Recall@20": 0.9285714285714286,
-          "MRR": 0.7005952380952379
+          "Hit@5": 0.8928571428571429,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6964285714285714
         },
         "hard": {
           "n": 4,
@@ -3550,76 +3459,198 @@
           "Hit@1": 0.6071428571428571,
           "Hit@5": 0.7857142857142857,
           "Recall@20": 0.7857142857142857,
-          "MRR": 0.6797619047619047
+          "MRR": 0.669642857142857
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6071428571428571
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.7142857142857143,
+          "Recall@20": 0.7142857142857143,
+          "MRR": 0.7142857142857143
         },
         "fact": {
           "n": 15,
           "Hit@1": 0.6,
           "Hit@5": 0.9333333333333333,
           "Recall@20": 0.9333333333333333,
-          "MRR": 0.7266666666666666
+          "MRR": 0.7444444444444444
         },
         "history": {
           "n": 11,
-          "Hit@1": 0.7272727272727273,
+          "Hit@1": 0.6363636363636364,
           "Hit@5": 0.9090909090909091,
           "Recall@20": 0.9090909090909091,
-          "MRR": 0.7909090909090909
+          "MRR": 0.7303030303030303
         },
         "ingredient": {
           "n": 9,
           "Hit@1": 0.4444444444444444,
           "Hit@5": 0.7777777777777778,
           "Recall@20": 0.7777777777777778,
-          "MRR": 0.5925925925925926
+          "MRR": 0.5648148148148149
+        },
+        "reasoning": {
+          "n": 11,
+          "Hit@1": 0.6363636363636364,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6666666666666666
+        },
+        "technique": {
+          "n": 7,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.6904761904761905
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset_2 | chunks_sentence220_overlap2 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset_2",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_sentence220_overlap2_benchmark_dataset_2_nomic.jsonl",
+    "metrics": {
+      "n_queries_evaluated": 60,
+      "n_queries_in_benchmark": 60,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6166666666666667,
+      "Hit@5": 0.9,
+      "Recall@20": 0.9,
+      "MRR": 0.7302777777777778,
+      "by_cuisine": {
+        "Chinese": {
+          "n": 39,
+          "Hit@1": 0.7692307692307693,
+          "Hit@5": 0.9487179487179487,
+          "Recall@20": 0.9487179487179487,
+          "MRR": 0.8320512820512821
+        },
+        "East Asian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.5
+        },
+        "Japanese": {
+          "n": 5,
+          "Hit@1": 0.0,
+          "Hit@5": 0.6,
+          "Recall@20": 0.6,
+          "MRR": 0.20666666666666664
+        },
+        "Korean": {
+          "n": 14,
+          "Hit@1": 0.5,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7023809523809523
+        },
+        "Mongolian": {
+          "n": 1,
+          "Hit@1": 0.0,
+          "Hit@5": 0.0,
+          "Recall@20": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "n": 28,
+          "Hit@1": 0.5357142857142857,
+          "Hit@5": 0.9285714285714286,
+          "Recall@20": 0.9285714285714286,
+          "MRR": 0.7005952380952382
+        },
+        "hard": {
+          "n": 4,
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.75
+        },
+        "medium": {
+          "n": 28,
+          "Hit@1": 0.6785714285714286,
+          "Hit@5": 0.8928571428571429,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.7571428571428571
+        }
+      },
+      "by_type": {
+        "definition": {
+          "n": 7,
+          "Hit@1": 0.42857142857142855,
+          "Hit@5": 0.8571428571428571,
+          "Recall@20": 0.8571428571428571,
+          "MRR": 0.619047619047619
+        },
+        "fact": {
+          "n": 15,
+          "Hit@1": 0.6,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.7522222222222222
+        },
+        "history": {
+          "n": 11,
+          "Hit@1": 0.7272727272727273,
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.7727272727272727
+        },
+        "ingredient": {
+          "n": 9,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7037037037037037
         },
         "reasoning": {
           "n": 11,
           "Hit@1": 0.6363636363636364,
           "Hit@5": 0.8181818181818182,
           "Recall@20": 0.8181818181818182,
-          "MRR": 0.7272727272727273
+          "MRR": 0.7000000000000001
         },
         "technique": {
           "n": 7,
-          "Hit@1": 0.5714285714285714,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6666666666666666
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 1.0,
+          "Recall@20": 1.0,
+          "MRR": 0.8095238095238094
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_structure_aware_coarse | biencoder_top20": {
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_coarse | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_structure_aware_coarse_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_coarse_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.4666666666666667,
-      "Hit@5": 0.8,
-      "Recall@20": 0.9166666666666666,
-      "MRR": 0.6185515873015873,
+      "Hit@1": 0.6,
+      "Hit@5": 0.7666666666666667,
+      "Recall@20": 0.95,
+      "MRR": 0.6851060051060053,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.5641025641025641,
-          "Hit@5": 0.7948717948717948,
-          "Recall@20": 0.8974358974358975,
-          "MRR": 0.6730769230769231
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8461538461538461,
+          "Recall@20": 0.9487179487179487,
+          "MRR": 0.7711421057574903
         },
         "East Asian": {
           "n": 1,
@@ -3631,16 +3662,16 @@
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
-          "Hit@5": 0.6,
+          "Hit@5": 0.2,
           "Recall@20": 1.0,
-          "MRR": 0.22261904761904758
+          "MRR": 0.13262626262626262
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.9285714285714286,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
           "Recall@20": 1.0,
-          "MRR": 0.6607142857142857
+          "MRR": 0.7049062049062049
         },
         "Mongolian": {
           "n": 1,
@@ -3653,93 +3684,94 @@
       "by_difficulty": {
         "easy": {
           "n": 28,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.9285714285714286,
-          "MRR": 0.6108843537414967
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.6885642135642136
         },
         "hard": {
           "n": 4,
-          "Hit@1": 0.5,
-          "Hit@5": 1.0,
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
           "Recall@20": 1.0,
-          "MRR": 0.6875
+          "MRR": 0.7857142857142857
         },
         "medium": {
           "n": 28,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7142857142857143,
+          "Hit@1": 0.6071428571428571,
+          "Hit@5": 0.75,
           "Recall@20": 0.8928571428571429,
-          "MRR": 0.6163690476190476
+          "MRR": 0.667275185132328
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
-          "Hit@1": 0.42857142857142855,
+          "Hit@1": 0.5714285714285714,
           "Hit@5": 0.7142857142857143,
           "Recall@20": 1.0,
-          "MRR": 0.6130952380952381
+          "MRR": 0.6746031746031745
         },
         "fact": {
           "n": 15,
-          "Hit@1": 0.5333333333333333,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8666666666666667,
-          "MRR": 0.6411111111111112
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7096296296296296
         },
         "history": {
           "n": 11,
           "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
+          "Hit@5": 0.8181818181818182,
           "Recall@20": 1.0,
-          "MRR": 0.8522727272727273
+          "MRR": 0.8381618381618381
         },
         "ingredient": {
           "n": 9,
-          "Hit@1": 0.1111111111111111,
-          "Hit@5": 0.6666666666666666,
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.5555555555555556,
           "Recall@20": 0.8888888888888888,
-          "MRR": 0.3644179894179895
+          "MRR": 0.5119528619528619
         },
         "reasoning": {
           "n": 11,
-          "Hit@1": 0.2727272727272727,
-          "Hit@5": 0.8181818181818182,
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.7272727272727273,
           "Recall@20": 0.8181818181818182,
-          "MRR": 0.5151515151515151
+          "MRR": 0.621900826446281
         },
         "technique": {
           "n": 7,
           "Hit@1": 0.5714285714285714,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 1.0,
-          "MRR": 0.6976190476190476
+          "MRR": 0.7244897959183673
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_structure_aware_coarse | biencoder_top5": {
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_coarse | biencoder_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_structure_aware_coarse_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_coarse_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.4666666666666667,
-      "Hit@5": 0.8,
-      "Recall@20": 0.8,
-      "MRR": 0.6047222222222223,
+      "Hit@1": 0.6,
+      "Hit@5": 0.7666666666666667,
+      "Recall@20": 0.7666666666666667,
+      "MRR": 0.6644444444444445,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.5641025641025641,
-          "Hit@5": 0.7948717948717948,
-          "Recall@20": 0.7948717948717948,
-          "MRR": 0.6611111111111111
+          "Hit@1": 0.717948717948718,
+          "Hit@5": 0.8461538461538461,
+          "Recall@20": 0.8461538461538461,
+          "MRR": 0.7594017094017094
         },
         "East Asian": {
           "n": 1,
@@ -3751,16 +3783,16 @@
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.1833333333333333
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.05
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.9285714285714286,
-          "Recall@20": 0.9285714285714286,
-          "MRR": 0.6488095238095238
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6785714285714286
         },
         "Mongolian": {
           "n": 1,
@@ -3773,93 +3805,94 @@
       "by_difficulty": {
         "easy": {
           "n": 28,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6023809523809524
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6619047619047619
         },
         "hard": {
           "n": 4,
-          "Hit@1": 0.5,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.6875
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.75
         },
         "medium": {
           "n": 28,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.5952380952380951
+          "Hit@1": 0.6071428571428571,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.6547619047619048
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
-          "Hit@1": 0.42857142857142855,
+          "Hit@1": 0.5714285714285714,
           "Hit@5": 0.7142857142857143,
           "Recall@20": 0.7142857142857143,
-          "MRR": 0.5714285714285714
+          "MRR": 0.6428571428571429
         },
         "fact": {
           "n": 15,
-          "Hit@1": 0.5333333333333333,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.63
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6911111111111111
         },
         "history": {
           "n": 11,
           "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
-          "Recall@20": 0.9090909090909091,
-          "MRR": 0.8409090909090909
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.8181818181818182
         },
         "ingredient": {
           "n": 9,
-          "Hit@1": 0.1111111111111111,
-          "Hit@5": 0.6666666666666666,
-          "Recall@20": 0.6666666666666666,
-          "MRR": 0.3425925925925926
+          "Hit@1": 0.4444444444444444,
+          "Hit@5": 0.5555555555555556,
+          "Recall@20": 0.5555555555555556,
+          "MRR": 0.4722222222222222
         },
         "reasoning": {
           "n": 11,
-          "Hit@1": 0.2727272727272727,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.8181818181818182,
-          "MRR": 0.5151515151515151
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6136363636363636
         },
         "technique": {
           "n": 7,
           "Hit@1": 0.5714285714285714,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.6904761904761905
+          "MRR": 0.7142857142857143
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_structure_aware_coarse | reranked_top5": {
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_coarse | reranked_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_coarse",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_structure_aware_coarse_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_coarse_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
       "Hit@1": 0.55,
-      "Hit@5": 0.85,
-      "Recall@20": 0.85,
-      "MRR": 0.6530555555555557,
+      "Hit@5": 0.8166666666666667,
+      "Recall@20": 0.8166666666666667,
+      "MRR": 0.6419444444444447,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
           "Hit@1": 0.6410256410256411,
-          "Hit@5": 0.8461538461538461,
-          "Recall@20": 0.8461538461538461,
-          "MRR": 0.7166666666666667
+          "Hit@5": 0.7948717948717948,
+          "Recall@20": 0.7948717948717948,
+          "MRR": 0.7038461538461538
         },
         "East Asian": {
           "n": 1,
@@ -3880,7 +3913,7 @@
           "Hit@1": 0.5714285714285714,
           "Hit@5": 0.9285714285714286,
           "Recall@20": 0.9285714285714286,
-          "MRR": 0.7202380952380952
+          "MRR": 0.7083333333333334
         },
         "Mongolian": {
           "n": 1,
@@ -3896,21 +3929,21 @@
           "Hit@1": 0.5,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.6351190476190476
+          "MRR": 0.6273809523809523
         },
         "hard": {
           "n": 4,
           "Hit@1": 0.25,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.5625
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.5
         },
         "medium": {
           "n": 28,
           "Hit@1": 0.6428571428571429,
-          "Hit@5": 0.8214285714285714,
-          "Recall@20": 0.8214285714285714,
-          "MRR": 0.6839285714285713
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6767857142857142
         }
       },
       "by_type": {
@@ -3924,23 +3957,23 @@
         "fact": {
           "n": 15,
           "Hit@1": 0.5333333333333333,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.6133333333333333
+          "Hit@5": 0.7333333333333333,
+          "Recall@20": 0.7333333333333333,
+          "MRR": 0.5966666666666666
         },
         "history": {
           "n": 11,
           "Hit@1": 0.7272727272727273,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8181818181818182
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7954545454545454
         },
         "ingredient": {
           "n": 9,
           "Hit@1": 0.3333333333333333,
           "Hit@5": 0.7777777777777778,
           "Recall@20": 0.7777777777777778,
-          "MRR": 0.49444444444444446
+          "MRR": 0.4851851851851852
         },
         "reasoning": {
           "n": 11,
@@ -3954,32 +3987,33 @@
           "Hit@1": 0.42857142857142855,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.619047619047619
+          "MRR": 0.6071428571428571
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_structure_aware_fine | biencoder_top20": {
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_fine | biencoder_top20": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "biencoder_top20",
-    "retrieval_path": "results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_chunks_structure_aware_fine_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.4666666666666667,
-      "Hit@5": 0.8,
-      "Recall@20": 0.9,
-      "MRR": 0.6207936507936509,
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.7666666666666667,
+      "Recall@20": 0.95,
+      "MRR": 0.676772671772672,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.5641025641025641,
-          "Hit@5": 0.7948717948717948,
-          "Recall@20": 0.8717948717948718,
-          "MRR": 0.6717948717948717
+          "Hit@1": 0.6923076923076923,
+          "Hit@5": 0.8461538461538461,
+          "Recall@20": 0.9487179487179487,
+          "MRR": 0.7583215929369775
         },
         "East Asian": {
           "n": 1,
@@ -3991,16 +4025,16 @@
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
-          "Hit@5": 0.6,
+          "Hit@5": 0.2,
           "Recall@20": 1.0,
-          "MRR": 0.2595238095238095
+          "MRR": 0.13262626262626262
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.9285714285714286,
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
           "Recall@20": 1.0,
-          "MRR": 0.6607142857142857
+          "MRR": 0.7049062049062049
         },
         "Mongolian": {
           "n": 1,
@@ -4013,93 +4047,94 @@
       "by_difficulty": {
         "easy": {
           "n": 28,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.9285714285714286,
-          "MRR": 0.6108843537414967
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 1.0,
+          "MRR": 0.6885642135642136
         },
         "hard": {
           "n": 4,
-          "Hit@1": 0.5,
-          "Hit@5": 1.0,
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
           "Recall@20": 1.0,
-          "MRR": 0.6875
+          "MRR": 0.7857142857142857
         },
         "medium": {
           "n": 28,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6211734693877551
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.75,
+          "Recall@20": 0.8928571428571429,
+          "MRR": 0.6494180422751851
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
-          "Hit@1": 0.42857142857142855,
+          "Hit@1": 0.5714285714285714,
           "Hit@5": 0.7142857142857143,
           "Recall@20": 1.0,
-          "MRR": 0.6156462585034015
+          "MRR": 0.6746031746031745
         },
         "fact": {
           "n": 15,
-          "Hit@1": 0.5333333333333333,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8666666666666667,
-          "MRR": 0.6411111111111112
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 1.0,
+          "MRR": 0.7096296296296296
         },
         "history": {
           "n": 11,
           "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
+          "Hit@5": 0.8181818181818182,
           "Recall@20": 1.0,
-          "MRR": 0.8522727272727273
+          "MRR": 0.8381618381618381
         },
         "ingredient": {
           "n": 9,
-          "Hit@1": 0.1111111111111111,
-          "Hit@5": 0.6666666666666666,
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.5555555555555556,
           "Recall@20": 0.8888888888888888,
-          "MRR": 0.3644179894179895
+          "MRR": 0.45639730639730636
         },
         "reasoning": {
           "n": 11,
-          "Hit@1": 0.2727272727272727,
-          "Hit@5": 0.8181818181818182,
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.7272727272727273,
           "Recall@20": 0.8181818181818182,
-          "MRR": 0.5303030303030303
+          "MRR": 0.621900826446281
         },
         "technique": {
           "n": 7,
           "Hit@1": 0.5714285714285714,
           "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6904761904761905
+          "Recall@20": 1.0,
+          "MRR": 0.7244897959183673
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_structure_aware_fine | biencoder_top5": {
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_fine | biencoder_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "biencoder_top5",
-    "retrieval_path": "results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_chunks_structure_aware_fine_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
-      "Hit@1": 0.4666666666666667,
-      "Hit@5": 0.8,
-      "Recall@20": 0.8,
-      "MRR": 0.6075,
+      "Hit@1": 0.5833333333333334,
+      "Hit@5": 0.7666666666666667,
+      "Recall@20": 0.7666666666666667,
+      "MRR": 0.6561111111111111,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
-          "Hit@1": 0.5641025641025641,
-          "Hit@5": 0.7948717948717948,
-          "Recall@20": 0.7948717948717948,
-          "MRR": 0.6611111111111111
+          "Hit@1": 0.6923076923076923,
+          "Hit@5": 0.8461538461538461,
+          "Recall@20": 0.8461538461538461,
+          "MRR": 0.7465811965811966
         },
         "East Asian": {
           "n": 1,
@@ -4111,16 +4146,16 @@
         "Japanese": {
           "n": 5,
           "Hit@1": 0.0,
-          "Hit@5": 0.6,
-          "Recall@20": 0.6,
-          "MRR": 0.21666666666666665
+          "Hit@5": 0.2,
+          "Recall@20": 0.2,
+          "MRR": 0.05
         },
         "Korean": {
           "n": 14,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.9285714285714286,
-          "Recall@20": 0.9285714285714286,
-          "MRR": 0.6488095238095238
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6785714285714286
         },
         "Mongolian": {
           "n": 1,
@@ -4133,93 +4168,94 @@
       "by_difficulty": {
         "easy": {
           "n": 28,
-          "Hit@1": 0.42857142857142855,
-          "Hit@5": 0.8571428571428571,
-          "Recall@20": 0.8571428571428571,
-          "MRR": 0.6023809523809524
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6619047619047619
         },
         "hard": {
           "n": 4,
-          "Hit@1": 0.5,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.6875
+          "Hit@1": 0.75,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.75
         },
         "medium": {
           "n": 28,
-          "Hit@1": 0.5,
-          "Hit@5": 0.7142857142857143,
-          "Recall@20": 0.7142857142857143,
-          "MRR": 0.6011904761904762
+          "Hit@1": 0.5714285714285714,
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.6369047619047619
         }
       },
       "by_type": {
         "definition": {
           "n": 7,
-          "Hit@1": 0.42857142857142855,
+          "Hit@1": 0.5714285714285714,
           "Hit@5": 0.7142857142857143,
           "Recall@20": 0.7142857142857143,
-          "MRR": 0.5714285714285714
+          "MRR": 0.6428571428571429
         },
         "fact": {
           "n": 15,
-          "Hit@1": 0.5333333333333333,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.63
+          "Hit@1": 0.6,
+          "Hit@5": 0.8666666666666667,
+          "Recall@20": 0.8666666666666667,
+          "MRR": 0.6911111111111111
         },
         "history": {
           "n": 11,
           "Hit@1": 0.8181818181818182,
-          "Hit@5": 0.9090909090909091,
-          "Recall@20": 0.9090909090909091,
-          "MRR": 0.8409090909090909
+          "Hit@5": 0.8181818181818182,
+          "Recall@20": 0.8181818181818182,
+          "MRR": 0.8181818181818182
         },
         "ingredient": {
           "n": 9,
-          "Hit@1": 0.1111111111111111,
-          "Hit@5": 0.6666666666666666,
-          "Recall@20": 0.6666666666666666,
-          "MRR": 0.3425925925925926
+          "Hit@1": 0.3333333333333333,
+          "Hit@5": 0.5555555555555556,
+          "Recall@20": 0.5555555555555556,
+          "MRR": 0.4166666666666667
         },
         "reasoning": {
           "n": 11,
-          "Hit@1": 0.2727272727272727,
-          "Hit@5": 0.8181818181818182,
-          "Recall@20": 0.8181818181818182,
-          "MRR": 0.5303030303030303
+          "Hit@1": 0.5454545454545454,
+          "Hit@5": 0.7272727272727273,
+          "Recall@20": 0.7272727272727273,
+          "MRR": 0.6136363636363636
         },
         "technique": {
           "n": 7,
           "Hit@1": 0.5714285714285714,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.6904761904761905
+          "MRR": 0.7142857142857143
         }
       }
     }
   },
-  "benchmark_dataset_2 | chunks_structure_aware_fine | reranked_top5": {
+  "nomic | benchmark_dataset_2 | chunks_structure_aware_fine | reranked_top5": {
+    "model": "nomic",
     "benchmark": "benchmark_dataset_2",
     "chunking": "chunks_structure_aware_fine",
     "retrieval_type": "reranked_top5",
-    "retrieval_path": "results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset_2.jsonl",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_chunks_structure_aware_fine_benchmark_dataset_2_nomic.jsonl",
     "metrics": {
       "n_queries_evaluated": 60,
       "n_queries_in_benchmark": 60,
       "n_missing_queries": 0,
       "missing_queries": [],
       "Hit@1": 0.55,
-      "Hit@5": 0.85,
-      "Recall@20": 0.85,
-      "MRR": 0.6530555555555557,
+      "Hit@5": 0.8166666666666667,
+      "Recall@20": 0.8166666666666667,
+      "MRR": 0.6419444444444447,
       "by_cuisine": {
         "Chinese": {
           "n": 39,
           "Hit@1": 0.6410256410256411,
-          "Hit@5": 0.8461538461538461,
-          "Recall@20": 0.8461538461538461,
-          "MRR": 0.7166666666666667
+          "Hit@5": 0.7948717948717948,
+          "Recall@20": 0.7948717948717948,
+          "MRR": 0.7038461538461538
         },
         "East Asian": {
           "n": 1,
@@ -4240,7 +4276,7 @@
           "Hit@1": 0.5714285714285714,
           "Hit@5": 0.9285714285714286,
           "Recall@20": 0.9285714285714286,
-          "MRR": 0.7202380952380952
+          "MRR": 0.7083333333333334
         },
         "Mongolian": {
           "n": 1,
@@ -4256,21 +4292,21 @@
           "Hit@1": 0.5,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.6351190476190476
+          "MRR": 0.6273809523809523
         },
         "hard": {
           "n": 4,
           "Hit@1": 0.25,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.5625
+          "Hit@5": 0.75,
+          "Recall@20": 0.75,
+          "MRR": 0.5
         },
         "medium": {
           "n": 28,
           "Hit@1": 0.6428571428571429,
-          "Hit@5": 0.8214285714285714,
-          "Recall@20": 0.8214285714285714,
-          "MRR": 0.6839285714285713
+          "Hit@5": 0.7857142857142857,
+          "Recall@20": 0.7857142857142857,
+          "MRR": 0.6767857142857142
         }
       },
       "by_type": {
@@ -4284,23 +4320,23 @@
         "fact": {
           "n": 15,
           "Hit@1": 0.5333333333333333,
-          "Hit@5": 0.8,
-          "Recall@20": 0.8,
-          "MRR": 0.6133333333333333
+          "Hit@5": 0.7333333333333333,
+          "Recall@20": 0.7333333333333333,
+          "MRR": 0.5966666666666666
         },
         "history": {
           "n": 11,
           "Hit@1": 0.7272727272727273,
-          "Hit@5": 1.0,
-          "Recall@20": 1.0,
-          "MRR": 0.8181818181818182
+          "Hit@5": 0.9090909090909091,
+          "Recall@20": 0.9090909090909091,
+          "MRR": 0.7954545454545454
         },
         "ingredient": {
           "n": 9,
           "Hit@1": 0.3333333333333333,
           "Hit@5": 0.7777777777777778,
           "Recall@20": 0.7777777777777778,
-          "MRR": 0.49444444444444446
+          "MRR": 0.4851851851851852
         },
         "reasoning": {
           "n": 11,
@@ -4314,7 +4350,7 @@
           "Hit@1": 0.42857142857142855,
           "Hit@5": 0.8571428571428571,
           "Recall@20": 0.8571428571428571,
-          "MRR": 0.619047619047619
+          "MRR": 0.6071428571428571
         }
       }
     }

@@ -10,6 +10,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPT_DIR.parent / "data"
 RESULTS_DIR = SCRIPT_DIR / "results"
 OUTPUT_PATH = RESULTS_DIR / "evaluation_summary_all.json"
+BENCHMARK_UNIFIED_PATH = DATA_DIR / "benchmark_unified.jsonl"
 
 BENCHMARK_FILES = {
     "benchmark_dataset": DATA_DIR / "benchmark_dataset.json",
@@ -31,7 +32,7 @@ RETRIEVAL_TYPES = [
     "reranked_top5",
 ]
 
-MODEL_ALIASES = ["minilm", "nomic", "openai_small"]
+MODEL_ALIASES = ["minilm", "nomic",]
 
 
 # =========================================================
@@ -92,7 +93,39 @@ def build_retrieval_candidates(
 # =========================================================
 # 4. Load benchmark / retrieval
 # =========================================================
-def load_benchmark(path: Path):
+def load_unified_benchmark_index(path: Path):
+    if not path.exists():
+        raise FileNotFoundError(f"Required benchmark metadata file not found: {path}")
+
+    index = {}
+    for rec in read_jsonl(path):
+        source_file = rec.get("source_file", "")
+        question = (rec.get("question") or "").strip()
+        if source_file and question:
+            index[(source_file, question)] = rec
+    return index
+
+
+def flatten_benchmark_records(data):
+    """
+    Current benchmark format:
+    {"sources": [{"source": "...", "questions": [...]}, ...]}
+    """
+    if isinstance(data, dict) and isinstance(data.get("sources"), list):
+        flattened = []
+        for source_group in data["sources"]:
+            for question_rec in source_group.get("questions", []):
+                if isinstance(question_rec, dict):
+                    flattened.append(question_rec)
+        return flattened
+
+    raise TypeError(
+        "Unsupported benchmark format: expected a dict with 'sources' -> 'questions'. "
+        f"Got {type(data).__name__}"
+    )
+
+
+def load_benchmark(path: Path, unified_index):
     """
     benchmark json format:
     [
@@ -109,9 +142,34 @@ def load_benchmark(path: Path):
     ]
     """
     benchmark = {}
-    data = read_json(path)
+    data = flatten_benchmark_records(read_json(path))
+    source_name = path.stem
+
     for rec in data:
-        benchmark[rec["id"]] = rec
+        if not isinstance(rec, dict):
+            continue
+
+        question = (rec.get("question") or "").strip()
+        if not question:
+            continue
+
+        match = unified_index.get((source_name, question))
+        if not match:
+            raise KeyError(
+                f"No match found in {BENCHMARK_UNIFIED_PATH} for {source_name} question: {question}"
+            )
+
+        normalized = {
+            "id": match["query_id"],
+            "question": question,
+            "answer": rec.get("answer") or match.get("gold_answer", ""),
+            "doc_id": match["gold_doc_id"],
+            "cuisine": match.get("cuisine", ""),
+            "difficulty": match.get("difficulty", ""),
+            "type": match.get("type", ""),
+        }
+
+        benchmark[normalized["id"]] = normalized
     return benchmark
 
 
@@ -279,6 +337,7 @@ def parse_args():
 def main():
     args = parse_args()
     all_results = {}
+    unified_index = load_unified_benchmark_index(BENCHMARK_UNIFIED_PATH)
 
     # preload benchmarks
     benchmark_cache = {}
@@ -286,7 +345,9 @@ def main():
         if not benchmark_path.exists():
             print(f"[WARN] Benchmark file not found: {benchmark_path}")
             continue
-        benchmark_cache[benchmark_name] = load_benchmark(benchmark_path)
+        benchmark_cache[benchmark_name] = load_benchmark(
+            benchmark_path, unified_index=unified_index
+        )
 
     for model_alias in args.models:
         for benchmark_name, benchmark in benchmark_cache.items():
