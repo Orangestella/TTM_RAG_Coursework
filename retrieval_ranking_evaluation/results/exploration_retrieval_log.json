@@ -4,167 +4,83 @@
     "chunking": "chunks_fixed300_overlap0",
     "embedding": "minilm",
     "n_chunks": 1838,
-    "time_s": 24.88
+    "time_s": 79.04
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap20",
     "embedding": "minilm",
     "n_chunks": 2253,
-    "time_s": 21.43
+    "time_s": 68.01
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap1",
     "embedding": "minilm",
     "n_chunks": 2145,
-    "time_s": 26.88
+    "time_s": 85.56
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap2",
     "embedding": "minilm",
     "n_chunks": 2394,
-    "time_s": 27.33
+    "time_s": 85.87
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_coarse",
     "embedding": "minilm",
     "n_chunks": 2607,
-    "time_s": 27.78
+    "time_s": 84.23
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_fine",
     "embedding": "minilm",
     "n_chunks": 2444,
-    "time_s": 27.69
+    "time_s": 84.16
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap0",
     "embedding": "nomic",
     "n_chunks": 1838,
-    "time_s": 24.59
+    "time_s": 81.76
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_fixed300_overlap20",
     "embedding": "nomic",
     "n_chunks": 2253,
-    "time_s": 24.75
+    "time_s": 73.98
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap1",
     "embedding": "nomic",
     "n_chunks": 2145,
-    "time_s": 26.87
+    "time_s": 81.38
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_sentence220_overlap2",
     "embedding": "nomic",
     "n_chunks": 2394,
-    "time_s": 29.66
+    "time_s": 82.33
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_coarse",
     "embedding": "nomic",
     "n_chunks": 2607,
-    "time_s": 32.33
+    "time_s": 91.08
   },
   {
     "benchmark": "benchmark_dataset",
     "chunking": "chunks_structure_aware_fine",
     "embedding": "nomic",
     "n_chunks": 2444,
-    "time_s": 30.8
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_fixed300_overlap0",
-    "embedding": "minilm",
-    "n_chunks": 1838,
-    "time_s": 26.43
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_fixed300_overlap20",
-    "embedding": "minilm",
-    "n_chunks": 2253,
-    "time_s": 21.76
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_sentence220_overlap1",
-    "embedding": "minilm",
-    "n_chunks": 2145,
-    "time_s": 26.45
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_sentence220_overlap2",
-    "embedding": "minilm",
-    "n_chunks": 2394,
-    "time_s": 27.22
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_structure_aware_coarse",
-    "embedding": "minilm",
-    "n_chunks": 2607,
-    "time_s": 27.13
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_structure_aware_fine",
-    "embedding": "minilm",
-    "n_chunks": 2444,
-    "time_s": 27.63
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_fixed300_overlap0",
-    "embedding": "nomic",
-    "n_chunks": 1838,
-    "time_s": 26.42
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_fixed300_overlap20",
-    "embedding": "nomic",
-    "n_chunks": 2253,
-    "time_s": 22.47
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_sentence220_overlap1",
-    "embedding": "nomic",
-    "n_chunks": 2145,
-    "time_s": 25.79
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_sentence220_overlap2",
-    "embedding": "nomic",
-    "n_chunks": 2394,
-    "time_s": 25.72
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_structure_aware_coarse",
-    "embedding": "nomic",
-    "n_chunks": 2607,
-    "time_s": 28.98
-  },
-  {
-    "benchmark": "benchmark_dataset_2",
-    "chunking": "chunks_structure_aware_fine",
-    "embedding": "nomic",
-    "n_chunks": 2444,
-    "time_s": 29.59
+    "time_s": 91.53
   }
 ]

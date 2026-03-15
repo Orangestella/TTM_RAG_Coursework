@@ -4,245 +4,144 @@
       "source": "Wikipedia",
       "questions": [
         {
-          "question": "What is Sichuan cuisine known for in terms of flavour?",
-          "answer": "Sichuan cuisine is renowned for fiery and bold tastes, particularly the pungency and spiciness resulting from liberal use of garlic and chilis, as well as the unique flavors of Sichuan pepper."
+          "question": "What does the word 'bibimbap' literally mean in Korean?",
+          "answer": "The term bibim means mixing and bap is cooked rice, meaning 'cooked rice', so it literally means 'mixed rice'."
         },
         {
-          "question": "What is char siu?",
-          "answer": "Char siu is a Cantonese-style barbecued pork originating in Guangdong. It is classified as a type of siu mei, meaning Cantonese roasted meat, and can be eaten with rice or used as an ingredient in other dishes."
+          "question": "What does the Japanese term 'nuuhara' mean?",
+          "answer": "Nuuhara is short for 'nuudoru harasumento' (noodle harassment), describing the loud slurping noise made when eating noodles that some consider offensive to tourists."
         },
         {
-          "question": "What is dim sum and which cuisine is it most associated with?",
-          "answer": "Dim sum is a large range of small Chinese dishes traditionally enjoyed in restaurants for brunch. Most modern dim sum dishes are commonly associated with Cantonese cuisine."
+          "question": "What is the defining component of all modern sushi?",
+          "answer": "The defining component of modern sushi is vinegared rice, also known as shari or sumeshi."
         },
         {
-          "question": "What is bubble tea and where did it originate?",
-          "answer": "Bubble tea is a tea-based drink most often containing chewy tapioca balls, milk, and flavouring. It originated in Taiwan in the 1980s and spread to other countries with large East Asian diaspora populations."
+          "question": "Who is believed to have invented modern nigiri sushi?",
+          "answer": "The modern form of nigiri sushi is believed to have been invented by Hanaya Yohei, around 1824 during the Edo period."
         },
         {
-          "question": "What are baozi made of?",
-          "answer": "Baozi are yeast-leavened filled buns. The buns are most often made from wheat flour and steamed, with various fillings that can be meat or vegetarian."
+          "question": "What is the origin city of xiaolongbao?",
+          "answer": "Xiaolongbao originates from the city of Changzhou in Jiangsu province."
         },
         {
-          "question": "What is congee?",
-          "answer": "Congee is a form of savoury rice porridge of Asian origin, primarily made by boiling rice in a large amount of water until the rice softens. It is typically served with side dishes, or topped with meat, fish, and pickled vegetables."
+          "question": "What are the five spices typically included in Chinese five-spice powder?",
+          "answer": "The five spices are star anise, cloves, Chinese cinnamon, Sichuan pepper, and fennel seeds."
         },
         {
-          "question": "What cooking technique is stir frying?",
-          "answer": "Stir frying is a cooking technique in which ingredients are fried in a small amount of very hot oil while being stirred or tossed in a wok. The technique originated in China and in recent centuries has spread into other parts of Asia and the West."
+          "question": "Which dish is the Chinese term 'mala' (麻辣) most closely associated with?",
+          "answer": "Mala is most closely associated with Chongqing hot pot, also called mala hotpot or spicy hot pot."
         },
         {
-          "question": "What is hot pot?",
-          "answer": "Hot pot is a dish of soup or stock kept simmering in a pot by a heat source on the table, accompanied by an array of raw meats, vegetables and soy-based foods which diners quickly cook by dipping in the broth."
+          "question": "What does the word 'ramen' mean?",
+          "answer": "The word 'ramen' is a Japanese borrowing of the Chinese word lāmiàn, meaning 'pulled noodles'."
         },
         {
-          "question": "What is the defining component of sushi?",
-          "answer": "The current defining component of sushi is vinegared rice, also known as shari or sumeshi. It is typically combined with a variety of ingredients such as seafood, vegetables, or meat."
+          "question": "How is double steaming performed in Chinese cuisine?",
+          "answer": "Food is covered with water and placed in a covered ceramic jar, which is then steamed for several hours. This ensures there is no loss of liquid or moisture from the food."
         },
         {
-          "question": "What is miso made from?",
-          "answer": "Miso is a thick paste produced by fermenting soybeans with salt and kōji, the fungus Aspergillus oryzae, and sometimes rice, barley, seaweed, or other ingredients."
+          "question": "What is the primary ingredient in doenjang-jjigae?",
+          "answer": "The primary ingredient in doenjang-jjigae is doenjang, a Korean fermented soybean paste."
         },
         {
-          "question": "What is tempura?",
-          "answer": "Tempura is a typical Japanese dish that usually consists of seafood and vegetables that have been coated in a thin batter and deep-fried. It originated in the 16th century when Portuguese Jesuits brought the Western-style cooking method to Japan via Nanban trade."
+          "question": "What are the four major sub-styles of Sichuan cuisine?",
+          "answer": "The four major sub-styles are Shanghebang, Xiaohebang, Xiahebang, and Buddhist vegetarian style."
         },
         {
-          "question": "What is dashi used for in Japanese cooking?",
-          "answer": "Dashi is a family of stocks that forms the base for miso soup, clear broth soup, noodle broth soup, and many simmering liquids. It is used to accentuate the savory flavor known as umami, and is also mixed into the flour base of grilled foods like okonomiyaki and takoyaki."
+          "question": "What cuts of pork are commonly used to make char siu?",
+          "answer": "Common cuts include pork loin, pork belly, pork butt or shoulder, pork fat, and pork neck end."
         },
         {
-          "question": "What is ramen?",
-          "answer": "Ramen is a Japanese noodle dish consisting of Chinese-style alkaline wheat noodles served in several flavors of hot broth. Common flavors are soy sauce and miso, with typical toppings including sliced pork, nori, bamboo shoots, and scallions."
+          "question": "Where did bubble tea originate?",
+          "answer": "Bubble tea originated in Taiwan in the 1980s."
         },
         {
-          "question": "What is a bento?",
-          "answer": "A bento is a single-portion take-out or home-packed meal of Japanese origin, often for lunch, typically including rice and packaged in a box with a lid. A traditional bento typically includes rice or noodles with fish or some other meat, often with pickled and cooked vegetables."
+          "question": "What role does koji (Aspergillus oryzae) play in miso production?",
+          "answer": "Koji is the fungus used to ferment soybeans with salt to produce miso. It enables the fermentation process."
         },
         {
-          "question": "What is sashimi?",
-          "answer": "Sashimi is a Japanese delicacy consisting of fresh raw fish or meat sliced into thin pieces and often eaten with soy sauce."
+          "question": "What is the difference between baechu-kimchi and baek-kimchi?",
+          "answer": "Baechu-kimchi is made with gochugaru (chili powder) and jeotgal (salted seafood), giving it a spicy flavour. Baek-kimchi (white kimchi) is made without chili pepper powder, resulting in a mild and clean flavour."
         },
         {
-          "question": "What is kimchi?",
-          "answer": "Kimchi is a traditional Korean side dish consisting of salted and fermented vegetables, most often napa cabbage or Korean radish. A wide selection of seasonings are used, including gochugaru, spring onions, garlic, ginger, and jeotgal."
+          "question": "How does sake production differ from wine production?",
+          "answer": "In wine, alcohol is produced by fermenting sugar naturally present in fruit. In sake, starch in rice is first converted into sugars by enzymatic action, which then ferment into alcohol — a process more similar to beer brewing."
         },
         {
-          "question": "What does bibimbap consist of?",
-          "answer": "Bibimbap is a Korean rice dish served as a bowl of warm white rice topped with namul, which are sautéed or blanched seasoned vegetables, and gochujang chili pepper paste. Egg and sliced meat, usually beef, are common additions stirred together just before eating."
+          "question": "What are the Eight Great Traditions (八大菜系) of Chinese cuisine?",
+          "answer": "The eight traditions are Anhui, Cantonese (Guangdong), Fujian, Hunan, Jiangsu, Shandong, Sichuan, and Zhejiang cuisines."
         },
         {
-          "question": "What does the word bulgogi mean?",
-          "answer": "Bulgogi came from the Korean words bul, meaning fire, and gogi, meaning meat. The compound word is derived from the Pyongan dialect."
+          "question": "How is tteok made?",
+          "answer": "Tteok is made with steamed flour of various grains, especially glutinous and non-glutinous rice. The steamed flour can be pounded, shaped, or pan-fried. In some cases, tteok is pounded directly from cooked grains."
         },
         {
-          "question": "What is doenjang?",
-          "answer": "Doenjang, or soybean paste, is a type of fermented bean paste made of soybean and brine used in Korean cuisine. It is also a byproduct of soup soy sauce production."
+          "question": "When did stir frying first appear in Chinese culinary history?",
+          "answer": "Wok frying may have been used as early as the Han dynasty (206 BC – 220 AD), though initially for drying grain rather than cooking food."
         },
         {
-          "question": "What is the staple carbohydrate in traditional Korean meals?",
-          "answer": "Korean cuisine is largely based on rice, and traditional Korean meals are named for the number of side dishes that accompany steam-cooked short-grain rice. Kimchi is served at nearly every meal."
+          "question": "How is Dongpo pork prepared?",
+          "answer": "Dongpo pork is prepared by first pan-frying and then slow braising pork belly. The pork is cut into thick squares with an even distribution of fat and lean meat, retaining the skin. The result is tender and juicy with a fragrant aroma of wine."
         },
         {
-          "question": "How is char siu seasoned, and what gives it its characteristic appearance?",
-          "answer": "In modern preparation, char siu is typically made from a shoulder cut of pork seasoned with a mixture of maltose, Chinese rose wine and five-spice powder, along with other ingredients. These seasonings turn the exterior dark red, similar to a smoke ring. Maltose is used to give char siu its characteristic shiny glaze."
+          "question": "Which region of China is most associated with red cooking?",
+          "answer": "Red cooking is most strongly associated with the Jiangnan region. It likely originated in Jiangsu province."
         },
         {
-          "question": "Where did xiaolongbao originate and what makes it distinctive?",
-          "answer": "Xiaolongbao originated in Changzhou, Jiangsu province, and is an iconic dish of Jiangnan cuisine. It is a type of Chinese tangbao traditionally prepared in a xiaolong, a small bamboo steaming basket. Outside of China, the Nanxiang xiaolongbao associated with Shanghai is the most well known."
+          "question": "What nutrients does Longjing tea contain?",
+          "answer": "Longjing tea contains vitamin C, amino acids, and high concentrations of catechins."
         },
         {
-          "question": "How did stir frying develop historically in China?",
-          "answer": "Wok frying may have been used as early as the Han dynasty, although initially for drying grain, not cooking. It was not until the Ming dynasty that the wok reached its modern shape and allowed quick cooking in hot oil. However, research indicates that metal woks and stir-frying were already popular in the Song dynasty."
+          "question": "What is Mongolian cuisine predominantly composed of?",
+          "answer": "Mongolian cuisine predominantly consists of dairy products, meat, and animal fats, with cooked mutton being the most common rural dish."
         },
         {
-          "question": "What influenced the development of Taiwanese cuisine?",
-          "answer": "Southern Fujian cuisine has had the most profound impact on mainstream Taiwanese cuisine, but it has also been influenced by Hakka cuisine, the cuisines of waishengren, and Japanese cuisine. Taiwan's cuisine is tied to its history of colonisation, and night markets form a significant part of the food culture."
+          "question": "How is Beggar's Chicken traditionally prepared?",
+          "answer": "A stuffed chicken is wrapped in clay and lotus leaves (or banana or bamboo leaves as alternatives) and baked slowly using low heat. Preparation may take up to six hours."
         },
         {
-          "question": "What are the typical ingredients of hot pot?",
-          "answer": "Typical hot pot ingredients include thinly sliced meat such as mutton or beef, leaf vegetables, mushrooms, vermicelli, sliced potatoes, bean products, egg dumplings, tofu, and seafood. Raw ingredients are sliced thin so they cook quickly in the simmering broth."
+          "question": "What does the Records of the Three Kingdoms say about the origin of doenjang?",
+          "answer": "The Records of the Three Kingdoms states that 'Goguryeo people are good at brewing fermented soybeans', which is considered one of the earliest historical references to doenjang."
         },
         {
-          "question": "What is the origin of the yum cha tradition associated with dim sum?",
-          "answer": "In the tenth century, when Canton began to experience an increase in commercial travel, many people frequented teahouses for small-portion meals with tea called yum cha. The practice of having tea with dim sum eventually evolved into the modern yum cha, and dim sum itself translates literally to \"touch the heart\"."
+          "question": "How is gongfu tea different from a tea ceremony?",
+          "answer": "Gongfu tea is more accurately described as a specialised technique of brewing tea rather than a ritualised ceremony. It involves using smaller brewing vessels and requires patience and skill to perfect."
         },
         {
-          "question": "What are the four major substyles of Sichuan cuisine?",
-          "answer": "The four major substyles of Sichuanese cuisine are Shanghebang, represented by Chengdu and Leshan; Xiaohebang, represented by Zigong, Yibin, Luzhou, and Neijiang; Xiahebang, represented by Chongqing and Dazhou; and Buddhist vegetarian style."
+          "question": "What does the name 'bang bang chicken' derive from?",
+          "answer": "The name derives from bàng (棒), the Chinese word for stick, referring to the wooden cudgel traditionally used to tenderise the meat."
         },
         {
-          "question": "How is the dashi broth most commonly prepared?",
-          "answer": "The most common form of dashi is a simple broth made by heating water containing kombu and kezurikatsuo, which are shavings of katsuobushi, to near-boiling, then straining the liquid. Katsuobushi is especially high in sodium inosinate and kombu is high in glutamic acids, and combined they create a synergy of umami."
+          "question": "What are the ingredients in baek-kimchi?",
+          "answer": "Baek-kimchi consists of salted napa cabbage, radish, minari, spring onions, Korean pear, chestnuts, jujube, ginger, garlic, salt, sugar, and a small amount of chili threads as garnish."
         },
         {
-          "question": "What are the key characteristics of tempura batter and how is it prepared?",
-          "answer": "Tempura batter is made of iced water, eggs, and soft wheat flour. It is traditionally mixed in small batches using chopsticks for only a few seconds, leaving lumps in the mixture. Combined with the cold batter temperature, this results in a unique fluffy and crisp tempura structure when cooked. Overmixing activates wheat gluten, causing the batter to become soft and dough-like."
+          "question": "What are the two distinct meanings of 'kaiseki' in Japanese cuisine?",
+          "answer": "The first (会席料理) refers to a set menu of select food served on an individual tray at a gathering. The second (懐石料理) refers to the simple meal served before a ceremonial tea in a chanoyu gathering, also known as cha-kaiseki."
         },
         {
-          "question": "What is kaiseki and what are its two distinct forms?",
-          "answer": "Kaiseki is a traditional multi-course Japanese dinner analogous to Western haute cuisine. There are two distinct forms: the first refers to a set menu of select food served on an individual tray at a gathering; the second, written with different kanji, refers to the simple meal served before a ceremonial tea in chanoyu, also known as cha-kaiseki."
+          "question": "What range of cooking techniques can a wok be used for?",
+          "answer": "A wok can be used for stir frying, steaming, pan frying, deep frying, poaching, boiling, braising, searing, stewing, making soup, smoking, and roasting nuts."
         },
         {
-          "question": "How does sake differ from wine in terms of its brewing process?",
-          "answer": "Unlike wine, where alcohol is produced by fermenting sugar naturally present in fruit, sake is produced through a brewing process more akin to beer, where starch is converted into sugars that ferment into alcohol. This process is called Multiple Parallel Fermentation, and sake typically contains 18–20% ABV before dilution."
+          "question": "How is Shaoxing wine produced?",
+          "answer": "Shaoxing wine is produced by fermenting glutinous rice, water, and wheat-based yeast. The traditional method involves manually stirring the rice mash with a wooden hoe every four hours."
         },
         {
-          "question": "What is the basis of traditional Japanese cuisine?",
-          "answer": "The traditional cuisine of Japan, known as washoku, is based on rice with miso soup and other dishes with an emphasis on seasonal ingredients. Side dishes often consist of fish, pickled vegetables, tamagoyaki, and vegetables cooked in broth, with seafood commonly grilled or served raw as sashimi or sushi."
+          "question": "What is Korean royal court cuisine?",
+          "answer": "Korean royal court cuisine (gungjung eumsik) was the style of cookery traditionally consumed at the court of the Joseon Dynasty (1392–1897). Twelve dishes were served alongside rice and soup, with most dishes served in bangjja (bronzeware)."
         },
         {
-          "question": "What are the origins of modern nigiri sushi?",
-          "answer": "The modern form of sushi is believed to have been created by Hanaya Yohei, who invented nigiri-zushi in which seafood is placed on hand-pressed vinegared rice. This innovation occurred around 1824 in the Edo period and was the fast food of the chōnin class at the time."
+          "question": "What is jeon in Korean cuisine?",
+          "answer": "Jeon is a Korean fritter made by seasoning whole, sliced, or minced fish, meat, or vegetables, coating them with wheat flour and egg wash, then frying in oil. It can be served as an appetizer, a banchan (side dish), or an anju (food served with drinks)."
         },
         {
-          "question": "How is baechu-kimchi prepared?",
-          "answer": "Baechu-kimchi is made by fermenting salted napa cabbage with Korean radish, aromatic vegetables, jeotgal, gochugaru, and various seasonings. The cabbage is first salted in brine for several hours, then washed thoroughly. A porridge-like paste of gochugaru, jeotgal, and aromatics is made and used as the kimchi seasoning."
+          "question": "What two ingredients in dashi create a synergy of umami?",
+          "answer": "Katsuobushi is high in sodium inosinate and kombu is high in glutamic acids. Combined, they create a synergy of umami flavour."
         },
         {
-          "question": "What is the historical origin of bulgogi?",
-          "answer": "Bulgogi is believed to have originated during the Goguryeo era (37 BCE–668 CE), when it was originally called maekjeok and the beef was grilled on a skewer. It was called neobiani during the Joseon period and was traditionally prepared for the wealthy and the nobility."
-        },
-        {
-          "question": "How is doenjang produced?",
-          "answer": "Doenjang is made using fermented soybean and brine. Meju, Korean soybean brick, is made by soaking soybeans overnight, boiling them in salt water, and pounding into a paste that is shaped into bricks and dried. The meju bricks are then aged in onggi crocks with brine for fermentation."
-        },
-        {
-          "question": "Why does instant dashi taste different from homemade dashi, and what caused homemade dashi to decline?",
-          "answer": "Granulated or liquid instant dashi largely replaced the homemade product in the second half of the 20th century. Compared to homemade dashi, instant dashi tends to have a stronger, less subtle flavor due to the use of chemical flavor enhancers including glutamates and ribonucleotides. Homemade dashi is less popular today even in Japan."
-        },
-        {
-          "question": "What are the four traditional Japanese haute cuisine traditions that modern kaiseki draws upon?",
-          "answer": "Modern kaiseki draws on imperial court cuisine from the 9th century Heian period, Buddhist cuisine of temples from the 12th century Kamakura period, samurai cuisine of warrior households from the 14th century Muromachi period, and tea ceremony cuisine from the same era."
-        },
-        {
-          "question": "How did ramen transition from a niche food associated with Chinese immigrants to a nationally beloved Japanese dish?",
-          "answer": "Ramen was originally confined to the Chinese community in Japan and was never popular nationwide until after World War II. Its rise was driven by rice shortages that increased wheat consumption and the return of millions of Japanese settlers from China. In 1958, instant noodles were invented by Momofuku Ando, further popularising the dish. Today ramen is considered a national dish of Japan."
-        },
-        {
-          "question": "How does the regional variation in baechu-kimchi differ between northern and southern Korea?",
-          "answer": "Northern varieties of baechu-kimchi are milder and soupier, with jeotgal replaced by raw seafood in colder northern regions, and milder saeu-jeot or jogi-jeot preferred in reduced quantities. Southern Korean varieties are saltier and more pungent, using generous amounts of stronger myeolchi-jeot and galchi-jeot, with larger quantities of gochugaru."
-        },
-        {
-          "question": "Why does Mongolian cuisine rely so heavily on meat and dairy rather than vegetables?",
-          "answer": "The extreme continental climate of Mongolia and the lowest population density in the world at just 2.2 inhabitants per km² have influenced the traditional diet. The use of vegetables and spices is limited due to the harsh geography. Additionally, Mongolia is one of few Asian countries where rice is not a main staple, with Mongolian people preferring meat as their staple food."
-        },
-        {
-          "question": "What is the exact calorie count of a standard bowl of tonkotsu ramen?",
-          "answer": "NOT_IN_CORPUS"
-        },
-        {
-          "question": "What is the price of a bowl of bibimbap at a typical restaurant in Seoul today?",
-          "answer": "NOT_IN_CORPUS"
-        },
-        {
-          "question": "How many calories are in a serving of xiaolongbao?",
-          "answer": "NOT_IN_CORPUS"
-        },
-        {
-          "question": "What is the best-selling brand of instant ramen in Japan in 2024?",
-          "answer": "NOT_IN_CORPUS"
-        },
-        {
-          "question": "Is kimchi considered halal?",
-          "answer": "NOT_IN_CORPUS"
-        },
-        {
-          "question": "What is the GDP contribution of the food and beverage industry in South Korea?",
-          "answer": "NOT_IN_CORPUS"
-        },
-        {
-          "question": "What are the opening hours of Din Tai Fung's flagship restaurant in Shanghai?",
-          "answer": "NOT_IN_CORPUS"
-        }
-      ]
-    },
-    {
-      "source": "Around the world in 80 cuisines",
-      "questions": [
-        {
-          "question": "How is Peking duck described in terms of its history and cultural significance?",
-          "answer": "Peking duck is often considered one of the national dishes of China, originating from Beijing. Chinese roast duck can be traced back to the 5th century AD, but Peking duck as known today is thought to have been developed during the Ming Dynasty, around the 15th century. Throughout the centuries it has been particularly beloved by the ruling classes."
-        },
-        {
-          "question": "What does okonomiyaki mean and what does it typically contain?",
-          "answer": "Okonomiyaki means 'how you like, grill', and it consists of a savoury pancake. The batter is usually made with grated yam, dashi, cabbage, green onion and flour. It is fried in a skillet and adorned with toppings such as pork belly, seafood, vegetables or cheese."
-        },
-        {
-          "question": "What is banchan and what role does it play in Korean dining?",
-          "answer": "Banchan is the collective term for the many distinct side dishes placed in individual bowls in the centre of the table for communal eating. Traditional Korean meals are named for the number of banchan that accompany steam-cooked short-grain rice, and kimchi is served as banchan at nearly every meal."
-        },
-        {
-          "question": "What is the cultural significance of kimchi in South Korea?",
-          "answer": "Kimchi is the indisputable national food of Korea, dating back to the transition between BC and AD. Over 2 million tonnes of kimchi is eaten every year in modern South Korea, around 18kg per person. Its importance was such that millions of dollars were spent developing a special kimchi designed to survive conditions of interplanetary travel, which was indeed eaten in space by a South Korean astronaut."
-        },
-        {
-          "question": "How does the blog author distinguish between dim sum and yum cha?",
-          "answer": "According to the blog, dim sum refers to a meal of small portions of food served in bamboo steamers or on small plates, which popularly includes dumplings though not exclusively. Yum cha, by contrast, refers to the broader practice of drinking tea with dim sum. In Australia, the term dim sum was commonly used to refer to a single dumpling, which is a misunderstanding of the original meaning."
-        },
-        {
-          "question": "What is unique about Sichuan pepper compared to regular chilli or black pepper, and how does it affect the diner?",
-          "answer": "Sichuan pepper is a husk from a type of plant that is actually more related to the citrus family than chilli or black pepper. It is famous for causing a tingling, numbing sensation in the mouth, followed by extreme heat. This distinctive numbing quality is a defining characteristic of Sichuan cuisine and differs fundamentally from the straightforward heat of chilli."
-        },
-        {
-          "question": "How does Mongolian barbecue as known in the Western world differ from actual Mongolian cooking?",
-          "answer": "The concept of Mongolian barbecue in Western restaurants, where meat and vegetables are cooked on large solid iron griddles, bears no resemblance to any cooking technique actually used in Mongolia. It actually originated in Taiwan in the 1950s and was originally labelled Beijing barbecue by its Chinese creator, but was relabelled to avoid political controversy."
-        },
-        {
-          "question": "What is the connection between the Mongolian dumpling buuz and the Chinese baozi, according to the blog?",
-          "answer": "According to the blog, the concept of the dumpling in buuz is thought to be borrowed from neighbouring China, as is the origin of the name buuz itself, which reflects the Mandarin word for steamed dumpling, baozi. The filling of buuz is simply flavoured with onion, salt and maybe garlic, wrapped in wheat dough and steamed."
-        },
-        {
-          "question": "Who is the current head chef of the most Michelin-starred restaurant in Tokyo?",
-          "answer": "NOT_IN_CORPUS"
-        },
-        {
-          "question": "What is the recipe for naengmyeon noodles from scratch?",
-          "answer": "NOT_IN_CORPUS"
-        },
-        {
-          "question": "Which airline serves the best Japanese in-flight meal according to customer reviews?",
-          "answer": "NOT_IN_CORPUS"
+          "question": "What is the historical origin of ramen in Japan?",
+          "answer": "The origins of ramen can be traced back to Yokohama Chinatown in the late 19th century."
         }
       ]
     },
@@ -250,8 +149,157 @@
       "source": "Wikibooks",
       "questions": [
         {
-          "question": "What does the Wikibooks recipe for congee use as a base, and what garnishes are suggested?",
-          "answer": "The Wikibooks recipe uses 220g of round rice and 2.5 litres of water or chicken broth as the base, with light soy sauce, sesame oil, and white pepper to personal preference. Suggested garnishes include spring onions, freshly chopped coriander leaves, toasted sesame seeds, and sliced ginger."
+          "question": "What liquid ingredients are used to braise quail eggs in jangjorim?",
+          "answer": "The quail eggs are braised in a mixture of water, soy sauce, sugar, refined rice wine, garlic, fresh ginger, and dried red chile peppers."
+        },
+        {
+          "question": "What flour is used to make the mochi dough for daifuku?",
+          "answer": "Daifuku mochi dough is made using sweet glutinous rice flour, known as mochiko."
+        },
+        {
+          "question": "What is the basic procedure for making baozi dough?",
+          "answer": "Yeast and sugar are stirred into warm water and left to stand for 15 minutes. Flour is sifted, combined with the yeast mixture, and kneaded into a dough, which is then left to rise before being filled and steamed."
+        },
+        {
+          "question": "What are the main ingredients in Kung Pao Chicken sauce?",
+          "answer": "The sauce is made with soy sauce, rice wine (or dry sherry), rice vinegar, sugar, sesame oil, and cornstarch dissolved in water."
+        },
+        {
+          "question": "What is gyudon?",
+          "answer": "It is literally 'beef bowl', is a Japanese dish of steamed rice topped with beef and onion simmered in a mildly sweet sauce flavoured with dashi, soy sauce, and mirin."
+        },
+        {
+          "question": "How long should natto be fermented and at what temperature?",
+          "answer": "Natto should be kept at approximately 100°F (38°C) for 22–24 hours during fermentation."
+        },
+        {
+          "question": "What does the word 'okonomiyaki' mean?",
+          "answer": "Okonomiyaki means 'as you like it' or 'what you want' in Japanese."
+        },
+        {
+          "question": "What are the common fillings used in onigiri?",
+          "answer": "Common fillings include umeboshi (pickled plum), katsuobushi (dried bonito flakes) moistened in soy sauce, cooked salted salmon, and cod roe (tarako)."
+        },
+        {
+          "question": "What is inarizushi?",
+          "answer": "Inarizushi is a type of stuffed sushi where sushi rice and filling are enclosed in a pocket made from fried tofu (abura-age) or a thin omelette."
+        },
+        {
+          "question": "What are the four types of dashi?",
+          "answer": "The four main types are kombu dashi (from kelp), katsuobushi dashi (from bonito flakes), niboshi dashi (from dried sardines or anchovies), and awase dashi (a blend of kombu and bonito)."
+        },
+        {
+          "question": "What do the words 'teri' and 'yaki' mean?",
+          "answer": "'Teri' means luster and 'yaki' means to grill or broil. The mirin in teriyaki sauce gives a good luster to the meat as it cooks."
+        },
+        {
+          "question": "What ingredients are used in tonkatsu sauce?",
+          "answer": "Tonkatsu sauce is made from equal parts of soy sauce, sugar, Worcestershire sauce, and ketchup, beaten together until consistent."
+        },
+        {
+          "question": "What is gimbap?",
+          "answer": "Gimbap is a popular Korean snack or lunch dish made from gim (dried seaweed sheets) and rice, rolled together with fillings such as pickled daikon, spinach, carrots, egg, and cooked meat."
+        },
+        {
+          "question": "What are the main ingredients in mapo tofu?",
+          "answer": "The main ingredients are silken tofu, minced beef or pork, chili bean paste (la doubanjiang), Sichuan pepper, soy sauce, rice wine, garlic, and ginger."
+        },
+        {
+          "question": "How long is congee cooked according to the recipe?",
+          "answer": "After bringing to a boil, the congee is simmered over low heat for 1 hour."
+        },
+        {
+          "question": "How is bubble tea assembled?",
+          "answer": "Cooked boba tapioca pearls are placed in a large glass. The remaining ingredients — crushed ice, strong chilled black tea, and milk — are shaken in a cocktail shaker until frothy, then poured into the glass and served with large-diameter straws."
+        },
+        {
+          "question": "What vegetables are used in sukiyaki?",
+          "answer": "The vegetables used in sukiyaki are napa cabbage, green onions, firm tofu, shiitake mushrooms, spinach, and shirataki noodles."
+        },
+        {
+          "question": "What does the name 'daifuku' mean?",
+          "answer": "Daifuku (大福) literally means 'great luck'. It is a Japanese confection consisting of a small round mochi stuffed with sweet filling, most commonly anko (sweetened red bean paste)."
+        },
+        {
+          "question": "How is umeboshi made?",
+          "answer": "Japanese plums are washed, dried, and have their stems removed. They are then soaked in cold water overnight, drained, and preserved with salt measured at 20% of the plums' weight."
+        }
+      ]
+    },
+    {
+      "source": "Around the World in 80 Cuisines Blog",
+      "questions": [
+        {
+          "question": "Which ramen broth variety is described as the most traditional?",
+          "answer": "Shio (salt) broth is described as the most traditional variety of ramen broth."
+        },
+        {
+          "question": "What is the difference between dim sum and yum cha?",
+          "answer": "Dim sum refers to the meal of small portions of food served in bamboo steamers or on small plates. Yum cha refers to the broader practice of enjoying dim sum with tea."
+        },
+        {
+          "question": "Where did 'Mongolian barbecue' actually originate?",
+          "answer": "Despite its name, Mongolian barbecue actually originated in Taiwan in the 1950s. It was originally called 'Beijing barbecue' by its Chinese creator, but was renamed 'Mongolian barbecue' due to political tensions between Taiwan and China at the time."
+        },
+        {
+          "question": "What does the word 'bento' mean?",
+          "answer": "Bento derives from a word meaning 'convenient'. It describes a variety of food — commonly including meat or fish, rice, and salad — kept separate in a container."
+        },
+        {
+          "question": "Why is steamed whole fish associated with Chinese New Year?",
+          "answer": "The word for fish in Chinese sounds a bit like 'abundance', which may portend good luck for the year ahead."
+        },
+        {
+          "question": "What sensory effects does Sichuan pepper produce?",
+          "answer": "Sichuan pepper causes a tingling, numbing sensation in the mouth, followed by extreme heat."
+        },
+        {
+          "question": "What is the key distinction between Northern and Southern Chinese cuisine?",
+          "answer": "Southern Chinese cuisine relies predominantly on rice as the staple carbohydrate, while Northern Chinese cuisine features much more wheat-based foods such as noodles, dumplings, and breads."
+        },
+        {
+          "question": "What nickname does gua bao have?",
+          "answer": "Gua bao is nicknamed 'hó͘-kā-ti', meaning 'tiger bites pig', because the folded bun creates a tiger-mouth shape around the pork filling."
+        },
+        {
+          "question": "Why is niu rou mian considered a national dish of Taiwan?",
+          "answer": "Niu rou mian is considered a national dish of Taiwan because it has its own annual festival where chefs compete for the title of best dish. It was reputedly invented by Chinese veterans who fled to Taiwan during the Chinese civil war."
+        },
+        {
+          "question": "How does banchan function in Korean dining?",
+          "answer": "Banchan describes the practice of placing many distinct side dishes in individual bowls at the centre of the table for communal eating, typically accompanying a meat-based centrepiece, rice, and soup or stew."
+        },
+        {
+          "question": "What are the 'red and white' food groups of Mongolian cuisine?",
+          "answer": "The 'red' food group refers to meat and the 'white' food group refers to dairy products. Together they form the foundation of the traditional Mongolian diet."
+        },
+        {
+          "question": "What is the cultural significance of buuz in Mongolia?",
+          "answer": "Buuz is a Mongolian steamed dumpling that is particularly traditional during Tsagaan Saar (Mongolian Lunar New Year), literally meaning 'white moon'. It is one of the most culturally important dishes of the Mongolian festive calendar."
+        },
+        {
+          "question": "How much kimchi does South Korea consume per person each year?",
+          "answer": "South Korea consumes approximately 18 kg of kimchi per person each year, totalling over 2 million tonnes nationally."
+        },
+        {
+          "question": "What is the traditional ceremonial occasion for serving bibimbap?",
+          "answer": "Bibimbap is traditionally served on the eve of the lunar New Year as a way to use up all leftover side dishes in the house, symbolically starting the new year fresh."
+        },
+        {
+          "question": "How is Peking duck prepared to achieve its crispy skin?",
+          "answer": "Air is pumped under the skin to separate it from the fat, ensuring a light and crispy texture when the duck is roasted."
+        },
+        {
+          "question": "What does the name 'zhajiangmian' mean?",
+          "answer": "Zhajiangmian literally means 'fried sauce noodles'. It describes thick wheat noodles stir-fried in a sauce of pork and fermented yellow soy bean paste."
+        },
+        {
+          "question": "What Mongolian saying is associated with tsuivan?",
+          "answer": "There is a Mongolian saying that 'everybody loves tsuivan, regardless of age, sex, religion or social status', giving it the status of the great equaliser in Mongolian society."
+        },
+        {
+          "question": "Where is the Taiwanese oyster omelette thought to have originated?",
+          "answer": "The oyster omelette is thought to have originated from the Teochew diaspora out of the eastern Guangdong province of China."
         }
       ]
     }
