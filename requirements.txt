@@ -1,7 +1,6 @@
 ipykernel
 tiktoken
 sentence-transformers
-openai
 numpy
 einops
 faiss-cpu
