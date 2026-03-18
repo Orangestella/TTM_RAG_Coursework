@@ -1,0 +1,1142 @@
+{
+  "main": {
+    "output_path": "results/output_results.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.365,
+      "precision": 0.3021,
+      "recall": 0.5397,
+      "rouge1_f": 0.3815,
+      "rouge1_r": 0.5636,
+      "rouge2_f": 0.2077,
+      "rougeL_f": 0.3244,
+      "rougeL_r": 0.4784,
+      "f1_full": 0.3268,
+      "pred_words": 94.1389,
+      "bertscore_f": 0.8229,
+      "bertscore_p": 0.7763,
+      "bertscore_r": 0.878
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3626,
+        "precision": 0.3015,
+        "recall": 0.5265,
+        "rouge1_f": 0.3801,
+        "rouge1_r": 0.5501,
+        "rouge2_f": 0.2147,
+        "rougeL_f": 0.3343,
+        "rougeL_r": 0.484,
+        "n": 35,
+        "avg_pred_words": 98.8857,
+        "bertscore_f": 0.8187
+      },
+      "Wikibooks": {
+        "f1": 0.3537,
+        "precision": 0.3041,
+        "recall": 0.5321,
+        "rouge1_f": 0.3634,
+        "rouge1_r": 0.5521,
+        "rouge2_f": 0.1756,
+        "rougeL_f": 0.297,
+        "rougeL_r": 0.4572,
+        "n": 19,
+        "avg_pred_words": 84.5789,
+        "bertscore_f": 0.8225
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3815,
+        "precision": 0.301,
+        "recall": 0.5734,
+        "rouge1_f": 0.4032,
+        "rouge1_r": 0.6019,
+        "rouge2_f": 0.228,
+        "rougeL_f": 0.3339,
+        "rougeL_r": 0.49,
+        "n": 18,
+        "avg_pred_words": 95.0,
+        "bertscore_f": 0.8317
+      }
+    }
+  },
+  "basic_greedy": {
+    "output_path": "results\\exploration\\output_basic_greedy.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.4113,
+      "precision": 0.3474,
+      "recall": 0.567,
+      "rouge1_f": 0.4274,
+      "rouge1_r": 0.593,
+      "rouge2_f": 0.2443,
+      "rougeL_f": 0.3628,
+      "rougeL_r": 0.5021,
+      "f1_full": 0.3762,
+      "pred_words": 82.125
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3943,
+        "precision": 0.3405,
+        "recall": 0.5312,
+        "rouge1_f": 0.4148,
+        "rouge1_r": 0.5586,
+        "rouge2_f": 0.2381,
+        "rougeL_f": 0.3603,
+        "rougeL_r": 0.4803,
+        "n": 35,
+        "avg_pred_words": 82.3429
+      },
+      "Wikibooks": {
+        "f1": 0.4284,
+        "precision": 0.3681,
+        "recall": 0.5678,
+        "rouge1_f": 0.4375,
+        "rouge1_r": 0.5905,
+        "rouge2_f": 0.233,
+        "rougeL_f": 0.3545,
+        "rougeL_r": 0.4903,
+        "n": 19,
+        "avg_pred_words": 78.3684
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.4265,
+        "precision": 0.339,
+        "recall": 0.6358,
+        "rouge1_f": 0.4411,
+        "rouge1_r": 0.6624,
+        "rouge2_f": 0.268,
+        "rougeL_f": 0.3765,
+        "rougeL_r": 0.5569,
+        "n": 18,
+        "avg_pred_words": 85.6667
+      }
+    }
+  },
+  "basic_t0.3_p0.9_k50": {
+    "output_path": "results\\exploration\\output_basic_t0.3_p0.9_k50.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.414,
+      "precision": 0.3714,
+      "recall": 0.5491,
+      "rouge1_f": 0.4324,
+      "rouge1_r": 0.5779,
+      "rouge2_f": 0.2468,
+      "rougeL_f": 0.3693,
+      "rougeL_r": 0.4896,
+      "f1_full": 0.3684,
+      "pred_words": 87.25
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.4031,
+        "precision": 0.347,
+        "recall": 0.5498,
+        "rouge1_f": 0.4239,
+        "rouge1_r": 0.5777,
+        "rouge2_f": 0.2457,
+        "rougeL_f": 0.3736,
+        "rougeL_r": 0.5058,
+        "n": 35,
+        "avg_pred_words": 89.1714
+      },
+      "Wikibooks": {
+        "f1": 0.4158,
+        "precision": 0.4261,
+        "recall": 0.47,
+        "rouge1_f": 0.4255,
+        "rouge1_r": 0.4945,
+        "rouge2_f": 0.2278,
+        "rougeL_f": 0.3524,
+        "rougeL_r": 0.4094,
+        "n": 19,
+        "avg_pred_words": 75.3684
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.4332,
+        "precision": 0.3612,
+        "recall": 0.6312,
+        "rouge1_f": 0.4565,
+        "rouge1_r": 0.6663,
+        "rouge2_f": 0.2692,
+        "rougeL_f": 0.3786,
+        "rougeL_r": 0.5426,
+        "n": 18,
+        "avg_pred_words": 96.0556
+      }
+    }
+  },
+  "basic_t0.7_p0.95_k100": {
+    "output_path": "results\\exploration\\output_basic_t0.7_p0.95_k100.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3582,
+      "precision": 0.2939,
+      "recall": 0.534,
+      "rouge1_f": 0.3768,
+      "rouge1_r": 0.5644,
+      "rouge2_f": 0.1971,
+      "rougeL_f": 0.3176,
+      "rougeL_r": 0.4743,
+      "f1_full": 0.3119,
+      "pred_words": 99.6667
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3584,
+        "precision": 0.2936,
+        "recall": 0.5398,
+        "rouge1_f": 0.3781,
+        "rouge1_r": 0.5676,
+        "rouge2_f": 0.1922,
+        "rougeL_f": 0.3158,
+        "rougeL_r": 0.475,
+        "n": 35,
+        "avg_pred_words": 108.8286
+      },
+      "Wikibooks": {
+        "f1": 0.3307,
+        "precision": 0.2745,
+        "recall": 0.4762,
+        "rouge1_f": 0.3432,
+        "rouge1_r": 0.5105,
+        "rouge2_f": 0.1725,
+        "rougeL_f": 0.2886,
+        "rougeL_r": 0.4275,
+        "n": 19,
+        "avg_pred_words": 94.1579
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3869,
+        "precision": 0.315,
+        "recall": 0.5836,
+        "rouge1_f": 0.4099,
+        "rouge1_r": 0.6152,
+        "rouge2_f": 0.2323,
+        "rougeL_f": 0.3517,
+        "rougeL_r": 0.5224,
+        "n": 18,
+        "avg_pred_words": 87.6667
+      }
+    }
+  },
+  "basic_t0.7_p0.9_k50": {
+    "output_path": "results\\exploration\\output_basic_t0.7_p0.9_k50.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3553,
+      "precision": 0.3052,
+      "recall": 0.5155,
+      "rouge1_f": 0.3728,
+      "rouge1_r": 0.5421,
+      "rouge2_f": 0.1944,
+      "rougeL_f": 0.3143,
+      "rougeL_r": 0.4562,
+      "f1_full": 0.3127,
+      "pred_words": 93.5417
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3656,
+        "precision": 0.2946,
+        "recall": 0.5673,
+        "rouge1_f": 0.3839,
+        "rouge1_r": 0.5938,
+        "rouge2_f": 0.2157,
+        "rougeL_f": 0.3313,
+        "rougeL_r": 0.5111,
+        "n": 35,
+        "avg_pred_words": 99.7714
+      },
+      "Wikibooks": {
+        "f1": 0.3403,
+        "precision": 0.3278,
+        "recall": 0.426,
+        "rouge1_f": 0.351,
+        "rouge1_r": 0.4484,
+        "rouge2_f": 0.1552,
+        "rougeL_f": 0.291,
+        "rougeL_r": 0.3717,
+        "n": 19,
+        "avg_pred_words": 81.1053
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.351,
+        "precision": 0.3019,
+        "recall": 0.5092,
+        "rouge1_f": 0.374,
+        "rouge1_r": 0.5403,
+        "rouge2_f": 0.1945,
+        "rougeL_f": 0.3057,
+        "rougeL_r": 0.4384,
+        "n": 18,
+        "avg_pred_words": 94.5556
+      }
+    }
+  },
+  "basic_t1.0_p0.8_k30": {
+    "output_path": "results\\exploration\\output_basic_t1.0_p0.8_k30.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3409,
+      "precision": 0.2901,
+      "recall": 0.5114,
+      "rouge1_f": 0.3588,
+      "rouge1_r": 0.5389,
+      "rouge2_f": 0.1849,
+      "rougeL_f": 0.2968,
+      "rougeL_r": 0.4464,
+      "f1_full": 0.3133,
+      "pred_words": 96.4444
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3451,
+        "precision": 0.2801,
+        "recall": 0.5397,
+        "rouge1_f": 0.3608,
+        "rouge1_r": 0.5604,
+        "rouge2_f": 0.1866,
+        "rougeL_f": 0.3024,
+        "rougeL_r": 0.4688,
+        "n": 35,
+        "avg_pred_words": 98.0857
+      },
+      "Wikibooks": {
+        "f1": 0.3656,
+        "precision": 0.327,
+        "recall": 0.4876,
+        "rouge1_f": 0.378,
+        "rouge1_r": 0.5183,
+        "rouge2_f": 0.1924,
+        "rougeL_f": 0.3026,
+        "rougeL_r": 0.4159,
+        "n": 19,
+        "avg_pred_words": 92.8421
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3065,
+        "precision": 0.2704,
+        "recall": 0.4817,
+        "rouge1_f": 0.3349,
+        "rouge1_r": 0.5189,
+        "rouge2_f": 0.1737,
+        "rougeL_f": 0.2799,
+        "rougeL_r": 0.4349,
+        "n": 18,
+        "avg_pred_words": 97.0556
+      }
+    }
+  },
+  "cot_greedy": {
+    "output_path": "results\\exploration\\output_cot_greedy.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3428,
+      "precision": 0.2935,
+      "recall": 0.5018,
+      "rouge1_f": 0.3604,
+      "rouge1_r": 0.5329,
+      "rouge2_f": 0.1965,
+      "rougeL_f": 0.3055,
+      "rougeL_r": 0.4538,
+      "f1_full": 0.2927,
+      "pred_words": 110.7917
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3131,
+        "precision": 0.2561,
+        "recall": 0.4906,
+        "rouge1_f": 0.332,
+        "rouge1_r": 0.5219,
+        "rouge2_f": 0.1797,
+        "rougeL_f": 0.2845,
+        "rougeL_r": 0.4494,
+        "n": 35,
+        "avg_pred_words": 109.1429
+      },
+      "Wikibooks": {
+        "f1": 0.3418,
+        "precision": 0.3249,
+        "recall": 0.4386,
+        "rouge1_f": 0.3537,
+        "rouge1_r": 0.4685,
+        "rouge2_f": 0.1712,
+        "rougeL_f": 0.3052,
+        "rougeL_r": 0.4,
+        "n": 19,
+        "avg_pred_words": 98.1579
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.4015,
+        "precision": 0.3331,
+        "recall": 0.5904,
+        "rouge1_f": 0.4228,
+        "rouge1_r": 0.6221,
+        "rouge2_f": 0.2558,
+        "rougeL_f": 0.3467,
+        "rougeL_r": 0.5191,
+        "n": 18,
+        "avg_pred_words": 127.3333
+      }
+    }
+  },
+  "cot_t0.3_p0.9_k50": {
+    "output_path": "results\\exploration\\output_cot_t0.3_p0.9_k50.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3162,
+      "precision": 0.2566,
+      "recall": 0.5029,
+      "rouge1_f": 0.3313,
+      "rouge1_r": 0.5305,
+      "rouge2_f": 0.1728,
+      "rougeL_f": 0.2784,
+      "rougeL_r": 0.4542,
+      "f1_full": 0.265,
+      "pred_words": 112.2917
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3096,
+        "precision": 0.244,
+        "recall": 0.5133,
+        "rouge1_f": 0.3247,
+        "rouge1_r": 0.5406,
+        "rouge2_f": 0.1745,
+        "rougeL_f": 0.2849,
+        "rougeL_r": 0.4795,
+        "n": 35,
+        "avg_pred_words": 112.1429
+      },
+      "Wikibooks": {
+        "f1": 0.316,
+        "precision": 0.2711,
+        "recall": 0.4865,
+        "rouge1_f": 0.3209,
+        "rouge1_r": 0.5076,
+        "rouge2_f": 0.1578,
+        "rougeL_f": 0.2629,
+        "rougeL_r": 0.4222,
+        "n": 19,
+        "avg_pred_words": 104.4211
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3295,
+        "precision": 0.266,
+        "recall": 0.4999,
+        "rouge1_f": 0.355,
+        "rouge1_r": 0.5349,
+        "rouge2_f": 0.1855,
+        "rougeL_f": 0.2819,
+        "rougeL_r": 0.4389,
+        "n": 18,
+        "avg_pred_words": 120.8889
+      }
+    }
+  },
+  "cot_t0.7_p0.95_k100": {
+    "output_path": "results\\exploration\\output_cot_t0.7_p0.95_k100.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3043,
+      "precision": 0.2573,
+      "recall": 0.4651,
+      "rouge1_f": 0.3207,
+      "rouge1_r": 0.4955,
+      "rouge2_f": 0.1681,
+      "rougeL_f": 0.2689,
+      "rougeL_r": 0.4152,
+      "f1_full": 0.2524,
+      "pred_words": 117.5556
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.2903,
+        "precision": 0.2332,
+        "recall": 0.4818,
+        "rouge1_f": 0.3073,
+        "rouge1_r": 0.515,
+        "rouge2_f": 0.1672,
+        "rougeL_f": 0.2644,
+        "rougeL_r": 0.441,
+        "n": 35,
+        "avg_pred_words": 129.8857
+      },
+      "Wikibooks": {
+        "f1": 0.3113,
+        "precision": 0.2977,
+        "recall": 0.3983,
+        "rouge1_f": 0.3219,
+        "rouge1_r": 0.4232,
+        "rouge2_f": 0.159,
+        "rougeL_f": 0.2757,
+        "rougeL_r": 0.3568,
+        "n": 19,
+        "avg_pred_words": 101.5789
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.324,
+        "precision": 0.2613,
+        "recall": 0.5029,
+        "rouge1_f": 0.3456,
+        "rouge1_r": 0.5337,
+        "rouge2_f": 0.1796,
+        "rougeL_f": 0.2703,
+        "rougeL_r": 0.4264,
+        "n": 18,
+        "avg_pred_words": 110.4444
+      }
+    }
+  },
+  "cot_t0.7_p0.9_k50": {
+    "output_path": "results\\exploration\\output_cot_t0.7_p0.9_k50.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3016,
+      "precision": 0.245,
+      "recall": 0.4688,
+      "rouge1_f": 0.3174,
+      "rouge1_r": 0.4993,
+      "rouge2_f": 0.1624,
+      "rougeL_f": 0.2705,
+      "rougeL_r": 0.4283,
+      "f1_full": 0.2551,
+      "pred_words": 116.7639
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.2825,
+        "precision": 0.2163,
+        "recall": 0.4893,
+        "rouge1_f": 0.2997,
+        "rouge1_r": 0.5225,
+        "rouge2_f": 0.1491,
+        "rougeL_f": 0.256,
+        "rougeL_r": 0.4513,
+        "n": 35,
+        "avg_pred_words": 115.3143
+      },
+      "Wikibooks": {
+        "f1": 0.3202,
+        "precision": 0.2874,
+        "recall": 0.4293,
+        "rouge1_f": 0.3254,
+        "rouge1_r": 0.4519,
+        "rouge2_f": 0.1746,
+        "rougeL_f": 0.2845,
+        "rougeL_r": 0.3957,
+        "n": 19,
+        "avg_pred_words": 105.2105
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3191,
+        "precision": 0.2561,
+        "recall": 0.4704,
+        "rouge1_f": 0.3434,
+        "rouge1_r": 0.5043,
+        "rouge2_f": 0.1753,
+        "rougeL_f": 0.2841,
+        "rougeL_r": 0.4182,
+        "n": 18,
+        "avg_pred_words": 131.7778
+      }
+    }
+  },
+  "cot_t1.0_p0.8_k30": {
+    "output_path": "results\\exploration\\output_cot_t1.0_p0.8_k30.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3005,
+      "precision": 0.2452,
+      "recall": 0.4736,
+      "rouge1_f": 0.3157,
+      "rouge1_r": 0.5029,
+      "rouge2_f": 0.1599,
+      "rougeL_f": 0.2618,
+      "rougeL_r": 0.4222,
+      "f1_full": 0.2572,
+      "pred_words": 115.2083
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.2799,
+        "precision": 0.2313,
+        "recall": 0.4434,
+        "rouge1_f": 0.297,
+        "rouge1_r": 0.473,
+        "rouge2_f": 0.1526,
+        "rougeL_f": 0.2578,
+        "rougeL_r": 0.4117,
+        "n": 35,
+        "avg_pred_words": 125.7429
+      },
+      "Wikibooks": {
+        "f1": 0.3088,
+        "precision": 0.2522,
+        "recall": 0.4902,
+        "rouge1_f": 0.3145,
+        "rouge1_r": 0.5163,
+        "rouge2_f": 0.1537,
+        "rougeL_f": 0.262,
+        "rougeL_r": 0.4389,
+        "n": 19,
+        "avg_pred_words": 98.4211
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3318,
+        "precision": 0.2648,
+        "recall": 0.5147,
+        "rouge1_f": 0.3533,
+        "rouge1_r": 0.5467,
+        "rouge2_f": 0.1806,
+        "rougeL_f": 0.2692,
+        "rougeL_r": 0.4248,
+        "n": 18,
+        "avg_pred_words": 112.4444
+      }
+    }
+  },
+  "enhanced_greedy": {
+    "output_path": "results\\exploration\\output_enhanced_greedy.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3453,
+      "precision": 0.2775,
+      "recall": 0.5296,
+      "rouge1_f": 0.3616,
+      "rouge1_r": 0.5556,
+      "rouge2_f": 0.1883,
+      "rougeL_f": 0.3029,
+      "rougeL_r": 0.4649,
+      "f1_full": 0.285,
+      "pred_words": 104.7778
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3388,
+        "precision": 0.2735,
+        "recall": 0.536,
+        "rouge1_f": 0.3521,
+        "rouge1_r": 0.5592,
+        "rouge2_f": 0.1899,
+        "rougeL_f": 0.3016,
+        "rougeL_r": 0.478,
+        "n": 35,
+        "avg_pred_words": 106.1429
+      },
+      "Wikibooks": {
+        "f1": 0.3455,
+        "precision": 0.279,
+        "recall": 0.4997,
+        "rouge1_f": 0.3561,
+        "rouge1_r": 0.5249,
+        "rouge2_f": 0.1704,
+        "rougeL_f": 0.2977,
+        "rougeL_r": 0.4374,
+        "n": 19,
+        "avg_pred_words": 111.5789
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3578,
+        "precision": 0.2838,
+        "recall": 0.5488,
+        "rouge1_f": 0.3858,
+        "rouge1_r": 0.5808,
+        "rouge2_f": 0.2039,
+        "rougeL_f": 0.3109,
+        "rougeL_r": 0.4686,
+        "n": 18,
+        "avg_pred_words": 94.9444
+      }
+    }
+  },
+  "enhanced_t0.3_p0.9_k50": {
+    "output_path": "results\\exploration\\output_enhanced_t0.3_p0.9_k50.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3521,
+      "precision": 0.2817,
+      "recall": 0.538,
+      "rouge1_f": 0.3677,
+      "rouge1_r": 0.5615,
+      "rouge2_f": 0.1919,
+      "rougeL_f": 0.3085,
+      "rougeL_r": 0.4757,
+      "f1_full": 0.2926,
+      "pred_words": 106.2639
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3294,
+        "precision": 0.2652,
+        "recall": 0.5191,
+        "rouge1_f": 0.346,
+        "rouge1_r": 0.5451,
+        "rouge2_f": 0.1796,
+        "rougeL_f": 0.297,
+        "rougeL_r": 0.47,
+        "n": 35,
+        "avg_pred_words": 114.4286
+      },
+      "Wikibooks": {
+        "f1": 0.3594,
+        "precision": 0.2888,
+        "recall": 0.5183,
+        "rouge1_f": 0.367,
+        "rouge1_r": 0.5371,
+        "rouge2_f": 0.1784,
+        "rougeL_f": 0.3028,
+        "rougeL_r": 0.4498,
+        "n": 19,
+        "avg_pred_words": 105.1579
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3884,
+        "precision": 0.3062,
+        "recall": 0.5953,
+        "rouge1_f": 0.4109,
+        "rouge1_r": 0.6194,
+        "rouge2_f": 0.2301,
+        "rougeL_f": 0.337,
+        "rougeL_r": 0.514,
+        "n": 18,
+        "avg_pred_words": 91.5556
+      }
+    }
+  },
+  "enhanced_t0.7_p0.95_k100": {
+    "output_path": "results\\exploration\\output_enhanced_t0.7_p0.95_k100.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3,
+      "precision": 0.2348,
+      "recall": 0.503,
+      "rouge1_f": 0.3191,
+      "rouge1_r": 0.5329,
+      "rouge2_f": 0.1555,
+      "rougeL_f": 0.2612,
+      "rougeL_r": 0.4403,
+      "f1_full": 0.2376,
+      "pred_words": 122.5417
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.2924,
+        "precision": 0.2294,
+        "recall": 0.5033,
+        "rouge1_f": 0.3105,
+        "rouge1_r": 0.5275,
+        "rouge2_f": 0.1547,
+        "rougeL_f": 0.2606,
+        "rougeL_r": 0.4505,
+        "n": 35,
+        "avg_pred_words": 124.4571
+      },
+      "Wikibooks": {
+        "f1": 0.3037,
+        "precision": 0.2481,
+        "recall": 0.4814,
+        "rouge1_f": 0.3175,
+        "rouge1_r": 0.5154,
+        "rouge2_f": 0.1386,
+        "rougeL_f": 0.2538,
+        "rougeL_r": 0.4115,
+        "n": 19,
+        "avg_pred_words": 117.2105
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3109,
+        "precision": 0.2313,
+        "recall": 0.525,
+        "rouge1_f": 0.3378,
+        "rouge1_r": 0.5619,
+        "rouge2_f": 0.1749,
+        "rougeL_f": 0.2702,
+        "rougeL_r": 0.4511,
+        "n": 18,
+        "avg_pred_words": 124.4444
+      }
+    }
+  },
+  "enhanced_t0.7_p0.9_k50": {
+    "output_path": "results\\exploration\\output_enhanced_t0.7_p0.9_k50.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.31,
+      "precision": 0.2584,
+      "recall": 0.4704,
+      "rouge1_f": 0.3292,
+      "rouge1_r": 0.4989,
+      "rouge2_f": 0.1569,
+      "rougeL_f": 0.2702,
+      "rougeL_r": 0.4138,
+      "f1_full": 0.2619,
+      "pred_words": 110.7639
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3085,
+        "precision": 0.2589,
+        "recall": 0.4697,
+        "rouge1_f": 0.3283,
+        "rouge1_r": 0.4952,
+        "rouge2_f": 0.1636,
+        "rougeL_f": 0.2778,
+        "rougeL_r": 0.4216,
+        "n": 35,
+        "avg_pred_words": 114.8286
+      },
+      "Wikibooks": {
+        "f1": 0.3104,
+        "precision": 0.2751,
+        "recall": 0.4348,
+        "rouge1_f": 0.3192,
+        "rouge1_r": 0.4571,
+        "rouge2_f": 0.1422,
+        "rougeL_f": 0.2562,
+        "rougeL_r": 0.3707,
+        "n": 19,
+        "avg_pred_words": 92.7895
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3126,
+        "precision": 0.2397,
+        "recall": 0.5094,
+        "rouge1_f": 0.3416,
+        "rouge1_r": 0.5502,
+        "rouge2_f": 0.1595,
+        "rougeL_f": 0.2702,
+        "rougeL_r": 0.444,
+        "n": 18,
+        "avg_pred_words": 121.8333
+      }
+    }
+  },
+  "enhanced_t1.0_p0.8_k30": {
+    "output_path": "results\\exploration\\output_enhanced_t1.0_p0.8_k30.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3009,
+      "precision": 0.2474,
+      "recall": 0.4655,
+      "rouge1_f": 0.3226,
+      "rouge1_r": 0.4995,
+      "rouge2_f": 0.1479,
+      "rougeL_f": 0.2618,
+      "rougeL_r": 0.4106,
+      "f1_full": 0.2424,
+      "pred_words": 120.6111
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3017,
+        "precision": 0.2447,
+        "recall": 0.4836,
+        "rouge1_f": 0.3182,
+        "rouge1_r": 0.51,
+        "rouge2_f": 0.1502,
+        "rougeL_f": 0.2653,
+        "rougeL_r": 0.4291,
+        "n": 35,
+        "avg_pred_words": 120.2857
+      },
+      "Wikibooks": {
+        "f1": 0.2838,
+        "precision": 0.2278,
+        "recall": 0.4392,
+        "rouge1_f": 0.2966,
+        "rouge1_r": 0.4659,
+        "rouge2_f": 0.1133,
+        "rougeL_f": 0.227,
+        "rougeL_r": 0.3597,
+        "n": 19,
+        "avg_pred_words": 117.9474
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3171,
+        "precision": 0.2735,
+        "recall": 0.4581,
+        "rouge1_f": 0.3584,
+        "rouge1_r": 0.5144,
+        "rouge2_f": 0.1799,
+        "rougeL_f": 0.2915,
+        "rougeL_r": 0.4282,
+        "n": 18,
+        "avg_pred_words": 124.0556
+      }
+    }
+  },
+  "few_shot_greedy": {
+    "output_path": "results\\exploration\\output_few_shot_greedy.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3688,
+      "precision": 0.3202,
+      "recall": 0.5201,
+      "rouge1_f": 0.3843,
+      "rouge1_r": 0.544,
+      "rouge2_f": 0.2073,
+      "rougeL_f": 0.3267,
+      "rougeL_r": 0.4576,
+      "f1_full": 0.3235,
+      "pred_words": 93.4861
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3416,
+        "precision": 0.2885,
+        "recall": 0.4961,
+        "rouge1_f": 0.3625,
+        "rouge1_r": 0.5241,
+        "rouge2_f": 0.1946,
+        "rougeL_f": 0.3122,
+        "rougeL_r": 0.4489,
+        "n": 35,
+        "avg_pred_words": 93.7429
+      },
+      "Wikibooks": {
+        "f1": 0.3786,
+        "precision": 0.3503,
+        "recall": 0.512,
+        "rouge1_f": 0.3802,
+        "rouge1_r": 0.5313,
+        "rouge2_f": 0.1897,
+        "rougeL_f": 0.3193,
+        "rougeL_r": 0.4394,
+        "n": 19,
+        "avg_pred_words": 91.7368
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.4114,
+        "precision": 0.3503,
+        "recall": 0.5756,
+        "rouge1_f": 0.431,
+        "rouge1_r": 0.5962,
+        "rouge2_f": 0.2508,
+        "rougeL_f": 0.3627,
+        "rougeL_r": 0.4935,
+        "n": 18,
+        "avg_pred_words": 94.8333
+      }
+    }
+  },
+  "few_shot_t0.3_p0.9_k50": {
+    "output_path": "results\\exploration\\output_few_shot_t0.3_p0.9_k50.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3523,
+      "precision": 0.3017,
+      "recall": 0.5079,
+      "rouge1_f": 0.3681,
+      "rouge1_r": 0.5328,
+      "rouge2_f": 0.1988,
+      "rougeL_f": 0.3113,
+      "rougeL_r": 0.4468,
+      "f1_full": 0.3045,
+      "pred_words": 103.8194
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.327,
+        "precision": 0.2788,
+        "recall": 0.4738,
+        "rouge1_f": 0.3493,
+        "rouge1_r": 0.5059,
+        "rouge2_f": 0.1849,
+        "rougeL_f": 0.294,
+        "rougeL_r": 0.4229,
+        "n": 35,
+        "avg_pred_words": 107.9714
+      },
+      "Wikibooks": {
+        "f1": 0.3601,
+        "precision": 0.315,
+        "recall": 0.5132,
+        "rouge1_f": 0.3648,
+        "rouge1_r": 0.5352,
+        "rouge2_f": 0.1839,
+        "rougeL_f": 0.309,
+        "rougeL_r": 0.4458,
+        "n": 19,
+        "avg_pred_words": 90.8947
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3934,
+        "precision": 0.3321,
+        "recall": 0.5688,
+        "rouge1_f": 0.4082,
+        "rouge1_r": 0.5823,
+        "rouge2_f": 0.2418,
+        "rougeL_f": 0.3473,
+        "rougeL_r": 0.4944,
+        "n": 18,
+        "avg_pred_words": 109.3889
+      }
+    }
+  },
+  "few_shot_t0.7_p0.95_k100": {
+    "output_path": "results\\exploration\\output_few_shot_t0.7_p0.95_k100.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3399,
+      "precision": 0.2922,
+      "recall": 0.4841,
+      "rouge1_f": 0.3594,
+      "rouge1_r": 0.5128,
+      "rouge2_f": 0.1957,
+      "rougeL_f": 0.3128,
+      "rougeL_r": 0.4434,
+      "f1_full": 0.3154,
+      "pred_words": 91.7639
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.2983,
+        "precision": 0.2333,
+        "recall": 0.4831,
+        "rouge1_f": 0.3226,
+        "rouge1_r": 0.5162,
+        "rouge2_f": 0.1744,
+        "rougeL_f": 0.2837,
+        "rougeL_r": 0.449,
+        "n": 35,
+        "avg_pred_words": 100.7143
+      },
+      "Wikibooks": {
+        "f1": 0.3523,
+        "precision": 0.3087,
+        "recall": 0.4457,
+        "rouge1_f": 0.3655,
+        "rouge1_r": 0.4716,
+        "rouge2_f": 0.1843,
+        "rougeL_f": 0.3239,
+        "rougeL_r": 0.4172,
+        "n": 19,
+        "avg_pred_words": 87.2105
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.4075,
+        "precision": 0.3892,
+        "recall": 0.5265,
+        "rouge1_f": 0.4245,
+        "rouge1_r": 0.5496,
+        "rouge2_f": 0.2492,
+        "rougeL_f": 0.3575,
+        "rougeL_r": 0.4601,
+        "n": 18,
+        "avg_pred_words": 79.1667
+      }
+    }
+  },
+  "few_shot_t0.7_p0.9_k50": {
+    "output_path": "results\\exploration\\output_few_shot_t0.7_p0.9_k50.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3273,
+      "precision": 0.2773,
+      "recall": 0.4907,
+      "rouge1_f": 0.3454,
+      "rouge1_r": 0.5254,
+      "rouge2_f": 0.1729,
+      "rougeL_f": 0.2889,
+      "rougeL_r": 0.4392,
+      "f1_full": 0.2756,
+      "pred_words": 102.8056
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.3201,
+        "precision": 0.2739,
+        "recall": 0.4646,
+        "rouge1_f": 0.3405,
+        "rouge1_r": 0.5003,
+        "rouge2_f": 0.1705,
+        "rougeL_f": 0.2912,
+        "rougeL_r": 0.4311,
+        "n": 35,
+        "avg_pred_words": 104.0571
+      },
+      "Wikibooks": {
+        "f1": 0.311,
+        "precision": 0.241,
+        "recall": 0.516,
+        "rouge1_f": 0.3202,
+        "rouge1_r": 0.5472,
+        "rouge2_f": 0.1528,
+        "rougeL_f": 0.2667,
+        "rougeL_r": 0.4573,
+        "n": 19,
+        "avg_pred_words": 106.7895
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3583,
+        "precision": 0.3223,
+        "recall": 0.5149,
+        "rouge1_f": 0.3814,
+        "rouge1_r": 0.5513,
+        "rouge2_f": 0.1987,
+        "rougeL_f": 0.3081,
+        "rougeL_r": 0.436,
+        "n": 18,
+        "avg_pred_words": 96.1667
+      }
+    }
+  },
+  "few_shot_t1.0_p0.8_k30": {
+    "output_path": "results\\exploration\\output_few_shot_t1.0_p0.8_k30.json",
+    "n_evaluated": 72,
+    "aggregate": {
+      "f1": 0.3019,
+      "precision": 0.2495,
+      "recall": 0.4698,
+      "rouge1_f": 0.3241,
+      "rouge1_r": 0.508,
+      "rouge2_f": 0.1554,
+      "rougeL_f": 0.2643,
+      "rougeL_r": 0.4147,
+      "f1_full": 0.2593,
+      "pred_words": 105.2361
+    },
+    "by_source": {
+      "Wikipedia": {
+        "f1": 0.2846,
+        "precision": 0.2216,
+        "recall": 0.4655,
+        "rouge1_f": 0.3089,
+        "rouge1_r": 0.5067,
+        "rouge2_f": 0.1521,
+        "rougeL_f": 0.2585,
+        "rougeL_r": 0.4258,
+        "n": 35,
+        "avg_pred_words": 109.3429
+      },
+      "Wikibooks": {
+        "f1": 0.3151,
+        "precision": 0.2799,
+        "recall": 0.4623,
+        "rouge1_f": 0.3284,
+        "rouge1_r": 0.4916,
+        "rouge2_f": 0.1629,
+        "rougeL_f": 0.2763,
+        "rougeL_r": 0.4163,
+        "n": 19,
+        "avg_pred_words": 100.4737
+      },
+      "Around the World in 80 Cuisines Blog": {
+        "f1": 0.3217,
+        "precision": 0.2718,
+        "recall": 0.4862,
+        "rouge1_f": 0.349,
+        "rouge1_r": 0.5277,
+        "rouge2_f": 0.1537,
+        "rougeL_f": 0.2629,
+        "rougeL_r": 0.3916,
+        "n": 18,
+        "avg_pred_words": 102.2778
+      }
+    }
+  }
+}
