@@ -1,244 +1,292 @@
 {
   "queries": [
     {
-      "query_id": "0",
-      "query": "What is Sichuan cuisine known for in terms of flavour?"
+      "query_id": "q_001",
+      "query": "What does the word 'bibimbap' literally mean in Korean?"
     },
     {
-      "query_id": "1",
-      "query": "What is char siu?"
+      "query_id": "q_002",
+      "query": "What does the Japanese term 'nuuhara' mean?"
     },
     {
-      "query_id": "2",
-      "query": "What is dim sum and which cuisine is it most associated with?"
+      "query_id": "q_003",
+      "query": "What is the defining component of all modern sushi?"
     },
     {
-      "query_id": "3",
-      "query": "What is bubble tea and where did it originate?"
+      "query_id": "q_004",
+      "query": "Who is believed to have invented modern nigiri sushi?"
     },
     {
-      "query_id": "4",
-      "query": "What are baozi made of?"
+      "query_id": "q_005",
+      "query": "What is the origin city of xiaolongbao?"
     },
     {
-      "query_id": "5",
-      "query": "What is congee?"
+      "query_id": "q_006",
+      "query": "What are the five spices typically included in Chinese five-spice powder?"
     },
     {
-      "query_id": "6",
-      "query": "What cooking technique is stir frying?"
+      "query_id": "q_007",
+      "query": "Which dish is the Chinese term 'mala' (\u9ebb\u8fa3) most closely associated with?"
     },
     {
-      "query_id": "7",
-      "query": "What is hot pot?"
+      "query_id": "q_008",
+      "query": "What does the word 'ramen' mean?"
     },
     {
-      "query_id": "8",
-      "query": "What is the defining component of sushi?"
+      "query_id": "q_009",
+      "query": "How is double steaming performed in Chinese cuisine?"
     },
     {
-      "query_id": "9",
-      "query": "What is miso made from?"
+      "query_id": "q_010",
+      "query": "What is the primary ingredient in doenjang-jjigae?"
     },
     {
-      "query_id": "10",
-      "query": "What is tempura?"
+      "query_id": "q_011",
+      "query": "What are the four major sub-styles of Sichuan cuisine?"
     },
     {
-      "query_id": "11",
-      "query": "What is dashi used for in Japanese cooking?"
+      "query_id": "q_012",
+      "query": "What cuts of pork are commonly used to make char siu?"
     },
     {
-      "query_id": "12",
-      "query": "What is ramen?"
+      "query_id": "q_013",
+      "query": "Where did bubble tea originate?"
     },
     {
-      "query_id": "13",
-      "query": "What is a bento?"
+      "query_id": "q_014",
+      "query": "What role does koji (Aspergillus oryzae) play in miso production?"
     },
     {
-      "query_id": "14",
-      "query": "What is sashimi?"
+      "query_id": "q_015",
+      "query": "What is the difference between baechu-kimchi and baek-kimchi?"
     },
     {
-      "query_id": "15",
-      "query": "What is kimchi?"
+      "query_id": "q_016",
+      "query": "How does sake production differ from wine production?"
     },
     {
-      "query_id": "16",
-      "query": "What does bibimbap consist of?"
+      "query_id": "q_017",
+      "query": "What are the Eight Great Traditions (\u516b\u5927\u83dc\u7cfb) of Chinese cuisine?"
     },
     {
-      "query_id": "17",
-      "query": "What does the word bulgogi mean?"
+      "query_id": "q_018",
+      "query": "How is tteok made?"
     },
     {
-      "query_id": "18",
-      "query": "What is doenjang?"
+      "query_id": "q_019",
+      "query": "When did stir frying first appear in Chinese culinary history?"
     },
     {
-      "query_id": "19",
-      "query": "What is the staple carbohydrate in traditional Korean meals?"
+      "query_id": "q_020",
+      "query": "How is Dongpo pork prepared?"
     },
     {
-      "query_id": "20",
-      "query": "How is char siu seasoned, and what gives it its characteristic appearance?"
+      "query_id": "q_021",
+      "query": "Which region of China is most associated with red cooking?"
     },
     {
-      "query_id": "21",
-      "query": "Where did xiaolongbao originate and what makes it distinctive?"
+      "query_id": "q_022",
+      "query": "What nutrients does Longjing tea contain?"
     },
     {
-      "query_id": "22",
-      "query": "How did stir frying develop historically in China?"
+      "query_id": "q_023",
+      "query": "What is Mongolian cuisine predominantly composed of?"
     },
     {
-      "query_id": "23",
-      "query": "What influenced the development of Taiwanese cuisine?"
+      "query_id": "q_024",
+      "query": "How is Beggar's Chicken traditionally prepared?"
     },
     {
-      "query_id": "24",
-      "query": "What are the typical ingredients of hot pot?"
+      "query_id": "q_025",
+      "query": "What does the Records of the Three Kingdoms say about the origin of doenjang?"
     },
     {
-      "query_id": "25",
-      "query": "What is the origin of the yum cha tradition associated with dim sum?"
+      "query_id": "q_026",
+      "query": "How is gongfu tea different from a tea ceremony?"
     },
     {
-      "query_id": "26",
-      "query": "What are the four major substyles of Sichuan cuisine?"
+      "query_id": "q_027",
+      "query": "What does the name 'bang bang chicken' derive from?"
     },
     {
-      "query_id": "27",
-      "query": "How is Peking duck described in terms of its history and cultural significance?"
+      "query_id": "q_028",
+      "query": "What are the ingredients in baek-kimchi?"
     },
     {
-      "query_id": "28",
-      "query": "How is the dashi broth most commonly prepared?"
+      "query_id": "q_029",
+      "query": "What are the two distinct meanings of 'kaiseki' in Japanese cuisine?"
     },
     {
-      "query_id": "29",
-      "query": "What are the key characteristics of tempura batter and how is it prepared?"
+      "query_id": "q_030",
+      "query": "What range of cooking techniques can a wok be used for?"
     },
     {
-      "query_id": "30",
-      "query": "What is kaiseki and what are its two distinct forms?"
+      "query_id": "q_031",
+      "query": "How is Shaoxing wine produced?"
     },
     {
-      "query_id": "31",
-      "query": "How does sake differ from wine in terms of its brewing process?"
+      "query_id": "q_032",
+      "query": "What is Korean royal court cuisine?"
     },
     {
-      "query_id": "32",
-      "query": "What is the basis of traditional Japanese cuisine?"
+      "query_id": "q_033",
+      "query": "What is jeon in Korean cuisine?"
     },
     {
-      "query_id": "33",
-      "query": "What does okonomiyaki mean and what does it typically contain?"
+      "query_id": "q_034",
+      "query": "What two ingredients in dashi create a synergy of umami?"
     },
     {
-      "query_id": "34",
-      "query": "What are the origins of modern nigiri sushi?"
+      "query_id": "q_035",
+      "query": "What is the historical origin of ramen in Japan?"
     },
     {
-      "query_id": "35",
-      "query": "How is baechu-kimchi prepared?"
+      "query_id": "q_036",
+      "query": "What liquid ingredients are used to braise quail eggs in jangjorim?"
     },
     {
-      "query_id": "36",
-      "query": "What is the historical origin of bulgogi?"
+      "query_id": "q_037",
+      "query": "What flour is used to make the mochi dough for daifuku?"
     },
     {
-      "query_id": "37",
-      "query": "What is banchan and what role does it play in Korean dining?"
+      "query_id": "q_038",
+      "query": "What is the basic procedure for making baozi dough?"
     },
     {
-      "query_id": "38",
-      "query": "How is doenjang produced?"
+      "query_id": "q_039",
+      "query": "What are the main ingredients in Kung Pao Chicken sauce?"
     },
     {
-      "query_id": "39",
-      "query": "What is the cultural significance of kimchi in South Korea?"
+      "query_id": "q_040",
+      "query": "What is gyudon?"
     },
     {
-      "query_id": "40",
-      "query": "How does the blog author distinguish between dim sum and yum cha?"
+      "query_id": "q_041",
+      "query": "How long should natto be fermented and at what temperature?"
     },
     {
-      "query_id": "41",
-      "query": "What is unique about Sichuan pepper compared to regular chilli or black pepper, and how does it affect the diner?"
+      "query_id": "q_042",
+      "query": "What does the word 'okonomiyaki' mean?"
     },
     {
-      "query_id": "42",
-      "query": "What does the Wikibooks recipe for congee use as a base, and what garnishes are suggested?"
+      "query_id": "q_043",
+      "query": "What are the common fillings used in onigiri?"
     },
     {
-      "query_id": "43",
-      "query": "How does Mongolian barbecue as known in the Western world differ from actual Mongolian cooking?"
+      "query_id": "q_044",
+      "query": "What is inarizushi?"
     },
     {
-      "query_id": "44",
-      "query": "Why does instant dashi taste different from homemade dashi, and what caused homemade dashi to decline?"
+      "query_id": "q_045",
+      "query": "What are the four types of dashi?"
     },
     {
-      "query_id": "45",
-      "query": "What are the four traditional Japanese haute cuisine traditions that modern kaiseki draws upon?"
+      "query_id": "q_046",
+      "query": "What do the words 'teri' and 'yaki' mean?"
     },
     {
-      "query_id": "46",
-      "query": "How did ramen transition from a niche food associated with Chinese immigrants to a nationally beloved Japanese dish?"
+      "query_id": "q_047",
+      "query": "What ingredients are used in tonkatsu sauce?"
     },
     {
-      "query_id": "47",
-      "query": "How does the regional variation in baechu-kimchi differ between northern and southern Korea?"
+      "query_id": "q_048",
+      "query": "What is gimbap?"
     },
     {
-      "query_id": "48",
-      "query": "Why does Mongolian cuisine rely so heavily on meat and dairy rather than vegetables?"
+      "query_id": "q_049",
+      "query": "What are the main ingredients in mapo tofu?"
     },
     {
-      "query_id": "49",
-      "query": "What is the connection between the Mongolian dumpling buuz and the Chinese baozi, according to the blog?"
+      "query_id": "q_050",
+      "query": "How long is congee cooked according to the recipe?"
     },
     {
-      "query_id": "50",
-      "query": "What is the exact calorie count of a standard bowl of tonkotsu ramen?"
+      "query_id": "q_051",
+      "query": "How is bubble tea assembled?"
     },
     {
-      "query_id": "51",
-      "query": "Who is the current head chef of the most Michelin-starred restaurant in Tokyo?"
+      "query_id": "q_052",
+      "query": "What vegetables are used in sukiyaki?"
     },
     {
-      "query_id": "52",
-      "query": "What is the price of a bowl of bibimbap at a typical restaurant in Seoul today?"
+      "query_id": "q_053",
+      "query": "What does the name 'daifuku' mean?"
     },
     {
-      "query_id": "53",
-      "query": "How many calories are in a serving of xiaolongbao?"
+      "query_id": "q_054",
+      "query": "How is umeboshi made?"
     },
     {
-      "query_id": "54",
-      "query": "What is the best-selling brand of instant ramen in Japan in 2024?"
+      "query_id": "q_055",
+      "query": "Which ramen broth variety is described as the most traditional?"
     },
     {
-      "query_id": "55",
-      "query": "What is the recipe for naengmyeon noodles from scratch?"
+      "query_id": "q_056",
+      "query": "What is the difference between dim sum and yum cha?"
     },
     {
-      "query_id": "56",
-      "query": "Which airline serves the best Japanese in-flight meal according to customer reviews?"
+      "query_id": "q_057",
+      "query": "Where did 'Mongolian barbecue' actually originate?"
     },
     {
-      "query_id": "57",
-      "query": "Is kimchi considered halal?"
+      "query_id": "q_058",
+      "query": "What does the word 'bento' mean?"
     },
     {
-      "query_id": "58",
-      "query": "What is the GDP contribution of the food and beverage industry in South Korea?"
+      "query_id": "q_059",
+      "query": "Why is steamed whole fish associated with Chinese New Year?"
     },
     {
-      "query_id": "59",
-      "query": "What are the opening hours of Din Tai Fung's flagship restaurant in Shanghai?"
+      "query_id": "q_060",
+      "query": "What sensory effects does Sichuan pepper produce?"
+    },
+    {
+      "query_id": "q_061",
+      "query": "What is the key distinction between Northern and Southern Chinese cuisine?"
+    },
+    {
+      "query_id": "q_062",
+      "query": "What nickname does gua bao have?"
+    },
+    {
+      "query_id": "q_063",
+      "query": "Why is niu rou mian considered a national dish of Taiwan?"
+    },
+    {
+      "query_id": "q_064",
+      "query": "How does banchan function in Korean dining?"
+    },
+    {
+      "query_id": "q_065",
+      "query": "What are the 'red and white' food groups of Mongolian cuisine?"
+    },
+    {
+      "query_id": "q_066",
+      "query": "What is the cultural significance of buuz in Mongolia?"
+    },
+    {
+      "query_id": "q_067",
+      "query": "How much kimchi does South Korea consume per person each year?"
+    },
+    {
+      "query_id": "q_068",
+      "query": "What is the traditional ceremonial occasion for serving bibimbap?"
+    },
+    {
+      "query_id": "q_069",
+      "query": "How is Peking duck prepared to achieve its crispy skin?"
+    },
+    {
+      "query_id": "q_070",
+      "query": "What does the name 'zhajiangmian' mean?"
+    },
+    {
+      "query_id": "q_071",
+      "query": "What Mongolian saying is associated with tsuivan?"
+    },
+    {
+      "query_id": "q_072",
+      "query": "Where is the Taiwanese oyster omelette thought to have originated?"
     }
   ]
 }
