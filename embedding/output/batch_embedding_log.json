@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_file": "chunks_fixed300_overlap0",
+    "model": "nomic",
+    "n_chunks": 1838,
+    "output_dir": "./output\\chunks_fixed300_overlap0",
+    "time_s": 310.48
+  },
+  {
+    "chunk_file": "chunks_fixed300_overlap20",
+    "model": "nomic",
+    "n_chunks": 2253,
+    "output_dir": "./output\\chunks_fixed300_overlap20",
+    "time_s": 519.12
+  },
+  {
+    "chunk_file": "chunks_sentence220_overlap1",
+    "model": "nomic",
+    "n_chunks": 2145,
+    "output_dir": "./output\\chunks_sentence220_overlap1",
+    "time_s": 538.32
+  },
+  {
+    "chunk_file": "chunks_sentence220_overlap2",
+    "model": "nomic",
+    "n_chunks": 2394,
+    "output_dir": "./output\\chunks_sentence220_overlap2",
+    "time_s": 607.55
+  },
+  {
+    "chunk_file": "chunks_structure_aware_coarse",
+    "model": "nomic",
+    "n_chunks": 2607,
+    "output_dir": "./output\\chunks_structure_aware_coarse",
+    "time_s": 382.2
+  },
+  {
+    "chunk_file": "chunks_structure_aware_fine",
+    "model": "nomic",
+    "n_chunks": 2444,
+    "output_dir": "./output\\chunks_structure_aware_fine",
+    "time_s": 402.29
+  }
+]
