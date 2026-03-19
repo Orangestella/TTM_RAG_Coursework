@@ -6,7 +6,7 @@
     "top_p": 1.0,
     "top_k": 50,
     "output_path": "results/exploration\\output_basic_greedy.json",
-    "time_s": 290.49
+    "time_s": 152.6
   },
   {
     "prompt_type": "basic",
@@ -15,7 +15,7 @@
     "top_p": 0.9,
     "top_k": 50,
     "output_path": "results/exploration\\output_basic_t0.3_p0.9_k50.json",
-    "time_s": 298.97
+    "time_s": 151.88
   },
   {
     "prompt_type": "basic",
@@ -24,7 +24,7 @@
     "top_p": 0.9,
     "top_k": 50,
     "output_path": "results/exploration\\output_basic_t0.7_p0.9_k50.json",
-    "time_s": 322.19
+    "time_s": 149.79
   },
   {
     "prompt_type": "basic",
@@ -33,7 +33,7 @@
     "top_p": 0.95,
     "top_k": 100,
     "output_path": "results/exploration\\output_basic_t0.7_p0.95_k100.json",
-    "time_s": 328.96
+    "time_s": 166.55
   },
   {
     "prompt_type": "basic",
@@ -42,7 +42,7 @@
     "top_p": 0.8,
     "top_k": 30,
     "output_path": "results/exploration\\output_basic_t1.0_p0.8_k30.json",
-    "time_s": 307.45
+    "time_s": 227.34
   },
   {
     "prompt_type": "enhanced",
@@ -51,7 +51,7 @@
     "top_p": 1.0,
     "top_k": 50,
     "output_path": "results/exploration\\output_enhanced_greedy.json",
-    "time_s": 323.05
+    "time_s": 151.61
   },
   {
     "prompt_type": "enhanced",
@@ -60,7 +60,7 @@
     "top_p": 0.9,
     "top_k": 50,
     "output_path": "results/exploration\\output_enhanced_t0.3_p0.9_k50.json",
-    "time_s": 328.92
+    "time_s": 194.09
   },
   {
     "prompt_type": "enhanced",
@@ -69,7 +69,7 @@
     "top_p": 0.9,
     "top_k": 50,
     "output_path": "results/exploration\\output_enhanced_t0.7_p0.9_k50.json",
-    "time_s": 350.57
+    "time_s": 177.56
   },
   {
     "prompt_type": "enhanced",
@@ -78,7 +78,7 @@
     "top_p": 0.95,
     "top_k": 100,
     "output_path": "results/exploration\\output_enhanced_t0.7_p0.95_k100.json",
-    "time_s": 380.96
+    "time_s": 175.73
   },
   {
     "prompt_type": "enhanced",
@@ -87,7 +87,7 @@
     "top_p": 0.8,
     "top_k": 30,
     "output_path": "results/exploration\\output_enhanced_t1.0_p0.8_k30.json",
-    "time_s": 369.95
+    "time_s": 163.29
   },
   {
     "prompt_type": "cot",
@@ -96,7 +96,7 @@
     "top_p": 1.0,
     "top_k": 50,
     "output_path": "results/exploration\\output_cot_greedy.json",
-    "time_s": 332.47
+    "time_s": 160.52
   },
   {
     "prompt_type": "cot",
@@ -105,7 +105,7 @@
     "top_p": 0.9,
     "top_k": 50,
     "output_path": "results/exploration\\output_cot_t0.3_p0.9_k50.json",
-    "time_s": 340.77
+    "time_s": 144.49
   },
   {
     "prompt_type": "cot",
@@ -114,7 +114,7 @@
     "top_p": 0.9,
     "top_k": 50,
     "output_path": "results/exploration\\output_cot_t0.7_p0.9_k50.json",
-    "time_s": 353.97
+    "time_s": 147.18
   },
   {
     "prompt_type": "cot",
@@ -123,7 +123,7 @@
     "top_p": 0.95,
     "top_k": 100,
     "output_path": "results/exploration\\output_cot_t0.7_p0.95_k100.json",
-    "time_s": 358.27
+    "time_s": 160.09
   },
   {
     "prompt_type": "cot",
@@ -132,7 +132,7 @@
     "top_p": 0.8,
     "top_k": 30,
     "output_path": "results/exploration\\output_cot_t1.0_p0.8_k30.json",
-    "time_s": 350.81
+    "time_s": 154.11
   },
   {
     "prompt_type": "few_shot",
@@ -141,7 +141,7 @@
     "top_p": 1.0,
     "top_k": 50,
     "output_path": "results/exploration\\output_few_shot_greedy.json",
-    "time_s": 285.65
+    "time_s": 295.48
   },
   {
     "prompt_type": "few_shot",
@@ -150,7 +150,7 @@
     "top_p": 0.9,
     "top_k": 50,
     "output_path": "results/exploration\\output_few_shot_t0.3_p0.9_k50.json",
-    "time_s": 322.05
+    "time_s": 300.78
   },
   {
     "prompt_type": "few_shot",
@@ -159,7 +159,7 @@
     "top_p": 0.9,
     "top_k": 50,
     "output_path": "results/exploration\\output_few_shot_t0.7_p0.9_k50.json",
-    "time_s": 321.55
+    "time_s": 279.23
   },
   {
     "prompt_type": "few_shot",
@@ -168,7 +168,7 @@
     "top_p": 0.95,
     "top_k": 100,
     "output_path": "results/exploration\\output_few_shot_t0.7_p0.95_k100.json",
-    "time_s": 284.57
+    "time_s": 283.33
   },
   {
     "prompt_type": "few_shot",
@@ -177,6 +177,6 @@
     "top_p": 0.8,
     "top_k": 30,
     "output_path": "results/exploration\\output_few_shot_t1.0_p0.8_k30.json",
-    "time_s": 325.08
+    "time_s": 322.75
   }
 ]
