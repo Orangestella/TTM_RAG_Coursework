@@ -1,0 +1,2486 @@
+{
+  "minilm | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top20": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap0",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_minilm_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7361111111111112,
+      "Hit@5": 0.9027777777777778,
+      "Recall@20": 0.9305555555555556,
+      "MRR": 0.8084490740740742,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7592592592592592
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8421052631578947,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.8771929824561402
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.9142857142857143,
+          "Recall@20": 0.9428571428571428,
+          "MRR": 0.7964285714285714
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.9027777777777778,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8084490740740742
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.9027777777777778,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8084490740740742
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.9027777777777778,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8084490740740742
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap0",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_minilm_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7361111111111112,
+      "Hit@5": 0.9027777777777778,
+      "Recall@20": 0.9027777777777778,
+      "MRR": 0.8043981481481483,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7592592592592592
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8421052631578947,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.868421052631579
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.9142857142857143,
+          "Recall@20": 0.9142857142857143,
+          "MRR": 0.7928571428571428
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.9027777777777778,
+          "Recall@20": 0.9027777777777778,
+          "MRR": 0.8043981481481483
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.9027777777777778,
+          "Recall@20": 0.9027777777777778,
+          "MRR": 0.8043981481481483
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.9027777777777778,
+          "Recall@20": 0.9027777777777778,
+          "MRR": 0.8043981481481483
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_fixed300_overlap0 | reranked_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap0",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_minilm_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8611111111111112,
+      "Hit@5": 0.9166666666666666,
+      "Recall@20": 0.9166666666666666,
+      "MRR": 0.8865740740740741,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8240740740740741
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8947368421052632,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.8947368421052632
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8857142857142857,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9428571428571428,
+          "MRR": 0.9142857142857143
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8611111111111112,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.8865740740740741
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8611111111111112,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.8865740740740741
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8611111111111112,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.8865740740740741
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top20": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_minilm_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7083333333333334,
+      "Hit@5": 0.9166666666666666,
+      "Recall@20": 0.9305555555555556,
+      "MRR": 0.802910052910053,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6111111111111112,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7314814814814815
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8947368421052632,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.8947368421052632
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.6571428571428571,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.789795918367347
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7083333333333334,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.802910052910053
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7083333333333334,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.802910052910053
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7083333333333334,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.802910052910053
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_minilm_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7083333333333334,
+      "Hit@5": 0.9166666666666666,
+      "Recall@20": 0.9166666666666666,
+      "MRR": 0.800925925925926,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6111111111111112,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7314814814814815
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8947368421052632,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.8947368421052632
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.6571428571428571,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9428571428571428,
+          "MRR": 0.7857142857142857
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7083333333333334,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.800925925925926
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7083333333333334,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.800925925925926
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7083333333333334,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.800925925925926
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_fixed300_overlap20 | reranked_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_minilm_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8472222222222222,
+      "Hit@5": 0.9305555555555556,
+      "Recall@20": 0.9305555555555556,
+      "MRR": 0.8842592592592593,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8240740740740741
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8947368421052632,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.8947368421052632
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.9095238095238096
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8472222222222222,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8842592592592593
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8472222222222222,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8842592592592593
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8472222222222222,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8842592592592593
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top20": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_minilm_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7777777777777778,
+      "Hit@5": 0.9305555555555556,
+      "Recall@20": 0.9444444444444444,
+      "MRR": 0.8492063492063492,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7777777777777778
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8947368421052632,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.8947368421052632
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7714285714285715,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 1.0,
+          "MRR": 0.8612244897959184
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8492063492063492
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8492063492063492
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8492063492063492
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_minilm_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7777777777777778,
+      "Hit@5": 0.9305555555555556,
+      "Recall@20": 0.9305555555555556,
+      "MRR": 0.8472222222222222,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7777777777777778
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8947368421052632,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.8947368421052632
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7714285714285715,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8571428571428571
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8472222222222222
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8472222222222222
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8472222222222222
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_sentence220_overlap1 | reranked_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_minilm_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7777777777777778,
+      "Hit@5": 0.9166666666666666,
+      "Recall@20": 0.9166666666666666,
+      "MRR": 0.8430555555555556,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8333333333333334
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.7368421052631579,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.8157894736842105
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9428571428571428,
+          "MRR": 0.8628571428571429
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.8430555555555556
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.8430555555555556
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.8430555555555556
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top20": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_minilm_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6944444444444444,
+      "Hit@5": 0.9166666666666666,
+      "Recall@20": 0.9305555555555556,
+      "MRR": 0.7973646723646725,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7037037037037037
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8421052631578947,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.868421052631579
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.6857142857142857,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.806959706959707
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.7973646723646725
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.7973646723646725
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.7973646723646725
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_minilm_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6944444444444444,
+      "Hit@5": 0.9166666666666666,
+      "Recall@20": 0.9166666666666666,
+      "MRR": 0.7962962962962964,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7037037037037037
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8421052631578947,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.868421052631579
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.6857142857142857,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9428571428571428,
+          "MRR": 0.8047619047619048
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.7962962962962964
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.7962962962962964
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.9166666666666666,
+          "Recall@20": 0.9166666666666666,
+          "MRR": 0.7962962962962964
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_sentence220_overlap2 | reranked_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_minilm_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7638888888888888,
+      "Hit@5": 0.9305555555555556,
+      "Recall@20": 0.9305555555555556,
+      "MRR": 0.8425925925925927,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8240740740740741
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8421052631578947,
+          "Hit@5": 0.8947368421052632,
+          "Recall@20": 0.8947368421052632,
+          "MRR": 0.868421052631579
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8380952380952381
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7638888888888888,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8425925925925927
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7638888888888888,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8425925925925927
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7638888888888888,
+          "Hit@5": 0.9305555555555556,
+          "Recall@20": 0.9305555555555556,
+          "MRR": 0.8425925925925927
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_structure_aware_coarse | biencoder_top20": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_coarse",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_minilm_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5555555555555556,
+      "Hit@5": 0.8194444444444444,
+      "Recall@20": 0.8472222222222222,
+      "MRR": 0.6678135521885523,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7407407407407407
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.2631578947368421,
+          "Hit@5": 0.631578947368421,
+          "Recall@20": 0.6842105263157895,
+          "MRR": 0.4433811802232855
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.6571428571428571,
+          "Hit@5": 0.8857142857142857,
+          "Recall@20": 0.9142857142857143,
+          "MRR": 0.7521428571428571
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8472222222222222,
+          "MRR": 0.6678135521885523
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8472222222222222,
+          "MRR": 0.6678135521885523
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8472222222222222,
+          "MRR": 0.6678135521885523
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_structure_aware_coarse | biencoder_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_coarse",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_minilm_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.5555555555555556,
+      "Hit@5": 0.8194444444444444,
+      "Recall@20": 0.8194444444444444,
+      "MRR": 0.664814814814815,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7407407407407407
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.2631578947368421,
+          "Hit@5": 0.631578947368421,
+          "Recall@20": 0.631578947368421,
+          "MRR": 0.4385964912280701
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.6571428571428571,
+          "Hit@5": 0.8857142857142857,
+          "Recall@20": 0.8857142857142857,
+          "MRR": 0.7485714285714286
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8194444444444444,
+          "MRR": 0.664814814814815
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8194444444444444,
+          "MRR": 0.664814814814815
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.5555555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8194444444444444,
+          "MRR": 0.664814814814815
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_structure_aware_coarse | reranked_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_coarse",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_minilm_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6805555555555556,
+      "Hit@5": 0.8194444444444444,
+      "Recall@20": 0.8194444444444444,
+      "MRR": 0.7430555555555556,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7592592592592592
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.5263157894736842,
+          "Hit@5": 0.5789473684210527,
+          "Recall@20": 0.5789473684210527,
+          "MRR": 0.5438596491228069
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7714285714285715,
+          "Hit@5": 0.9142857142857143,
+          "Recall@20": 0.9142857142857143,
+          "MRR": 0.8428571428571429
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8194444444444444,
+          "MRR": 0.7430555555555556
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8194444444444444,
+          "MRR": 0.7430555555555556
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8194444444444444,
+          "Recall@20": 0.8194444444444444,
+          "MRR": 0.7430555555555556
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_structure_aware_fine | biencoder_top20": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_fine",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_minilm_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6111111111111112,
+      "Hit@5": 0.8472222222222222,
+      "Recall@20": 0.8888888888888888,
+      "MRR": 0.7100694444444444,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.7435185185185185
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.47368421052631576,
+          "Hit@5": 0.7368421052631579,
+          "Recall@20": 0.7894736842105263,
+          "MRR": 0.6008771929824562
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.6571428571428571,
+          "Hit@5": 0.8857142857142857,
+          "Recall@20": 0.9142857142857143,
+          "MRR": 0.7521428571428571
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6111111111111112,
+          "Hit@5": 0.8472222222222222,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7100694444444444
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6111111111111112,
+          "Hit@5": 0.8472222222222222,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7100694444444444
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6111111111111112,
+          "Hit@5": 0.8472222222222222,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7100694444444444
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_structure_aware_fine | biencoder_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_fine",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_minilm_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6111111111111112,
+      "Hit@5": 0.8472222222222222,
+      "Recall@20": 0.8472222222222222,
+      "MRR": 0.7064814814814816,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.7407407407407407
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.47368421052631576,
+          "Hit@5": 0.7368421052631579,
+          "Recall@20": 0.7368421052631579,
+          "MRR": 0.5964912280701755
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.6571428571428571,
+          "Hit@5": 0.8857142857142857,
+          "Recall@20": 0.8857142857142857,
+          "MRR": 0.7485714285714286
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6111111111111112,
+          "Hit@5": 0.8472222222222222,
+          "Recall@20": 0.8472222222222222,
+          "MRR": 0.7064814814814816
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6111111111111112,
+          "Hit@5": 0.8472222222222222,
+          "Recall@20": 0.8472222222222222,
+          "MRR": 0.7064814814814816
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6111111111111112,
+          "Hit@5": 0.8472222222222222,
+          "Recall@20": 0.8472222222222222,
+          "MRR": 0.7064814814814816
+        }
+      }
+    }
+  },
+  "minilm | benchmark_dataset | chunks_structure_aware_fine | reranked_top5": {
+    "model": "minilm",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_fine",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_minilm_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7361111111111112,
+      "Hit@5": 0.8611111111111112,
+      "Recall@20": 0.8611111111111112,
+      "MRR": 0.7939814814814815,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7222222222222222,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8148148148148148
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.6842105263157895,
+          "Hit@5": 0.6842105263157895,
+          "Recall@20": 0.6842105263157895,
+          "MRR": 0.6842105263157895
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7714285714285715,
+          "Hit@5": 0.9142857142857143,
+          "Recall@20": 0.9142857142857143,
+          "MRR": 0.8428571428571429
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.7939814814814815
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.7939814814814815
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.7939814814814815
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap0",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_nomic_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8055555555555556,
+      "Hit@5": 0.9444444444444444,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.8708333333333333,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8722222222222222
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.7368421052631579,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.8333333333333334
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8904761904761904
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8708333333333333
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8708333333333333
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8708333333333333
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_fixed300_overlap0 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap0",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_nomic_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8055555555555556,
+      "Hit@5": 0.9444444444444444,
+      "Recall@20": 0.9444444444444444,
+      "MRR": 0.8685185185185186,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8722222222222222
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.7368421052631579,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.8333333333333334
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9428571428571428,
+          "MRR": 0.8857142857142857
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8685185185185186
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8685185185185186
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8685185185185186
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_fixed300_overlap0 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap0",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_nomic_chunks_fixed300_overlap0_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.875,
+      "Hit@5": 0.9583333333333334,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.914351851851852,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8796296296296297
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.9473684210526315,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.9473684210526315
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8571428571428571,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.9142857142857143
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.875,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.914351851851852
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.875,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.914351851851852
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.875,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.914351851851852
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_nomic_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8333333333333334,
+      "Hit@5": 0.9444444444444444,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.8839285714285715,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8888888888888888,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8968253968253967
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.7894736842105263,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.868421052631579
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8857142857142857
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8839285714285715
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8839285714285715
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8839285714285715
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_fixed300_overlap20 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_nomic_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8333333333333334,
+      "Hit@5": 0.9444444444444444,
+      "Recall@20": 0.9444444444444444,
+      "MRR": 0.8819444444444444,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8888888888888888,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8888888888888888
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.7894736842105263,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.868421052631579
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8857142857142857
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8819444444444444
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8819444444444444
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8819444444444444
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_fixed300_overlap20 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_fixed300_overlap20",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_nomic_chunks_fixed300_overlap20_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8611111111111112,
+      "Hit@5": 0.9583333333333334,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.9074074074074076,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8796296296296297
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.9473684210526315,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.9473684210526315
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.9
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8611111111111112,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.9074074074074076
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8611111111111112,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.9074074074074076
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8611111111111112,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.9074074074074076
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_nomic_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7916666666666666,
+      "Hit@5": 0.9583333333333334,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.863888888888889,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8351851851851851
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.7368421052631579,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.8421052631578947
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8904761904761905
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7916666666666666,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.863888888888889
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7916666666666666,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.863888888888889
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7916666666666666,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.863888888888889
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap1 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_nomic_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7916666666666666,
+      "Hit@5": 0.9583333333333334,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.863888888888889,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7777777777777778,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8351851851851851
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.7368421052631579,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.8421052631578947
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8904761904761905
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7916666666666666,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.863888888888889
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7916666666666666,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.863888888888889
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7916666666666666,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.863888888888889
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap1 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap1",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_nomic_chunks_sentence220_overlap1_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8194444444444444,
+      "Hit@5": 0.9583333333333334,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.8888888888888888,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8888888888888888
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.7894736842105263,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.868421052631579
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.9
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8194444444444444,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8888888888888888
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8194444444444444,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8888888888888888
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8194444444444444,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8888888888888888
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_nomic_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8333333333333334,
+      "Hit@5": 0.9444444444444444,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.88695987654321,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8672839506172839
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8421052631578947,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.8947368421052632
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8928571428571429
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.88695987654321
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.88695987654321
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.88695987654321
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap2 | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_nomic_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8333333333333334,
+      "Hit@5": 0.9444444444444444,
+      "Recall@20": 0.9444444444444444,
+      "MRR": 0.8854166666666666,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8611111111111112
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8421052631578947,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.8947368421052632
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.8285714285714286,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8928571428571429
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8854166666666666
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8854166666666666
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8854166666666666
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_sentence220_overlap2 | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_sentence220_overlap2",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_nomic_chunks_sentence220_overlap2_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.8055555555555556,
+      "Hit@5": 0.9583333333333334,
+      "Recall@20": 0.9583333333333334,
+      "MRR": 0.8796296296296297,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.8333333333333334,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8796296296296297
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.8947368421052632,
+          "Hit@5": 0.9473684210526315,
+          "Recall@20": 0.9473684210526315,
+          "MRR": 0.9210526315789473
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7428571428571429,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8571428571428571
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8796296296296297
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8796296296296297
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.8055555555555556,
+          "Hit@5": 0.9583333333333334,
+          "Recall@20": 0.9583333333333334,
+          "MRR": 0.8796296296296297
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_structure_aware_coarse | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_coarse",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_nomic_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6388888888888888,
+      "Hit@5": 0.8333333333333334,
+      "Recall@20": 0.875,
+      "MRR": 0.7288910934744268,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.7870370370370371
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.47368421052631576,
+          "Hit@5": 0.5263157894736842,
+          "Recall@20": 0.631578947368421,
+          "MRR": 0.5133667502088555
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8159863945578231
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6388888888888888,
+          "Hit@5": 0.8333333333333334,
+          "Recall@20": 0.875,
+          "MRR": 0.7288910934744268
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6388888888888888,
+          "Hit@5": 0.8333333333333334,
+          "Recall@20": 0.875,
+          "MRR": 0.7288910934744268
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6388888888888888,
+          "Hit@5": 0.8333333333333334,
+          "Recall@20": 0.875,
+          "MRR": 0.7288910934744268
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_structure_aware_coarse | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_coarse",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_nomic_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6388888888888888,
+      "Hit@5": 0.8333333333333334,
+      "Recall@20": 0.8333333333333334,
+      "MRR": 0.7233796296296298,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.7870370370370371
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.47368421052631576,
+          "Hit@5": 0.5263157894736842,
+          "Recall@20": 0.5263157894736842,
+          "MRR": 0.5
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9428571428571428,
+          "MRR": 0.8119047619047619
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6388888888888888,
+          "Hit@5": 0.8333333333333334,
+          "Recall@20": 0.8333333333333334,
+          "MRR": 0.7233796296296298
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6388888888888888,
+          "Hit@5": 0.8333333333333334,
+          "Recall@20": 0.8333333333333334,
+          "MRR": 0.7233796296296298
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6388888888888888,
+          "Hit@5": 0.8333333333333334,
+          "Recall@20": 0.8333333333333334,
+          "MRR": 0.7233796296296298
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_structure_aware_coarse | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_coarse",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_nomic_chunks_structure_aware_coarse_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6944444444444444,
+      "Hit@5": 0.8611111111111112,
+      "Recall@20": 0.8611111111111112,
+      "MRR": 0.7662037037037037,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7222222222222222,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8148148148148148
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.5263157894736842,
+          "Hit@5": 0.5789473684210527,
+          "Recall@20": 0.5789473684210527,
+          "MRR": 0.5438596491228069
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7714285714285715,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8619047619047618
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.7662037037037037
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.7662037037037037
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6944444444444444,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.7662037037037037
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_structure_aware_fine | biencoder_top20": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_fine",
+    "retrieval_type": "biencoder_top20",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top20_nomic_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6805555555555556,
+      "Hit@5": 0.8611111111111112,
+      "Recall@20": 0.9027777777777778,
+      "MRR": 0.7639440035273368,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.7870370370370371
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.631578947368421,
+          "Hit@5": 0.631578947368421,
+          "Recall@20": 0.7368421052631579,
+          "MRR": 0.6461988304093567
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8159863945578231
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.9027777777777778,
+          "MRR": 0.7639440035273368
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.9027777777777778,
+          "MRR": 0.7639440035273368
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.9027777777777778,
+          "MRR": 0.7639440035273368
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_structure_aware_fine | biencoder_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_fine",
+    "retrieval_type": "biencoder_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_biencoder_top5_nomic_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.6805555555555556,
+      "Hit@5": 0.8611111111111112,
+      "Recall@20": 0.8611111111111112,
+      "MRR": 0.758101851851852,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.6666666666666666,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.7870370370370371
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.631578947368421,
+          "Hit@5": 0.631578947368421,
+          "Recall@20": 0.631578947368421,
+          "MRR": 0.631578947368421
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7142857142857143,
+          "Hit@5": 0.9428571428571428,
+          "Recall@20": 0.9428571428571428,
+          "MRR": 0.8119047619047619
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.758101851851852
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.758101851851852
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.6805555555555556,
+          "Hit@5": 0.8611111111111112,
+          "Recall@20": 0.8611111111111112,
+          "MRR": 0.758101851851852
+        }
+      }
+    }
+  },
+  "nomic | benchmark_dataset | chunks_structure_aware_fine | reranked_top5": {
+    "model": "nomic",
+    "benchmark": "benchmark_dataset",
+    "chunking": "chunks_structure_aware_fine",
+    "retrieval_type": "reranked_top5",
+    "retrieval_path": "G:\\TTM_RAG_Coursework\\retrieval_ranking_evaluation\\results\\retrieval_reranked_top5_nomic_chunks_structure_aware_fine_benchmark_dataset.jsonl",
+    "metrics": {
+      "evaluation_mode": "answer_match",
+      "answer_match_threshold": 0.6,
+      "n_queries_evaluated": 72,
+      "n_queries_in_benchmark": 72,
+      "n_missing_queries": 0,
+      "missing_queries": [],
+      "Hit@1": 0.7361111111111112,
+      "Hit@5": 0.8888888888888888,
+      "Recall@20": 0.8888888888888888,
+      "MRR": 0.8032407407407408,
+      "by_source": {
+        "Around the World in 80 Cuisines Blog": {
+          "n": 18,
+          "Hit@1": 0.7222222222222222,
+          "Hit@5": 0.9444444444444444,
+          "Recall@20": 0.9444444444444444,
+          "MRR": 0.8148148148148148
+        },
+        "Wikibooks": {
+          "n": 19,
+          "Hit@1": 0.6842105263157895,
+          "Hit@5": 0.6842105263157895,
+          "Recall@20": 0.6842105263157895,
+          "MRR": 0.6842105263157895
+        },
+        "Wikipedia": {
+          "n": 35,
+          "Hit@1": 0.7714285714285715,
+          "Hit@5": 0.9714285714285714,
+          "Recall@20": 0.9714285714285714,
+          "MRR": 0.8619047619047618
+        }
+      },
+      "by_cuisine": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8032407407407408
+        }
+      },
+      "by_difficulty": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8032407407407408
+        }
+      },
+      "by_type": {
+        "": {
+          "n": 72,
+          "Hit@1": 0.7361111111111112,
+          "Hit@5": 0.8888888888888888,
+          "Recall@20": 0.8888888888888888,
+          "MRR": 0.8032407407407408
+        }
+      }
+    }
+  }
+}

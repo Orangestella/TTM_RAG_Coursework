@@ -1,0 +1,307 @@
+{
+  "pipeline": "nomic + chunks_fixed300_overlap0 + reranked_top5",
+  "gold_path": "../data/benchmark_unified.jsonl",
+  "inference_output_path": "results/output_results.json",
+  "answer_match_threshold": 0.6,
+  "n_predictions": 60,
+  "n_matched": 1,
+  "n_missing": 59,
+  "retrieval": {
+    "hit_at_1": 1.0,
+    "hit_at_5": 1.0,
+    "mrr": 1.0,
+    "best_match_ratio": 1.0,
+    "avg_retrieved_count": 5.0
+  },
+  "generation": {
+    "exact_match": 0.0,
+    "token_f1": 0.1692,
+    "token_precision": 0.0932,
+    "token_recall": 0.9167,
+    "answer_match_ratio": 1.0,
+    "avg_response_words": 121.0
+  },
+  "missing_predictions": [
+    {
+      "query_id": "0",
+      "query": "What is Sichuan cuisine known for in terms of flavour?"
+    },
+    {
+      "query_id": "1",
+      "query": "What is char siu?"
+    },
+    {
+      "query_id": "2",
+      "query": "What is dim sum and which cuisine is it most associated with?"
+    },
+    {
+      "query_id": "3",
+      "query": "What is bubble tea and where did it originate?"
+    },
+    {
+      "query_id": "4",
+      "query": "What are baozi made of?"
+    },
+    {
+      "query_id": "5",
+      "query": "What is congee?"
+    },
+    {
+      "query_id": "6",
+      "query": "What cooking technique is stir frying?"
+    },
+    {
+      "query_id": "7",
+      "query": "What is hot pot?"
+    },
+    {
+      "query_id": "8",
+      "query": "What is the defining component of sushi?"
+    },
+    {
+      "query_id": "9",
+      "query": "What is miso made from?"
+    },
+    {
+      "query_id": "10",
+      "query": "What is tempura?"
+    },
+    {
+      "query_id": "11",
+      "query": "What is dashi used for in Japanese cooking?"
+    },
+    {
+      "query_id": "12",
+      "query": "What is ramen?"
+    },
+    {
+      "query_id": "13",
+      "query": "What is a bento?"
+    },
+    {
+      "query_id": "14",
+      "query": "What is sashimi?"
+    },
+    {
+      "query_id": "15",
+      "query": "What is kimchi?"
+    },
+    {
+      "query_id": "16",
+      "query": "What does bibimbap consist of?"
+    },
+    {
+      "query_id": "17",
+      "query": "What does the word bulgogi mean?"
+    },
+    {
+      "query_id": "18",
+      "query": "What is doenjang?"
+    },
+    {
+      "query_id": "19",
+      "query": "What is the staple carbohydrate in traditional Korean meals?"
+    },
+    {
+      "query_id": "20",
+      "query": "How is char siu seasoned, and what gives it its characteristic appearance?"
+    },
+    {
+      "query_id": "21",
+      "query": "Where did xiaolongbao originate and what makes it distinctive?"
+    },
+    {
+      "query_id": "22",
+      "query": "How did stir frying develop historically in China?"
+    },
+    {
+      "query_id": "23",
+      "query": "What influenced the development of Taiwanese cuisine?"
+    },
+    {
+      "query_id": "24",
+      "query": "What are the typical ingredients of hot pot?"
+    },
+    {
+      "query_id": "25",
+      "query": "What is the origin of the yum cha tradition associated with dim sum?"
+    },
+    {
+      "query_id": "27",
+      "query": "How is Peking duck described in terms of its history and cultural significance?"
+    },
+    {
+      "query_id": "28",
+      "query": "How is the dashi broth most commonly prepared?"
+    },
+    {
+      "query_id": "29",
+      "query": "What are the key characteristics of tempura batter and how is it prepared?"
+    },
+    {
+      "query_id": "30",
+      "query": "What is kaiseki and what are its two distinct forms?"
+    },
+    {
+      "query_id": "31",
+      "query": "How does sake differ from wine in terms of its brewing process?"
+    },
+    {
+      "query_id": "32",
+      "query": "What is the basis of traditional Japanese cuisine?"
+    },
+    {
+      "query_id": "33",
+      "query": "What does okonomiyaki mean and what does it typically contain?"
+    },
+    {
+      "query_id": "34",
+      "query": "What are the origins of modern nigiri sushi?"
+    },
+    {
+      "query_id": "35",
+      "query": "How is baechu-kimchi prepared?"
+    },
+    {
+      "query_id": "36",
+      "query": "What is the historical origin of bulgogi?"
+    },
+    {
+      "query_id": "37",
+      "query": "What is banchan and what role does it play in Korean dining?"
+    },
+    {
+      "query_id": "38",
+      "query": "How is doenjang produced?"
+    },
+    {
+      "query_id": "39",
+      "query": "What is the cultural significance of kimchi in South Korea?"
+    },
+    {
+      "query_id": "40",
+      "query": "How does the blog author distinguish between dim sum and yum cha?"
+    },
+    {
+      "query_id": "41",
+      "query": "What is unique about Sichuan pepper compared to regular chilli or black pepper, and how does it affect the diner?"
+    },
+    {
+      "query_id": "42",
+      "query": "What does the Wikibooks recipe for congee use as a base, and what garnishes are suggested?"
+    },
+    {
+      "query_id": "43",
+      "query": "How does Mongolian barbecue as known in the Western world differ from actual Mongolian cooking?"
+    },
+    {
+      "query_id": "44",
+      "query": "Why does instant dashi taste different from homemade dashi, and what caused homemade dashi to decline?"
+    },
+    {
+      "query_id": "45",
+      "query": "What are the four traditional Japanese haute cuisine traditions that modern kaiseki draws upon?"
+    },
+    {
+      "query_id": "46",
+      "query": "How did ramen transition from a niche food associated with Chinese immigrants to a nationally beloved Japanese dish?"
+    },
+    {
+      "query_id": "47",
+      "query": "How does the regional variation in baechu-kimchi differ between northern and southern Korea?"
+    },
+    {
+      "query_id": "48",
+      "query": "Why does Mongolian cuisine rely so heavily on meat and dairy rather than vegetables?"
+    },
+    {
+      "query_id": "49",
+      "query": "What is the connection between the Mongolian dumpling buuz and the Chinese baozi, according to the blog?"
+    },
+    {
+      "query_id": "50",
+      "query": "What is the exact calorie count of a standard bowl of tonkotsu ramen?"
+    },
+    {
+      "query_id": "51",
+      "query": "Who is the current head chef of the most Michelin-starred restaurant in Tokyo?"
+    },
+    {
+      "query_id": "52",
+      "query": "What is the price of a bowl of bibimbap at a typical restaurant in Seoul today?"
+    },
+    {
+      "query_id": "53",
+      "query": "How many calories are in a serving of xiaolongbao?"
+    },
+    {
+      "query_id": "54",
+      "query": "What is the best-selling brand of instant ramen in Japan in 2024?"
+    },
+    {
+      "query_id": "55",
+      "query": "What is the recipe for naengmyeon noodles from scratch?"
+    },
+    {
+      "query_id": "56",
+      "query": "Which airline serves the best Japanese in-flight meal according to customer reviews?"
+    },
+    {
+      "query_id": "57",
+      "query": "Is kimchi considered halal?"
+    },
+    {
+      "query_id": "58",
+      "query": "What is the GDP contribution of the food and beverage industry in South Korea?"
+    },
+    {
+      "query_id": "59",
+      "query": "What are the opening hours of Din Tai Fung's flagship restaurant in Shanghai?"
+    }
+  ],
+  "per_query": [
+    {
+      "query_id": "q_011",
+      "query": "What are the four major sub-styles of Sichuan cuisine?",
+      "matched_by": "query",
+      "source": "Wikipedia",
+      "gold_answer": "The four major sub-styles are Shanghebang, Xiaohebang, Xiahebang, and Buddhist vegetarian style.",
+      "response": "Based on the provided context, the four major substyles of Sichuanese cuisine include:\n\n1. **Shanghebang** - This style is primarily associated with Chengdu and Leshan, representing the central regions of Sichuan.\n2. **Xiaohebang** - Located in Zigong, this style is distinguished by its distinct characteristics, including Yibin cuisine, Luzhou cuisine, and Neijiang cuisine.\n3. **Xiahebang** - Characterized by Chongqing and Dazhou, this style focuses on regional specialties like Kung Pao Chicken and Yuxiang Shredded Pork.\n4. **Buddhist Vegetarian Style** - This style blends elements of Sichuanese cuisine with Buddhist vegetarian practices, offering a unique twist to traditional Sichuanese dishes.\n\nThese substyles reflect the diverse culinary traditions and regional preferences within Sichuan cuisine, showcasing the richness and diversity of Sichuan's food culture.",
+      "retrieved_context": [
+        {
+          "doc_id": "wiki_0155_chunk_0",
+          "text": "Sichuan cuisine or Sichuanese cuisine, alternatively romanized as Szechwan cuisine or Szechuan cuisine (Chinese: , Standard Mandarin pronunciation: [sɨ̂.ʈʂʰwán] ) is a style of Chinese cuisine originating from Sichuan province and the neighboring Chongqing municipality. Chongqing was formerly a part of Sichuan until 1997; thus, there is a great deal of cultural overlap between the two administrative divisions. There are many regional, local variations of Sichuanese cuisine within Sichuan and Chongqing.\nThe four major substyles of Sichuanese cuisine include Shanghebang, Xiaohebang, Xiahebang, and Buddhist vegetarian style. Shanghebang is represented by Chengdu and Leshan; Xiaohebang by Zigong (which is also known for a genre of dishes called yanbangcai), Yibin, Luzhou, and Neijiang; and Xiahebang by Chongqing and Dazhou.\nSichuanese cuisine is renowned for fiery and bold tastes, particularly the pungency and spiciness resulting from liberal use of garlic and chilis, as well as the unique flavors of Sichuan (Szechuan) pepper. Some examples are Kung Pao chicken and Yuxiang shredded pork.\nUNESCO declared Chengdu, the capital of Sichuan Province, a city of gastronomy in 201"
+        },
+        {
+          "doc_id": "wiki_0155_chunk_3",
+          "text": "he Bang categories.\n\nCategories of Sichuan cuisine\nShanghe Gang Sichuan cuisine in Chengdu, and Leshan-centered areas in the west of Sichuan, is characterized by being rich in seasoning and having a relatively light taste. It often uses spicy bean paste and sugar for flavoring, and is the most widely known Sichuan cuisine.\nShanghe Bangchuan cuisine is based on traditional classical recipes. It has a mild taste and flavor while concentrating on premium dishes such as royal and official banquet dishes.\nXiaohe Bangchuan cuisine is centered on Zigong in southern Sichuan, and includes Yibin cuisine, Luzhou cuisine, and Neijiang cuisine, which are characterized by their rich tastes. Zigong Yanbang dishes are divided into three branches: salty commercial dishes, salty industrial dishes and hall dishes, with a spicy taste, mala, and sweet and sour taste.\n\nFeatures\nThe complex topography of Sichuan Province, including its mountains, hills, plains, plateaus and the Sichuan Basin, has shaped its food customs with versatile and distinct ingredients.\nAbundant rice and vegetables are produced from the fertile Sichuan Basin, whereas a wide variety of herbs, mushrooms and other fungi prosper in the highland regions. Pork is overwhelmingly the most common type of meat consumed. Beef is somewhat more common in Sichuan cuisine than it is in other Chinese cuisines, perhaps due to the prevalence of oxen in"
+        },
+        {
+          "doc_id": "wiki_0155_chunk_4",
+          "text": "the region. Sichuan cuisine also uses various cow and pork offal as ingredients, including intestine, arteries, head, tongue, skin and liver. Rabbit meat is much more popular in Sichuan than elsewhere in China. It is estimated that the Sichuan Basin and Chongqing area are responsible for about 70 percent of China's total rabbit meat consumption. The salt produced from Sichuan salt springs and wells does not contain iodine, which led to issues with goiter before the 20th century.\nSichuan cuisine often contains food preserved through pickling, salting and drying. Preserved dishes are generally served as spicy dishes with heavy application of chili oil.\n\nIngredients\nThe most unique and important spice in Sichuan cuisine is the Sichuan (Szechuan) pepper (花椒; huājiāo; 'flower pepper'), which has an intense, fragrant citruslike taste and produces a notably distinct \"numbingly spicy\" (麻; má) sensation in the mouth. Other commonly used spices in Sichuan cuisine are garlic, chili peppers, ginger, and star anise.\nBroad bean chili paste (豆瓣醬; dòubànjiàng) is another important seasoning. It is an essential component in famous dishes such as Mapo tofu and twice-cooked pork.\nSichuan cuisine is the origin of several prominent sauces/flavors widely used in modern Chinese cuisine,"
+        },
+        {
+          "doc_id": "wiki_0033_chunk_5",
+          "text": "of Chinese cuisine and due to their influence are proclaimed as the Four Great Traditions (四大菜系, Sì Dà Cài Xì).\nCantonese\nSichuan\nShandong\nHuaiyang cuisine – often viewed as the representation of the entire Jiangsu cuisine.\nChinese cultural subcuisines\nChinese Buddhist cuisine\nChinese Islamic cuisine\nChinese cuisines, by region\nAnhui cuisine\nBeijing cuisine\nChinese aristocrat cuisine\nChinese imperial cuisine\nLiaoning cuisine\nCantonese cuisine\nChaozhou cuisine\nChiuchow cuisine\nFujian cuisine\nGuizhou cuisine\nHainan cuisine\nHakka cuisine\nHenan cuisine\nHubei cuisine\nHunan cuisine\nJiangsu cuisine\nHuaiyang cuisine\nJiangxi cuisine\nManchu cuisine\nNortheastern Chinese cuisine\nShaanxi cuisine\nShandong cuisine\nShanghai cuisine\nShanxi cuisine\nSichuan cuisine (Sichuan)\nTianjin cuisine\nTibetan cuisine\nUyghur cuisine\nYunnan cuisine\nZhejiang cuisine\nHong Kong cuisine is mainly influenced by Cantonese cuisine, non-Cantonese Chinese cuisine (especially Teochew, Hakka, Hokkien and the Jiangsu & Zhejiang), the Western world, Japan, and Southeast Asia, due to Hong Kong's past as a British colony and long history of being an international city"
+        },
+        {
+          "doc_id": "wiki_0001_chunk_3",
+          "text": "Traditions – often considered the standouts of Chinese cuisine and due to their influence are proclaimed as the Four Great Traditions (四大菜系, Sì Dà Cài Xì).\nCantonese\nSichuan\nShandong\nHuaiyang cuisine – often viewed as the representation of the entire Jiangsu cuisine.\nChinese cultural subcuisines\nChinese Buddhist cuisine\nChinese Islamic cuisine\nChinese cuisines, by region\nAnhui cuisine\nBeijing cuisine\nChinese aristocrat cuisine\nChinese imperial cuisine\nLiaoning cuisine\nCantonese cuisine\nChaozhou cuisine\nChiuchow cuisine\nFujian cuisine\nGuizhou cuisine\nHainan cuisine\nHakka cuisine\nHenan cuisine\nHubei cuisine\nHunan cuisine\nJiangsu cuisine\nHuaiyang cuisine\nJiangxi cuisine\nManchu cuisine\nNortheastern Chinese cuisine\nShaanxi cuisine\nShandong cuisine\nShanghai cuisine\nShanxi cuisine\nSichuan cuisine (Sichuan)\nTianjin cuisine\nTibetan cuisine\nUyghur cuisine\nYunnan cuisine\nZhejiang cuisine\nHong Kong cuisine is mainly influenced by Cantonese cuisine, non-Cantonese Chinese cuisine (especially Teochew, Hakka, Hokkien and the Jiangsu & Zhejiang), the Western world, Japan, and Southeast Asia, due to Hong Kong's past as a British colony"
+        }
+      ],
+      "best_match_ratio": 1.0,
+      "match_rank": 1,
+      "hit_at_1": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieved_count": 5,
+      "exact_match": 0.0,
+      "token_f1": 0.1692,
+      "token_precision": 0.0932,
+      "token_recall": 0.9167,
+      "answer_match_ratio": 1.0,
+      "response_words": 121,
+      "reference_words": 12
+    }
+  ]
+}
