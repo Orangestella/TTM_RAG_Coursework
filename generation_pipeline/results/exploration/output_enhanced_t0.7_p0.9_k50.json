@@ -30,7 +30,7 @@
     {
       "query_id": "q_002",
       "query": "What does the Japanese term 'nuuhara' mean?",
-      "response": "The Japanese term 'nuuhara' means 'blowpipe'.",
+      "response": "The Japanese term 'nuuhara' means 'deep fryer' or 'stove top'.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0049_chunk_22",
@@ -57,7 +57,7 @@
     {
       "query_id": "q_003",
       "query": "What is the defining component of all modern sushi?",
-      "response": "All modern sushi consists of vinegared rice, also known as shari (しゃり), or sumeshi (酢饭).",
+      "response": "The defining component of all modern sushi is the vinegared rice, also known as shari (しゃり) or sumeshi (酢饭).",
       "retrieved_context": [
         {
           "doc_id": "wiki_0259_chunk_0",
@@ -84,7 +84,7 @@
     {
       "query_id": "q_004",
       "query": "Who is believed to have invented modern nigiri sushi?",
-      "response": "According to the context provided, it states that nigiri-zushi, the most commonly recognized type today, was invented by Hanaya Yohei around 1824 in the Edo period (1603–1867). So, based on the information given, it can be concluded that Hanaya Yohei is believed to have invented modern nigiri sushi.",
+      "response": "Modern nigiri sushi is believed to have originated with Chef Hanaya Yohei, who first introduced the technique of hand-pressing sushi in the Edo period.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0259_chunk_5",
@@ -165,7 +165,7 @@
     {
       "query_id": "q_007",
       "query": "Which dish is the Chinese term 'mala' (麻辣) most closely associated with?",
-      "response": "Based on the information provided, the dish that is most closely associated with the term \"mala\" (麻辣) is Chongqing hot pot, which is described as a type of spicy hot pot. The passage specifically mentions that \"Chongqing hot pot is similar to the dry stir-fried mala xiang guo (麻辣香锅)\", indicating that it is a dish characterized by its spicy and numbing flavour. Therefore, the correct answer to the question \"Which dish is the Chinese term 'mala' (麻辣) most closely associated with?\" is Chongqing hot pot.",
+      "response": "Mala (麻辣) is most closely associated with Chongqing hot pot, also known as spicy hot pot or mala hotpot.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0155_chunk_5",
@@ -192,7 +192,7 @@
     {
       "query_id": "q_008",
       "query": "What does the word 'ramen' mean?",
-      "response": "The word \"ramen\" means \"pulled noodles.\"",
+      "response": "The word 'ramen' means 'pulling noodles'.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0271_chunk_0",
@@ -219,7 +219,7 @@
     {
       "query_id": "q_009",
       "query": "How is double steaming performed in Chinese cuisine?",
-      "response": "Double steaming is a Chinese cooking technique where delicate food items, such as bird's nest soup and shark fin soup, are covered with water and placed in a covered ceramic jar. After being steamed for several hours, the jar is sealed, allowing the contents to retain their essence without losing any liquid or moisture. This technique is commonly used with expensive ingredients like Chinese herbal medicines.",
+      "response": "Double steaming is a Chinese cooking technique used to prepare delicate food items such as bird's nest soup and shark fin soup. It involves covering the food with water and placing it in a covered ceramic jar, which is then steamed for several hours. The goal is to ensure that there is minimal loss of liquid or moisture (essences), preserving the essence of the food while cooking it efficiently.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0154_chunk_0",
@@ -246,7 +246,7 @@
     {
       "query_id": "q_010",
       "query": "What is the primary ingredient in doenjang-jjigae?",
-      "response": "The primary ingredient in doenjang-jjigae is doenjang, also known as fermented soybean paste.",
+      "response": "The primary ingredient in doenjang-jjigae is doenjang.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0295_chunk_0",
@@ -273,7 +273,7 @@
     {
       "query_id": "q_011",
       "query": "What are the four major sub-styles of Sichuan cuisine?",
-      "response": "Four major substyles of Sichuan cuisine include Shanghebang, Xiaohebang, Xiahebang, and Buddhist vegetarian style.",
+      "response": "The four major substyles of Sichuanese cuisine include Shanghebang, Xiaohebang, Xiahebang, and Buddhist vegetarian style.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0155_chunk_0",
@@ -300,7 +300,7 @@
     {
       "query_id": "q_012",
       "query": "What cuts of pork are commonly used to make char siu?",
-      "response": "Pork loin and pork butt (shoulder) are commonly used to make char siu.",
+      "response": "Pork loin, pork belly, pork butt, and pork fat are commonly used to make char siu.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0009_chunk_0",
@@ -327,7 +327,7 @@
     {
       "query_id": "q_013",
       "query": "Where did bubble tea originate?",
-      "response": "bubble tea originated in Taiwan.",
+      "response": "Taiwan",
       "retrieved_context": [
         {
           "doc_id": "wiki_0094_chunk_0",
@@ -354,7 +354,7 @@
     {
       "query_id": "q_014",
       "query": "What role does koji (Aspergillus oryzae) play in miso production?",
-      "response": "Koji plays a crucial role in miso production. It serves as the primary starter material that provides the necessary enzymes and nutrients for the growth and activity of the Aspergillus oryzae fungus, which in turn creates the flavor and aroma of miso. The koji is isolated from plant matter and cultivated under controlled conditions to produce the starter culture. This allows for the rapid development of the fungus, which then releases enzymes such as amylolytic and proteolytic, enabling the creation of mitsuo, or miso, sauce. The inclusion of wood ash also contributes to the nutrient content of the miso, enhancing its overall taste and texture.",
+      "response": "Koji plays a crucial role in miso production by providing the necessary enzymes for fermentation, specifically amylolytic and proteolytic enzymes that help break down starch into simpler sugars. This enzyme-rich environment in the fermentation process helps produce more flavorful and aromatic miso broth. Additionally, koji adds essential nutrients like boron, copper, and iron to the miso broth, further enhancing its nutritional value. The combination of koji and soybean fermentation significantly contributes to the unique taste and texture characteristic of miso, making it a staple ingredient in Japanese cuisine.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0329_chunk_0",
@@ -381,7 +381,7 @@
     {
       "query_id": "q_015",
       "query": "What is the difference between baechu-kimchi and baek-kimchi?",
-      "response": "The main difference between Baek-chu Kimchi (Baek-Ki-Chim) and Baek-Kimchi (White Kimchi) lies in their preparation methods:\n\n1. Preparation Method: Baek-chu Kimchi is prepared without chili peppers while Baek-Kimchi uses chili peppers during fermentation.\n2. Flavor: Both have mild and clean flavors, appealing to various tastes but with slightly different characteristics due to their use of different types of spices and condiments.\n3. Texture: Both are known for their crunchy texture, though they differ in how this texture is achieved.\n4. Purpose: While both serve similar purposes—such as an appetizer for meat dishes—they serve different primary roles based on their intended audience and purpose.",
+      "response": "The key differences between baechu-kimchi (which is actually Baek Kimchi, a Korean dish traditionally made without chili peppers) and baek-kimchi are:\n\n1. Flavor: Baechu-kimchi typically has a more subtle and slightly cleaner flavor compared to regular kimchi, which may be overly spicy due to the presence of chili peppers.\n\n2. Texture: Both types of kimchi are crunchy but have different textures:\n\n   - Baechu-kimchi is often described as having a chewier texture because it doesn't require as much heat to cook.\n   - Baek-kimchi, on the",
       "retrieved_context": [
         {
           "doc_id": "wiki_0254_chunk_0",
@@ -408,7 +408,7 @@
     {
       "query_id": "q_016",
       "query": "How does sake production differ from wine production?",
-      "response": "Sake production differs significantly from wine production in several key ways:\n\n1. Brewing Process: Sake is fermented by a separate fermentation step, unlike wine fermentation which primarily involves adding sugar to grape juice.\n\n2. Alcohol Content: Sake typically has higher alcohol content compared to wine. For example, the alcohol content of undiluted sake is around 18–20%, whereas the alcohol content of wine is usually lower, typically between 9–16%.\n\n3. Ingredients: Sake uses only four main ingredients: special rice, water, koji (a type of mold), and special yeast. Wine, on the other hand, requires at least three main components: grape juice, yeasts, and grapes.\n\n4. Production Method: Sake is brewed using a multi-step process involving the addition of koji and yeast. Wine is made through the same basic fermentation method but often includes additional yeast strains.\n\n5. Distillation: Both types involve distilling the liquid mixture to concentrate the alcohol, although there may be differences in how distillation is performed or regulated due to regional variations.\n\nThese differences reflect the distinct nature of each type of alcohol and its origins, making it challenging to compare their properties effectively without being familiar with both processes involved.",
+      "response": "Sake production differs significantly from wine production in several key ways:\n\n1. Brewing Process: While both sake and wine involve fermentation processes, the specific brewing process used in sake is unique compared to those used in traditional wine-making methods.\n\n2. Alcohol Content: Sake typically contains a higher percentage of alcohol compared to wine. For example, it often ranges from 18% to 20%, while most beer has an alcohol content of around 7%. Wine typically has a lower alcohol content, ranging from 3% to 9%.\n\n3. Flavor Profile Variations: Due to its high alcohol content, sake tends to have a",
       "retrieved_context": [
         {
           "doc_id": "wiki_0236_chunk_0",
@@ -435,7 +435,7 @@
     {
       "query_id": "q_017",
       "query": "What are the Eight Great Traditions (八大菜系) of Chinese cuisine?",
-      "response": "The Eight Great Traditions (八大菜系) of Chinese cuisine are described as follows:\n\n1. Guangdong\n2. Guangdong or Cantonese cuisine (Chinese: 粤菜; pinyin: yuècài)\n3. Sichuan\n4. Sichuan cuisine (Chinese: 川菜; pinyin: chuāncài)\n5. Anhui\n6. Anhui is derived from the native cooking styles of the Huangshan Mountains region in China and is similar to Jiangsu cuisine.\n7. Cantonese\n8. Cantonese comes from Guangdong Province in southern China. Due to Guangdong's location on the southern coast of China, fresh live seafood is prominent in Cantonese cuisine.\n\nThese eight regional cuisines are considered to be the core components of Chinese cuisine and represent the highest level of refinement in local cooking traditions across China.",
+      "response": "The Eight Great Traditions (八大菜系) of Chinese cuisine are Guangdong, Guangdong or Cantonese cuisine (粵菜; pinyin: yuècài), Sichuan cuisine (川菜; pinyin: chuāncài), and Anhui cuisine.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0152_chunk_1",
@@ -462,7 +462,7 @@
     {
       "query_id": "q_018",
       "query": "How is tteok made?",
-      "response": "Teek is made with steamed flour of various grains, specifically glutinous and non-glutinous rice.",
+      "response": "Tteok is typically made with steamed flour of various grains, especially glutinous and non-glutinous rice. This process involves pounding the rice or glutinous rice with utensils such as jeolgu and jeolgutgongi or tteokme and anban.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0258_chunk_0",
@@ -489,7 +489,7 @@
     {
       "query_id": "q_019",
       "query": "When did stir frying first appear in Chinese culinary history?",
-      "response": "The earliest record of stir-frying appearing in Chinese culinary history is in the Song dynasty (960-1279).",
+      "response": "The term \"stir fry\" was likely used for cooking in the early 1940s. This can be inferred from the fact that it appears in the Qimin Yaoshu, a sixth-century agricultural manual written in China, where it mentions \"chǎo 炒\". Additionally, the text states that stir-frying was \"likely used for cooking\", indicating an early appearance of this cooking technique in Chinese culinary history.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0205_chunk_0",
@@ -516,7 +516,7 @@
     {
       "query_id": "q_020",
       "query": "How is Dongpo pork prepared?",
-      "response": "Dongpo pork is prepared by pan-frying and then red-cooking it.",
+      "response": "To prepare Dongpo pork, follow these steps:\n\n1. Prepare your pork: Cut the pork into thick, about 5 cm x 5 cm pieces.\n2. Marinate the pork: Mix huangjiu (yellow wine), rock sugar, and soy sauce in a bowl. Simmer the pork for at least 3 hours until the pork has absorbed the flavors.\n3. Season the pork: Add a small amount of sea salt and pepper over the pork. Let it sit for another hour before serving.\n4. Brown the pork: Heat some oil in a wok or skillet over medium-high heat. Sear the pork",
       "retrieved_context": [
         {
           "doc_id": "wiki_0190_chunk_0",
@@ -543,7 +543,7 @@
     {
       "query_id": "q_021",
       "query": "Which region of China is most associated with red cooking?",
-      "response": "The region most associated with red cooking is the Jiangnan region. The context states that \"Red cooking likely originated in Jiangsu province.\" Therefore, based on the information provided, the correct answer is that the region associated with red cooking is the Jiangnan region.",
+      "response": "The region most associated with red cooking is the Jiangnan region.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0198_chunk_0",
@@ -570,7 +570,7 @@
     {
       "query_id": "q_022",
       "query": "What nutrients does Longjing tea contain?",
-      "response": "Longjing tea contains several important vitamins, amino acids, and other beneficial nutrients. Specifically:\n\n1. Vitamin C - This nutrient helps to boost the immune system and fight off infections.\n2. Amino acids - These are essential proteins that provide energy and support bodily functions.\n3. High concentrations of catechins - These compounds can help reduce inflammation and improve heart health.\n4. Potassium - A mineral that supports proper muscle function and nerve signaling.\n5. Iron - Necessary for blood cell production and red blood cell formation.\n6. Calcium - Important for bone health and maintaining muscle function.\n7. Magnesium - Essential for nerve and muscle function, as well as proper calcium absorption.\n8. Omega-3 fatty acids - May help lower cholesterol levels and promote brain health.\n9. Fiber - Helps regulate digestion and maintain digestive health.\n10. Antioxidants - May help protect cells against damage caused by free radicals.\n\nThese nutrients work together to contribute to the overall nutritional profile of Longjing tea.",
+      "response": "Longjing tea contains vitamins C, amino acids, and high concentrations of catechins.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0194_chunk_0",
@@ -624,7 +624,7 @@
     {
       "query_id": "q_024",
       "query": "How is Beggar's Chicken traditionally prepared?",
-      "response": "Traditionally, Beggar's Chicken is prepared with clay, wrapping the chicken in clay or mud, then setting it in a hole where he had lit a fire, and burying it. The preparation process typically takes up to six hours.",
+      "response": "Beggar's Chicken is traditionally prepared with clay.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0188_chunk_0",
@@ -651,7 +651,7 @@
     {
       "query_id": "q_025",
       "query": "What does the Records of the Three Kingdoms say about the origin of doenjang?",
-      "response": "According to the Records of the Three Kingdoms, the origin of doenjang can be traced back to the Song dynasty period. Specifically, it states:\n\n\"The Records of the Three Kingdoms, a Chinese historical text written and published in the third century CE, mentions that 'Goguryeo people are good at brewing fermented soybeans' in the section named Dongyi (Eastern foreigners) in the Book of Wei.\" \n\nThis indicates that doenjang was already being produced and utilized in Korea prior to the Song dynasty.",
+      "response": "The Records of the Three Kingdoms states that \"Goguryeo people are good at brewing fermented soybeans\" in the section named Dongyi (Eastern foreigners).",
       "retrieved_context": [
         {
           "doc_id": "wiki_0035_chunk_0",
@@ -678,7 +678,7 @@
     {
       "query_id": "q_026",
       "query": "How is gongfu tea different from a tea ceremony?",
-      "response": "Gongfu tea is different from a tea ceremony in several ways:\n\n1. Methodology: Gongfu tea is described as a specific technique of brewing tea rather than a ritualized ceremony. This means that its methods are not always followed in the same way as a formal tea ceremony.\n\n2. Ingredients: Gongfu tea requires a stronger leaf-to-water ratio compared to Western-style brewing. This could mean using larger pots and cups.\n\n3. Brewing vessel: Gongfu tea uses smaller, less refined brewing vessels than those used in Western-style tea brewing.\n\n4. Experience required: Unlike a tea ceremony, which requires advanced knowledge and training, gongfu tea requires experience and careful attention to detail.\n\n5. Technique: Gongfu tea is often characterized as meticulous, subtle, graceful, and exquisite, reflecting the high standards expected in tea preparation.\n\n6. Purpose: While a tea ceremony aims to honor and appreciate the artistry of tea making, gongfu tea is more focused on achieving the optimal flavor and aroma through precise techniques.\n\nIn summary, while both gongfu tea and a tea ceremony share some common elements like preparing tea, they differ significantly in terms of their methodology, ingredients, brewing vessel size, emphasis on craftsmanship, and overall purpose.",
+      "response": "Gongfu tea differs from a tea ceremony in several key ways:\n\n1. Approach: Gongfu tea is characterized by its meticulous, subtle, graceful, and exquisite aspects, often requiring patience and experience to achieve perfection. It emphasizes precise brewing techniques and uses smaller brewing vessels compared to Western-style brewing methods.\n\n2. Equipment: Gongfu tea requires specialized equipment such as smaller brewing vessels and a stronger leaf-to-water ratio than in Western-style brewing. This allows for greater control over the tea's flavor profile and presentation.\n\n3. Preparation Method: It is known for being made through a specific technique rather than a ritualized ceremony. Gongfu",
       "retrieved_context": [
         {
           "doc_id": "wiki_0175_chunk_0",
@@ -705,7 +705,7 @@
     {
       "query_id": "q_027",
       "query": "What does the name 'bang bang chicken' derive from?",
-      "response": "The name 'bang bang chicken' derives from the Chinese word 'bàng', which means stick.\nIt refers specifically to the wooden stick or cudgel traditionally used to tenderize the meat when preparing this dish.\nThis naming convention has become somewhat of a cultural phenomenon, especially in Sichuan cuisine where the term 'bam-bam chicken' was originally meant to describe similar types of dishes where the meat was pounded with sticks before cooking.",
+      "response": "The name 'bang bang chicken' derives from the Chinese word for stick, 'bàng'.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0158_chunk_0",
@@ -732,7 +732,7 @@
     {
       "query_id": "q_028",
       "query": "What are the ingredients in baek-kimchi?",
-      "response": "The main ingredients in baek-kimchi include:\n\n- Salted napa cabbage\n- Radish\n- Minari (also known as pimento)\n- Spring onions\n- Korean pear\n- Chestnuts\n- Jujube\n- Ginger\n- Garlic\n- Salt\n- Sugar\n- Chili threads (as garnish)",
+      "response": "The main ingredients in Baek-kimchi include:\n\n- Salted napa cabbage\n- Radish\n- Minari\n- Spring onions\n- Korean pear\n- Chestnuts\n- Jujube\n- Ginger\n- Garlic\n- Salt\n- Sugar\n- Chili threads as garnish",
       "retrieved_context": [
         {
           "doc_id": "wiki_0254_chunk_0",
@@ -759,7 +759,7 @@
     {
       "query_id": "q_029",
       "query": "What are the two distinct meanings of 'kaiseki' in Japanese cuisine?",
-      "response": "The two distinct meanings of 'kaiseki' in Japanese cuisine are:\n\n1. A set menu of select food served on an individual tray (for a gathering).\n2. The simple meal that the host prepares for the guests before a ceremonial tea and is also known as cha-kaiseki (茶懐石).\n\nThese two meanings reflect the different contexts and purposes behind the term 'kaiseki'.",
+      "response": "The two distinct meanings of 'kaiseki' in Japanese cuisine are:\n\n1. Kaiseki (懐石) - A set menu of select food served on an individual tray (to each member of a gathering).\n2. Kaiseki-ryōri (懐石料理) - Simple meal that the host of a chanoyu gathering serves to the guests before a ceremonial tea, commonly referred to as cha-kaiseki (茶懐石).\n\nBoth meanings refer to the same concept: a traditional multi-course Japanese dinner prepared according to specific instructions and principles.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0212_chunk_0",
@@ -786,7 +786,7 @@
     {
       "query_id": "q_030",
       "query": "What range of cooking techniques can a wok be used for?",
-      "response": "A wok is commonly used for many different types of cooking techniques, including:\n\n1. Stir-frying\n2. Steaming \n3. Pan-frying\n4. Deep-frying\n5. Poaching\n6. Boiling\n7. Braising\n8. Searing\n9. Stewing\n10. Making soup\n11. Smoking\n12. Roasting nuts\n\nThese various methods allow for versatile use in preparing a variety of dishes, from simple stir-fries to complex soups and sauces.",
+      "response": "A wok can be used for various cooking techniques, including stir-frying, steaming, pan-frying, deep-frying, poaching, boiling, braising, searing, stewing, making soup, smoking, and roasting nuts.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0375_chunk_0",
@@ -813,7 +813,7 @@
     {
       "query_id": "q_031",
       "query": "How is Shaoxing wine produced?",
-      "response": "To make Shaoxing wine, it's first necessary to ferment the glutinous rice, water, and wheat-based yeast together. This process requires manual stirring with a type of wooden hoe every four hours. The result is called kāi pá, which means \"open scraping.\" After this step, the wine is considered healthy. However, its full potential taste hasn't been scientifically studied yet.",
+      "response": "Shaoxing wine is produced by fermenting glutinous rice, water, and wheat-based yeast.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0200_chunk_0",
@@ -840,7 +840,7 @@
     {
       "query_id": "q_032",
       "query": "What is Korean royal court cuisine?",
-      "response": "Korean royal court cuisine refers to the culinary style and dishes typically enjoyed by the royal court during the Joseon Dynasty.",
+      "response": "Korean royal court cuisine refers to the style of cookery within Korean cuisine typically consumed at the court of the Joseon Dynasty. This cuisine emphasizes opulence and tradition, featuring twelve main dishes alongside rice and soup. Most dishes are prepared in bronzeware.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0139_chunk_0",
@@ -867,7 +867,7 @@
     {
       "query_id": "q_033",
       "query": "What is jeon in Korean cuisine?",
-      "response": "Jeon in Korean cuisine is a type of fritter made from seasonings such as whole, sliced, or minced fish, meat, vegetables, and other ingredients, coated with wheat flour and egg wash before being fried in oil. It can be consumed as an appetizer, side dish, or an anju (food served and eaten with drinks). Some examples include:\n\n1. Jeon (육전): A type of buchimgae (smaller and less expensive) that originated in Korean royal court cuisine.\n2. Jeon (육전) (in simplified Chinese characters): A term for a general category of fritters made from various ingredients, often characterized by their larger size compared to traditional buchimgae.\n3. Jeon (육전) (in Japanese characters): Another name for this type of fritter, referring to its broader definition rather than specific categories within Korean cuisine.",
+      "response": "Jeon in Korean cuisine is a type of seafood-based fritter made from seasoning various ingredients like fish, meat, vegetables, and eggs before frying it in oil. It's commonly found on dining tables around the world, often associated with traditional Korean cuisine.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0255_chunk_0",
@@ -894,7 +894,7 @@
     {
       "query_id": "q_034",
       "query": "What two ingredients in dashi create a synergy of umami?",
-      "response": "Two ingredients in dashi create a synergy of umami: kelp (kombu) and bonito flakes (katsuobushi).\nTo provide more context:\n\n- Kombu (kombu) is commonly used in dashi because it contains glutamic acid, which contributes to the umami flavor.\n- Bonito flakes (katsuobushi) are another key ingredient in dashi because they contain inosinic acid, which enhances the umami flavor.\nThese two components work together to create a unique and rich flavor profile in Japanese cuisine, giving dashi its distinctive umami character.",
+      "response": "The two ingredients in dashi that create a synergy of umami are kelp and kombu (edible kelp).",
       "retrieved_context": [
         {
           "doc_id": "wiki_0219_chunk_0",
@@ -921,7 +921,7 @@
     {
       "query_id": "q_035",
       "query": "What is the historical origin of ramen in Japan?",
-      "response": "Historically, the origin of ramen in Japan dates back to the late 19th century. The term \"ramen\" itself comes from the Chinese word \"lāmiàn,\" which translates to \"pulled noodles.\" While \"ramen\" is a Japanese borrowing of the Chinese term, the dish itself has roots that predate the introduction of the Chinese noodle soup concept into Japan. Specifically:\n\n1. **Yokohama Chinatown**: In the late 19th century, ramen became an established culinary tradition in Yokohama, one of the largest cities in Japan at the time. During this period, ramen underwent significant development and refinement through the efforts of many chefs, including Momofuku Ando, who introduced the dish to the city.\n\n2. **Diverse Regional Variations**: Since then, ramen has evolved significantly across different regions of Japan, with each area having its unique style and flavors. For instance, the tonkotsu ramen of Kyushu and the miso ramen of Hokkaido represent distinct regional variations.\n\n3. **Cultural Impact**: The popularity of ramen has transcended its original Chinese origins, becoming a global food culture. Its cultural impact extends beyond just the cuisine,",
+      "response": "Historically, the origin of ramen in Japan dates back to the late 19th century. Initially, ramen was known as \"lāmiàn,\" which literally means \"pulled noodles.\" However, this term became associated with Chinese noodle dishes rather than traditional Japanese ones, hence the modern use of the term \"ramen.\"\nThe word \"ramen\" itself comes from the Chinese character \"拉面,\" which translates to \"pull noodles.\" In Japan, this term refers to Chinese-style alkaline wheat noodles that are typically cut rather than pulled like ramen noodles.\nRamen originated in the Yokohama Chinatown",
       "retrieved_context": [
         {
           "doc_id": "wiki_0271_chunk_5",
@@ -948,7 +948,7 @@
     {
       "query_id": "q_036",
       "query": "What liquid ingredients are used to braise quail eggs in jangjorim?",
-      "response": "Tobrai eggs\n5 cups water",
+      "response": "The liquid ingredients used to braise quail eggs in Jangjorim are:\n\n- 3 cups water\n- 1 cup soy sauce\n- ½ cup refined rice wine\n- 4 cloves garlic\n- 3 slices of fresh ginger\n- 3 dried red chiles",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0076_chunk_0",
@@ -1002,7 +1002,7 @@
     {
       "query_id": "q_038",
       "query": "What is the basic procedure for making baozi dough?",
-      "response": "The basic procedure for making baozi dough involves following these steps:\n\n1. **Preparation of Yeast and Sugar**: Mix 1 cup of warm water with some sugar and let it stand for 15 minutes. This allows the yeast to start fermenting.\n\n2. **Filling Ingredients**: Sift the flour and sugar into a mixing bowl. If you've already pre-mixed the yeast, combine it with the flour and remaining sugar; if not, add all ingredients together and mix until there's no lumps.\n\n3. **Combine Dough**: Start by adding 1 cup of water to the mixture. Continue kneading the dough for approximately 5-10 minutes. As the dough begins to form a ragged clump, gently press the center down slightly, creating a crease. Allow the dough to relax by kneading for an additional 5-10 minutes.\n\n4. **Adding Filling**: Using your hands, carefully fold the edges of the dough together in a pleated manner, pinch the edges closed, and twist them around. This creates a pleated shape that helps seal the baozi during cooking.\n\n5. **Rising the Baozi**: Place the baozi onto a flat surface and allow them to rise",
+      "response": "The basic procedure for making baozi dough involves the following steps:\n\n1. **Preheat the Dough**: Stir the yeast and 1 tablespoon of sugar into 1 cup of warm water. Let this mixture stand for 15 minutes.\n\n2. **Ferment the Dough**: Use a mixing bowl to sift flour and sugar together. Mix in 1 cup of the remaining warm water until the dough begins to form a ragged clump.\n\n3. **Knead the Dough**: Continue kneading the dough for 5-10 minutes until it becomes stiff and springs back easily when lightly pressed with the fingers.\n\n4",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0001_chunk_0",
@@ -1029,7 +1029,7 @@
     {
       "query_id": "q_039",
       "query": "What are the main ingredients in Kung Pao Chicken sauce?",
-      "response": "The main ingredients in Kung Pao Chicken sauce are:\n\n- Chicken/meat\n- Chili peppers\n- Peanuts\n- Red chilies\n- Garlic",
+      "response": "The main ingredients in Kung Pao Chicken sauce are:\n\n1. Shrimp (shrimp paste)\n2. Cornstarch\n3. Oyster sauce\n4. Peanut\n5. Red chilies\n6. Garlic\n7. Soy sauce\n8. Rice vinegar\n9. Chicken broth\n10. Sugar\n11. Sesame oil\n12. Hoisin sauce",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0013_chunk_0",
@@ -1056,7 +1056,7 @@
     {
       "query_id": "q_040",
       "query": "What is gyudon?",
-      "response": "Gyudon is a type of Japanese dish consisting of rice topped with beef and onion, simmered in a mildly sweet sauce flavored with dashi, soy sauce, and mirin. It's typically served with shirataki noodles and various condiments like shichimi seasoning, miso soup, and beni shōga (pickled ginger).",
+      "response": "Gyudon is a Japanese dish consisting of rice topped with beef and onion simmered in a mildly sweet sauce flavored with dashi, soy sauce, and mirin.",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0039_chunk_0",
@@ -1083,7 +1083,7 @@
     {
       "query_id": "q_041",
       "query": "How long should natto be fermented and at what temperature?",
-      "response": "The natto should be fermented for 22-24 hours and kept at about 100°F (38°C).",
+      "response": "The recipe for natto states that it should be fermented for **at least 22-24 hours** at **100°F (38°C)**.",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0047_chunk_0",
@@ -1110,7 +1110,7 @@
     {
       "query_id": "q_042",
       "query": "What does the word 'okonomiyaki' mean?",
-      "response": "The word \"okonomiyaki\" means \"how you like, grill,\" referring to its preparation method where it is grilled over an open flame.",
+      "response": "The word \"okonomiyaki\" means \"how you like, grill.\"",
       "retrieved_context": [
         {
           "doc_id": "blog_0005_chunk_0",
@@ -1164,7 +1164,7 @@
     {
       "query_id": "q_044",
       "query": "What is inarizushi?",
-      "response": "Inarizushi is a type of pouch of fried tofu typically filled with sushi rice.",
+      "response": "Inarizushi is a type of pouch of fried tofu typically filled with sushi rice alone.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0259_chunk_8",
@@ -1191,7 +1191,7 @@
     {
       "query_id": "q_045",
       "query": "What are the four types of dashi?",
-      "response": "The four types of dashi mentioned in the text are:\n1. Kombu dashi - made from kelp with rich glutamic acid.\n2. Katsuobushi dashi - made from bonito flakes with inosinic acid for a strong umami and fragrance.\n3. Nabishiki dashi - made from dried sardines or anchovies with both glutamic and inosinic acids for a robust umami flavor.\n4. Awase dashi - a blend of kombu and bonito dashi providing an even richer and more complex flavor profile.",
+      "response": "Four types of dashi are mentioned in the given context:\n1. Kombu dashi - Made from kelp, rich in glutamic acid.\n2. Katsuobushi dashi - Made from bonito flakes, full of inosinic acid, and known for its fragrant aroma.\n3. Niboshi dashi - Made from dried sardines or anchovies, containing both glutamic and inosinic acids for a strong umami and rich flavor.\n4. Awase dashi - A blend of kombu and bonito dashi, combining the umami and aroma of both ingredients for a deep,",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0036_chunk_0",
@@ -1245,7 +1245,7 @@
     {
       "query_id": "q_047",
       "query": "What ingredients are used in tonkatsu sauce?",
-      "response": "The key ingredient used in tonkatsu sauce according to the recipe provided is Worcestershire sauce.",
+      "response": "To determine what ingredients are used in tonkatsu sauce, I'll analyze the relevant portion of the Wikipedia entry:\n\nTonicatsu is a Japanese dish consisting of rolled pork cutlets. The recipe for tonkatsu includes a specific sauce, but it doesn't explicitly list all the ingredients. However, based on the provided text, the main components of tonkatsu sauce mentioned include:\n\n1. Soy sauce\n2. Sugar\n3. Ketchup\n4. Worcestershire sauce\n5. Kneaded bread crumbs (for coating pork)\n\nWhile these elements appear in the Tonkatsu recipe, they're not listed as the",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0064_chunk_0",
@@ -1272,7 +1272,7 @@
     {
       "query_id": "q_048",
       "query": "What is gimbap?",
-      "response": "Gimbap is a popular snack or lunch dish in Korea. Its main ingredients include gim (sheets of dried seaweed) and bap (rice).",
+      "response": "Gimbap is a popular Korean snack or lunch dish consisting of sheets of dried seaweed (gimbap seaweed) wrapped around rice. The main ingredients include:\n\n- Gim (dried seaweed sheets)\n- Bap (rice)\n- Sesame oil\n- Sesame seeds\n- Carrots\n- Ground pepper\n- Vegetable oil\n- Eggs\n- Steamed short-grain or sushi rice\n- Gimbap seaweed\n- Tuna, ham, sausage, or any other kind of cooked meat\n\nThe preparation involves slicing radish, boiling water, adding spinach, washing spinach, seasoning with salt, sesame",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0074_chunk_0",
@@ -1299,7 +1299,7 @@
     {
       "query_id": "q_049",
       "query": "What are the main ingredients in mapo tofu?",
-      "response": "The main ingredients in mapo tofu are:\n\n1. Silken tofu - cubed\n2. Beef or pork - minced\n3. Garlic - minced\n4. Chili bean paste (la doubanjiang) \n5. Soy sauce\n6. Rice wine\n7. Green onions - cut into 2 cm (1 inch) pieces\n\nThese ingredients combine to create the flavorful and spicy dish typically associated with mapo tofu.",
+      "response": "Main ingredients in mapo tofu include:\n\n- Silken tofu (also known as Mapo tofu or Ma Po Tofu)\n- Beef or pork (or minced meat, such as pork, beef, or lamb)\n- Garlic\n- Chili bean paste (La Doubanjiang)\n- Soy sauce\n- Rice wine\n- Green onions (cut into 2 cm (1 inch) pieces)\n- Mushrooms (optional)\n- Coriander and cumin (extra ground for a numbing sensation)\n- Red bell pepper, tomato, and fresh coriander leaves (for a vegan/vegetarian option)",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0014_chunk_0",
@@ -1326,7 +1326,7 @@
     {
       "query_id": "q_050",
       "query": "How long is congee cooked according to the recipe?",
-      "response": "According to the recipe, congee is cooked for 1 hour and 45 minutes to 2 hours.",
+      "response": "According to the recipe, congee is cooked for approximately 1 hour and 45 minutes to 2 hours before being served.",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0006_chunk_0",
@@ -1353,7 +1353,7 @@
     {
       "query_id": "q_051",
       "query": "How is bubble tea assembled?",
-      "response": "To assemble bubble tea, follow these steps:\n\n1. Place the pearls in a large glass.\n2. Combine all remaining ingredients in a cocktail shaker.\n3. Stir vigorously until the mixture is frothy.\n4. Pour the mixture into a glass and serve with large-diameter straws.",
+      "response": "To assemble bubble tea, follow these steps:\n\n1. Prepare your equipment:\n   - Use a small bowl for crushing ice cubes\n   - A glass jar or pitcher for mixing ingredients\n   - A spoon for stirring\n\n2. Gather your materials:\n   - Boba pearls (cooked tapioca pearls)\n   - Crushed ice\n   - Very strong chilled black tea\n   - Milk (optional)\n\n3. Combine ingredients:\n   - Place the boba pearls in a large glass jar or pitcher\n   - Add crushed ice\n   - Pour the very strong chilled black tea over the pearls and ice\n   - Mix well with a",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0077_chunk_0",
@@ -1380,7 +1380,7 @@
     {
       "query_id": "q_052",
       "query": "What vegetables are used in sukiyaki?",
-      "response": "Beef, napa cabbage, green onions, firm tofu,shiitake mushrooms, spinach, and shirataki noodles are used in sukiyaki.",
+      "response": "The vegetables used in sukiyaki include napa cabbage, green onions, firm tofu, shredded spinach, and sliced shiitake mushrooms.",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0058_chunk_0",
@@ -1407,7 +1407,7 @@
     {
       "query_id": "q_053",
       "query": "What does the name 'daifuku' mean?",
-      "response": "The name 'daifuku' means 'great luck'.",
+      "response": "The name 'daifuku' means 'big luck'.",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0034_chunk_0",
@@ -1434,7 +1434,7 @@
     {
       "query_id": "q_054",
       "query": "How is umeboshi made?",
-      "response": "Umeboshi is made by preserving Japanese plums through pickling process.",
+      "response": "Umeboshi is made through the process of pickling.",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0041_chunk_0",
@@ -1488,7 +1488,7 @@
     {
       "query_id": "q_056",
       "query": "What is the difference between dim sum and yum cha?",
-      "response": "The main difference between dim sum and yum cha lies in their origins and usage:\n\nDim Sum originates from Shanghai and Hong Kong during the Tang Dynasty (618-907 AD), specifically during the reign of Emperor Taizong of Tang (581-618 AD). It involves the consumption of single dumplings or other small items shaped like dumplings, such as cakes, cookies, pastries, and various snacks.\n\nYum Cha originated from the southern Chinese region around the 12th century, particularly in Fujian Province. It typically consists of small, portioned dishes that are served in bamboo steamer bowls or small plates and filled with rice porridge, steamed buns, pancakes, and other foods. It's sometimes accompanied by tea and beverages, especially in Southern China.\n\nIn summary, dim sum was introduced to China via Shanghai and Hong Kong in the early 12th century, while yum cha is a traditional dish from Fujian Province that has been consumed since the Tang Dynasty.",
+      "response": "The main difference between dim sum and yum cha is that dim sum is typically a traditional dish enjoyed in restaurants for brunch, while yum cha is a specific type of Chinese breakfast dish found in southern China.",
       "retrieved_context": [
         {
           "doc_id": "blog_0019_chunk_0",
@@ -1515,7 +1515,7 @@
     {
       "query_id": "q_057",
       "query": "Where did 'Mongolian barbecue' actually originate?",
-      "response": "The 'Mongolian barbecue' originated in Taiwan in the 1950s.",
+      "response": "Mongolian barbecue originated in Taiwan in the 1950s.",
       "retrieved_context": [
         {
           "doc_id": "blog_0029_chunk_0",
@@ -1542,7 +1542,7 @@
     {
       "query_id": "q_058",
       "query": "What does the word 'bento' mean?",
-      "response": "The word \"bento\" means \"portable food.\"",
+      "response": "The word 'bento' means portable food in Japan. It originated from the Chinese character \"便当\" (biàndāng) and has a different meaning than its original Chinese letters, which have evolved into 'eryotai' (辯当). In Japan, the word 'bento' is typically written in 'kyuji' form, combining both the 'biya' (便) and 'dakka' (當) components. The 'biya' part refers to convenience or convenience, while the 'dakka' part refers to prepared food outside the home.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0089_chunk_2",
@@ -1569,7 +1569,7 @@
     {
       "query_id": "q_059",
       "query": "Why is steamed whole fish associated with Chinese New Year?",
-      "response": "Steamed whole fish is associated with Chinese New Year because the word for fish sounds a bit like \"abundance,\" which may portend good luck for the year ahead.",
+      "response": "Steamed whole fish is associated with Chinese New Year due to the sentiment of abundance conveyed through the sound of the word \"fish\" being similar to the Chinese character \"恭喜\" (gǎng gài), meaning \"good fortune\". This connection aligns with the cultural expectation of wealth and prosperity for the coming year. The phrase \"one of the reasons\" suggests that this sentiment has contributed significantly to the popularity of steamed fish as a traditional element in Chinese New Year celebrations.",
       "retrieved_context": [
         {
           "doc_id": "blog_0012_chunk_0",
@@ -1596,7 +1596,7 @@
     {
       "query_id": "q_060",
       "query": "What sensory effects does Sichuan pepper produce?",
-      "response": "The sensory effects of Sichuan pepper include:\n\n- Tingling, numbing sensation in the mouth\n- Extreme heat \n- Numbing sensation in the mouth",
+      "response": "The Sichuan pepper produces an intense, tangy sensation in the mouth, followed by a burning, numbing sensation and extreme heat.",
       "retrieved_context": [
         {
           "doc_id": "blog_0015_chunk_0",
@@ -1623,7 +1623,7 @@
     {
       "query_id": "q_061",
       "query": "What is the key distinction between Northern and Southern Chinese cuisine?",
-      "response": "The key distinction between Northern and Southern Chinese cuisine is primarily based on the staple carbohydrate used. Southern cuisine typically relies heavily on rice, whereas Northern cuisine tends to feature much more wheat. This preference for rice over wheat is attributed to environmental factors such as the climate, which favors rice growth. Additionally, the contrast between the traditional cooking methods of rice-based dishes versus those that use wheat emphasizes the distinct regional characteristics of each region within China.",
+      "response": "The key distinction between Northern and Southern Chinese cuisine is that the former primarily relies on rice as the staple carbohydrate, while the latter emphasizes wheat. This preference is attributed to environmental factors such as warm and rainy climates in the south and cold weather in the north.",
       "retrieved_context": [
         {
           "doc_id": "blog_0011_chunk_0",
@@ -1650,7 +1650,7 @@
     {
       "query_id": "q_062",
       "query": "What nickname does gua bao have?",
-      "response": "Gua bao is called \"hó͘-kā-ti\", meaning \"tiger bites pig\".",
+      "response": "Gua bao has the nickname \"hó͘-kā-ti\", meaning \"tiger bites pig\".",
       "retrieved_context": [
         {
           "doc_id": "blog_0007_chunk_0",
@@ -1677,7 +1677,7 @@
     {
       "query_id": "q_063",
       "query": "Why is niu rou mian considered a national dish of Taiwan?",
-      "response": "Niu Rou Mian is considered a national dish of Taiwan because it is a well-known and traditional dish in Taiwanese cuisine. It is widely recognized as one of the country's national treasures, reflecting the unique flavors and cultural heritage of the island nation. Additionally, it holds significant importance in Taiwanese society, serving as a symbol of regional identity and pride. While some may argue that the combination of ingredients like soy sauce might seem unconventional compared to other popular dishes in Taiwan, the combination of slow-cooking beef brisket, incorporating spices such as scallions, ginger, garlic, chili peppers, bay leaves, and other seasonings, creates a distinctive flavor profile that sets it apart from typical beef noodle soups. This makes it a beloved and celebrated dish among both locals and tourists alike.",
+      "response": "Niu Rou Mian is considered a national dish of Taiwan due to several reasons:\n\n1. National significance: It's described as being awarded the title of \"national dish\" by the government.\n2. Historical importance: As mentioned in the blog post, it was invented by Chinese veterans fleeing to Taiwan during the Chinese Civil War, making it deeply ingrained in the country's cultural heritage.\n3. Cultural impact: The dish has become a staple part of Taiwanese cuisine, reflecting the country's rich culinary history and identity.\n4. Local popularity: Despite the national honor, it's still widely enjoyed locally, especially in Taipei and other parts of",
       "retrieved_context": [
         {
           "doc_id": "blog_0009_chunk_0",
@@ -1704,7 +1704,7 @@
     {
       "query_id": "q_064",
       "query": "How does banchan function in Korean dining?",
-      "response": "Banchan serves as a central component in Korean cuisine, representing the overall concept of serving diverse side dishes throughout the entire meal. It's a way for diners to enjoy multiple items without feeling overwhelmed by the variety of choices available. Banchan typically consists of several different types of food, such as:\n\n1. Namul (stir-fried vegetables)\n2. Bokkeum (meat or mushrooms stir-fried with sauce)\n3. Jorim (boiled protein dishes like steak, chicken, or pork)\n4. Jeon (grilled proteins like tofu, squid, or shrimp)\n5. Hoe (raw dishes like rice balls or dumplings)\n6. Kimchi\n\nThese various dishes serve to complement each other and enhance the flavor profile of the main course, providing a more balanced experience than simply consuming one dish at a time. In addition to being functional side dishes, these dishes also add to the overall dining experience, making them integral parts of Korean cuisine.",
+      "response": "Banchan serves as an important concept in Korean cuisine, representing the communal practice of placing several distinct side dishes in individual bowls around a table. It refers to the idea of combining different food items into a single meal, such as wrapping beef bulgogi with lettuce leaves and other side dishes. This practice reflects the overall theme of banchan, which includes a variety of dishes, including meat-based entrees, vegetables, and sauces, being placed together in a communal setting. The inclusion of diverse vegetable-based dishes makes banchan a popular staple in Korean cuisine.",
       "retrieved_context": [
         {
           "doc_id": "blog_0024_chunk_0",
@@ -1731,7 +1731,7 @@
     {
       "query_id": "q_065",
       "query": "What are the 'red and white' food groups of Mongolian cuisine?",
-      "response": "The red and white food groups of Mongolian cuisine refer to the use of dairy products, meat, and animal fats. This type of cuisine is associated with livestock consumption and includes dishes like cooked mutton and steamed dumplings filled with meat.",
+      "response": "The 'red and white' food groups of Mongolian cuisine refer to the traditional staple foods that are primarily made from livestock meat and dairy products. These include:\n\n- Mutton\n- Beef\n- Lamb\n- Chicken\n- Fish (often served raw or pickled)\n- Eggs\n\nThese dishes are considered among the most common rural meals in Mongolia and can be found in many regions throughout the country.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0097_chunk_0",
@@ -1758,7 +1758,7 @@
     {
       "query_id": "q_066",
       "query": "What is the cultural significance of buuz in Mongolia?",
-      "response": "The cultural significance of buuz (also known as buuz) in Mongolia is that it represents the blending of Chinese and Mongolian culinary traditions. It originated from neighboring China, where similar dumplings were popularized. The name \"Buuz\" reflects the Chinese pronunciation of the term \"bozu,\" which translates to \"steamed dumplings.\" The dumplings are considered part of the traditional Mongolian meal and are especially celebrated during Tsagaan Sar, a lunar New Year festival. During this celebration, Mongolians participate in various customs such as burning candles at an altar, exchanging gifts with friends and family, and greeting each other by the zolgokh handshake, which requires gripping by the elbows and asking \"Amar bail uu?\" (\"Are you living peacefully?\"). The bûzūq, or \"bûz\", is an intense ritual that takes place around this time, involving extensive preparations, cleanings, and reconciliation of household chores, following the strict calendar rules set aside for this period. Despite the various challenges and disturbances experienced concurrently, buuz remains an integral element of Mongolian social life, symbolizing unity, community, and communal responsibility.",
+      "response": "The cultural significance of buuz (milk dumplings) in Mongolia is that they are believed to have originated from neighboring China and have been adopted into Mongolian cuisine. This connection reflects the unique blend of influences present in Mongolian culture, integrating elements from both Chinese and European cuisines. The buuz are seen as a traditional, symbolic food item associated with the holiday Tsagaan Saar, marking the transition from winter to summer. It's important to note that while the tradition has endured, it faces challenges such as changing social norms and modernization efforts. Despite these changes, the buuz continue to hold a special place in Mong",
       "retrieved_context": [
         {
           "doc_id": "blog_0027_chunk_0",
@@ -1785,7 +1785,7 @@
     {
       "query_id": "q_067",
       "query": "How much kimchi does South Korea consume per person each year?",
-      "response": "According to the context provided, South Koreans consume approximately 18 kilograms (40 pounds) of kimchi per person annually.",
+      "response": "According to the context provided, South Korea consumes 1,965,000 tons of kimchi annually.",
       "retrieved_context": [
         {
           "doc_id": "wiki_0285_chunk_22",
@@ -1812,7 +1812,7 @@
     {
       "query_id": "q_068",
       "query": "What is the traditional ceremonial occasion for serving bibimbap?",
-      "response": "The traditional ceremonial occasion for serving bibimbap is on the eve of the lunar New Year. This is detailed in the context provided:\n\n\"In my bibimbap I included some sautéed beef mince flavoured with soy sauce, ginger and garlic, dried seaweed, pickled cucumber, stir fried zucchini, sautéed spinach, gochujang-based chilli sauce, sautéed carrot, blanched bean sprouts and shitake mushrooms, with piping hot rice and a raw egg yolk. The dish is notorious for its\"\n\nTherefore, the traditional ceremonial occasion for serving bibimbap is the eve of the lunar New Year, specifically referred to as \"the lunar New Year\".",
+      "response": "The traditional ceremonial occasion for serving bibimbap is the \"rites for village gods\". This custom was prevalent among agricultural communities, especially in farming villages where people lived together in small groups without having multiple cooking pots or utensils available at their homes. These villagers were expected to share communal meals regularly, which led them to develop the practice of serving special dishes like bibimbap on specific days when they gathered for important rituals or ceremonies, including the celebration of the Lunar New Year in Jeonju province, South Korea.",
       "retrieved_context": [
         {
           "doc_id": "blog_0022_chunk_0",
@@ -1839,7 +1839,7 @@
     {
       "query_id": "q_069",
       "query": "How is Peking duck prepared to achieve its crispy skin?",
-      "response": "To achieve its crispy skin, Peking duck is cooked by first pumping air under the skin to separate it from the fat and ensuring a light, crispy texture.",
+      "response": "To achieve a crispy skin on Peking duck, the duck is typically roasted until the skin becomes golden red and shiny. This is done by first pumping air under the skin to separate it from the fat and ensuring a light, crispy texture. The duck is then hung-dried, boiled in boiling water, and glazed with a sugary spiced syrup after being hung for about a day or so.",
       "retrieved_context": [
         {
           "doc_id": "blog_0018_chunk_0",
@@ -1866,7 +1866,7 @@
     {
       "query_id": "q_070",
       "query": "What does the name 'zhajiangmian' mean?",
-      "response": "The name 'zhajiangmian' means \"fried sauce noodles\".",
+      "response": "The name 'zhajiangmian' means \"fried sauce noodles\" in Chinese.",
       "retrieved_context": [
         {
           "doc_id": "blog_0020_chunk_0",
@@ -1893,7 +1893,7 @@
     {
       "query_id": "q_071",
       "query": "What Mongolian saying is associated with tsuivan?",
-      "response": "Tsuivan is associated with a Mongolian saying that goes \"everybody loves tsuivan, regardless of age, sex, religion or social status\".",
+      "response": "The Mongolian saying that goes \"everybody loves tsuivan, regardless of age, sex, religion or social status\" is associated with tsuivan.",
       "retrieved_context": [
         {
           "doc_id": "blog_0028_chunk_0",

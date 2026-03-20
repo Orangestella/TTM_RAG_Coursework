@@ -273,7 +273,7 @@
     {
       "query_id": "q_011",
       "query": "What are the four major sub-styles of Sichuan cuisine?",
-      "response": "Key Evidence: Sichuanese cuisine is renowned for fiery and bold tastes, particularly the pungency and spiciness resulting from liberal use of garlic and chilis, as well as the unique flavors of Sichuan (Szechuan) pepper. Some examples are Kung Pao chicken and Yuxiang shredded pork.\nAnswer: Four major substyles of Sichuanese cuisine include Shanghebang, Xiaohebang, Xiahebang, and Buddhist vegetarian style. Shanghebang is represented by Chengdu and Leshan; Xiaohebang by Zigong (also known for a genre of dishes called yanbangcai), Yibin, Luzhou, and Neijiang; and Xiahebang by Chongqing and Dazhou.",
+      "response": "Key Evidence: Sichuanese cuisine is renowned for fiery and bold tastes, particularly the pungency and spiciness resulting from liberal use of garlic and chilis, as well as the unique flavors of Sichuan (Szechuan) pepper. Some examples are Kung Pao chicken and Yuxiang shredded pork.\nAnswer: Four major substyles of Sichuanese cuisine include Shanghebang, Xiaohebang, Xiahebang, and Buddhist vegetarian style. Shanghebang is represented by Chengdu and Leshan; Xiaohebang by Zigong (also known for a genre of dishes called",
       "retrieved_context": [
         {
           "doc_id": "wiki_0155_chunk_0",
@@ -408,7 +408,7 @@
     {
       "query_id": "q_016",
       "query": "How does sake production differ from wine production?",
-      "response": "Key Evidence: \n- Sake is made with, by legal definition, strictly just four ingredients: special rice, water, koji, and special yeast.\n- Sake production involves fermentation of starch to sugars and then to alcohol through multiple parallel ferments.\n- Unlike wine production, which uses sugar naturally present in fruits, sake uses sugar extracted from rice.\n- Sake is produced in a highly labor-intensive process more similar to beer production rather than winemaking.\nAnswer: Sake production differs from wine production in its use of rice as the primary ingredient, with the addition of koji and special yeast to facilitate fermentation. While both processes involve the conversion of starch to sugars and then to alcohol, they differ significantly in their methods and ingredients used.",
+      "response": "Key Evidence: \n- Sake is made with, by legal definition, strictly just four ingredients: special rice, water, koji, and special yeast.\n- Sake production involves fermentation of starch to sugars and then to alcohol through multiple parallel ferments.\n- Unlike wine production, which uses sugar naturally present in fruits, sake uses sugar extracted from rice.\n- Sake is produced in a highly labor-intensive process more similar to beer production rather than winemaking.\nAnswer: Sake production differs from wine production in its use of rice as the primary ingredient, with the addition of koji and special yeast to facilitate fermentation. While both processes involve",
       "retrieved_context": [
         {
           "doc_id": "wiki_0236_chunk_0",
@@ -435,7 +435,7 @@
     {
       "query_id": "q_017",
       "query": "What are the Eight Great Traditions (八大菜系) of Chinese cuisine?",
-      "response": "The Eight Great Traditions (八大菜系) of Chinese cuisine are as follows:\n\n1. Guangdong\n2. Guangdong or Cantonese cuisine (粤菜; pinyin: yuècài)\n3. Sichuan\n4. Sichuan cuisine (川菜; pinyin: chuāncài)\n5. Anhui\n6. Anhui cuisine (徽菜; pinyin: wéijiǎo)\n7. Cantonese cuisine (粵菜; pinyin: yuècài)\n8. Fujian cuisine (福建菜; pinyin: fěixīn)\n\nKey evidence: The text explicitly states \"However, in modern times the list is often expanded to the Eight Great Traditions\" (八大菜系).",
+      "response": "The Eight Great Traditions (八大菜系) of Chinese cuisine are as follows:\n\n1. Guangdong\n2. Guangdong or Cantonese cuisine (粤菜; pinyin: yuècài)\n3. Sichuan\n4. Sichuan cuisine (川菜; pinyin: chuāncài)\n5. Anhui\n6. Anhui cuisine (徽菜; pinyin: wéijiǎo)\n7. Cantonese cuisine (粵菜; pinyin: yuècài)\n8. Fujian cuisine (福建菜; pinyin: fěixī",
       "retrieved_context": [
         {
           "doc_id": "wiki_0152_chunk_1",
@@ -759,7 +759,7 @@
     {
       "query_id": "q_029",
       "query": "What are the two distinct meanings of 'kaiseki' in Japanese cuisine?",
-      "response": "Key Evidence: \n- The context states that \"the term also refers to the collection of skills and techniques that allow the preparation of such meals\"\n- It further explains that this collection includes \"select food served on an individual tray (to each member of a gathering)\" and \"simple meal that the host of a chanoyu gathering serves to the guests before a ceremonial tea\"\n\nAnswer: The two distinct meanings of 'kaiseki' in Japanese cuisine are:\n\n1. A set menu of select food served on an individual tray (to each member of a gathering)\n2. A simple meal that the host of a chanoyu gathering serves to the guests before a ceremonial tea",
+      "response": "Key Evidence: \n- The context states that \"the term also refers to the collection of skills and techniques that allow the preparation of such meals\"\n- It further explains that this collection includes \"select food served on an individual tray (to each member of a gathering)\" and \"simple meal that the host of a chanoyu gathering serves to the guests before a ceremonial tea\"\n\nAnswer: The two distinct meanings of 'kaiseki' in Japanese cuisine are:\n\n1. A set menu of select food served on an individual tray (to each member of a gathering)\n2. A simple meal that the host of a chanoyu gathering serves",
       "retrieved_context": [
         {
           "doc_id": "wiki_0212_chunk_0",
@@ -813,7 +813,7 @@
     {
       "query_id": "q_031",
       "query": "How is Shaoxing wine produced?",
-      "response": "Shaoxing wine is produced using a manual method involving the following steps:\n\n1. Manual stirring of rice mash with a type of wooden hoe every four hours.\n2. Assisting the yeast in breaking down sugars evenly.\n3. Assessing the fermentation by listening to the sound of bubbling.\n4. Using glutinous rice, sorghum, or millet as the base material.\n5. Bottling the wine for domestic consumption and international shipping.\n6. Selling the wine in cooking applications and adding spices and extra salt.\n7. Reporting sales revenue of 4.3 billion yuan in 2020 by 80 rice wine makers in Shaoxing.",
+      "response": "Shaoxing wine is produced using a manual method involving the following steps:\n\n1. Manual stirring of rice mash with a type of wooden hoe every four hours.\n2. Assisting the yeast in breaking down sugars evenly.\n3. Assessing the fermentation by listening to the sound of bubbling.\n4. Using glutinous rice, sorghum, or millet as the base material.\n5. Bottling the wine for domestic consumption and international shipping.\n6. Selling the wine in cooking applications and adding spices and extra salt.\n7. Reporting sales revenue of 4.3 billion yuan in 2020 by 80",
       "retrieved_context": [
         {
           "doc_id": "wiki_0200_chunk_0",
@@ -1002,7 +1002,7 @@
     {
       "query_id": "q_038",
       "query": "What is the basic procedure for making baozi dough?",
-      "response": "The basic procedure for making baozi dough involves the following steps:\n\n1. Mix yeast and sugar with warm water until the mixture begins to form a ragged clump.\n2. Sift flour and sugar together.\n3. Add 1 cup of water to the flour-sugar mixture and continue kneading for 5-10 minutes.\n4. Use two fingers to push the center of the dough down by about 1 inch (2.5 cm).\n5. Place 1 dessert spoon of filling into the well formed by the previous step.\n6. Fold the edges of the dough together, forming a pleated shape.\n7. Pinch the edges together and twist to seal the baozi.\n8. Place each baozi on a square of parchment paper, approximately 3 inches (7.5 cm) wide.\n9. Allow the baozi to rise in warm place for 1 hour before cooking.\n\nKey evidence: The text explicitly states \"Use two fingers, push the centre of the disc down by about 1 inch (2.5 cm).\"",
+      "response": "The basic procedure for making baozi dough involves the following steps:\n\n1. Mix yeast and sugar with warm water until the mixture begins to form a ragged clump.\n2. Sift flour and sugar together.\n3. Add 1 cup of water to the flour-sugar mixture and continue kneading for 5-10 minutes.\n4. Use two fingers to push the center of the dough down by about 1 inch (2.5 cm).\n5. Place 1 dessert spoon of filling into the well formed by the previous step.\n6. Fold the edges of the dough together, forming a pleated shape.",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0001_chunk_0",
@@ -1083,7 +1083,7 @@
     {
       "query_id": "q_041",
       "query": "How long should natto be fermented and at what temperature?",
-      "response": "The key evidence supporting this information is:\n\n- \"Natto is a Japanese preparation of fermented soybeans\" - This establishes that the fermentation process takes place in Japan.\n- \"When making it, be sure all utensils, pots, cheesecloth, etc. are as sterile as possible\" - This indicates that the fermentation process must be done under sterile conditions.\n- \"Boil utensils for 5 minutes prior to using\" - This specifies the duration of boiling the utensils before use.\n- \"Ovens with a low temperature setting can be used, as can large cube-shaped food dehydrators\" - These instructions suggest that the fermentation process can be performed using lower temperatures than those typically found in traditional methods.\n- \"If not, then boil utensils for 5 minutes prior to using\" - This reinforces the need for proper sterilization when starting the fermentation process.\n- \"Ovens with a low temperature setting can be used, as can large cube-shaped food dehydrators\" - This implies that the high-temperature dehydrating method may not be necessary for the fermentation process.\n- \"Keep the temperature steady at 100°F (38°C)\" - This ensures that the fermentation process occurs at the desired temperature.\n- \"Allow the n",
+      "response": "The key evidence supporting this information is:\n\n- \"Natto is a Japanese preparation of fermented soybeans\" - This establishes that the fermentation process takes place in Japan.\n- \"When making it, be sure all utensils, pots, cheesecloth, etc. are as sterile as possible\" - This indicates that the fermentation process must be done under sterile conditions.\n- \"Boil utensils for 5 minutes prior to using\" - This specifies the duration of boiling the utensils before use.\n- \"Ovens with a low temperature setting can be used, as can large cube-shaped food dehydrators\" - These instructions suggest that",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0047_chunk_0",
@@ -1704,7 +1704,7 @@
     {
       "query_id": "q_064",
       "query": "How does banchan function in Korean dining?",
-      "response": "Banchan functions as an important concept in Korean cuisine, described as \"the general practice of placing many distinct side dishes in individual bowls in the centre of the table, and eating communally from all of them.\" It is also referred to as \"namul\" (steamed, marinated or stir-fried vegetables, seasoned with various ingredients like sesame oil, vinegar, garlic, scallions, soy sauce, and chilli), \"bokkeum\" (meat or mushrooms stir-fried with sauce), \"jorim\" (a broth-based dish), \"jjim\" (steamed protein), \"jeon\" (pancake-based foods), \"hoe\" (raw dishes), and \"kimchi.\"",
+      "response": "Banchan functions as an important concept in Korean cuisine, described as \"the general practice of placing many distinct side dishes in individual bowls in the centre of the table, and eating communally from all of them.\" It is also referred to as \"namul\" (steamed, marinated or stir-fried vegetables, seasoned with various ingredients like sesame oil, vinegar, garlic, scallions, soy sauce, and chilli), \"bokkeum\" (meat or mushrooms stir-fried with sauce), \"jorim\" (a broth-based dish), \"jjim\" (steamed protein), \"jeon",
       "retrieved_context": [
         {
           "doc_id": "blog_0024_chunk_0",

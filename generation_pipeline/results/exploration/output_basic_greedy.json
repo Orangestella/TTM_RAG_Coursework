@@ -381,7 +381,7 @@
     {
       "query_id": "q_015",
       "query": "What is the difference between baechu-kimchi and baek-kimchi?",
-      "response": "The key differences between Baek-chu-kimchi and Baek-kimchi are:\n\n1. **Ingredients**:\n   - **Baek-chu-kimchi**: Consists of salted napa cabbage, radish, minari, spring onions, Korean pear, chestnuts, jujube, ginger, garlic, salt, sugar, and a little bit of chili threads as garnish.\n   - **Baek-kimchi**: Consists of salted napa cabbage, radish, minari, spring onions, Korean pear, chestnuts, jujube, ginger, garlic, salt, sugar, and a little bit of chili threads as garnish.\n\n2. **Flavor Profile**:\n   - **Baek-chu-kimchi**: Has a mild and clean flavor appealing to children and the elderly.\n   - **Baek-kimchi**: Has a mild and clean flavor but may be too spicy for some customers.\n\n3. **Appetizer Use**:\n   - **Baek-chu-kimchi**: Appropriate for people ordering main dishes consisting of beef like galbi or bulgogi at Korean restaurants.\n   - **Baek-kimchi**: Used as a wrap for baek kimchi bossam",
+      "response": "The key differences between Baek-chu-kimchi and Baek-kimchi are:\n\n1. **Ingredients**:\n   - **Baek-chu-kimchi**: Consists of salted napa cabbage, radish, minari, spring onions, Korean pear, chestnuts, jujube, ginger, garlic, salt, sugar, and a little bit of chili threads as garnish.\n   - **Baek-kimchi**: Consists of salted napa cabbage, radish, minari, spring onions, Korean pear, chestnuts, jujube, ginger, garlic, salt, sugar,",
       "retrieved_context": [
         {
           "doc_id": "wiki_0254_chunk_0",
@@ -408,7 +408,7 @@
     {
       "query_id": "q_016",
       "query": "How does sake production differ from wine production?",
-      "response": "The key differences between sake and wine production include:\n\n1. **Brewing Process**: While both sake and wine involve fermentation, the brewing process for sake differs significantly from that of beer. In sake, the conversion from starch to sugar and then from sugar to alcohol occurs in two distinct steps, unlike in beer where the conversion happens simultaneously during the brewing process.\n\n2. **Alcohol Content**: The typical alcohol content for sake is higher compared to beer, ranging from 18% to 20%. Beer typically contains 3-9% ABV, while wine ranges from 9-16% ABV. However, this range is typically reduced by dilution before bottling.\n\n3. **Ingredients**: Sake is made using only four ingredients: special rice, water, koji (fermenting agent), and special yeast. Wine production involves multiple steps, including fermentation, but it uses different types of grains, yeasts, and other components.\n\n4. **Cuisine Compatibility**: Sake flavors are known for their versatility and can be paired with a wide range of cuisines, including those not traditionally associated with Japanese cuisine like Italian or American dishes. Wine, on the other hand, tends to have a more limited palate due to its complex composition and",
+      "response": "The key differences between sake and wine production include:\n\n1. **Brewing Process**: While both sake and wine involve fermentation, the brewing process for sake differs significantly from that of beer. In sake, the conversion from starch to sugar and then from sugar to alcohol occurs in two distinct steps, unlike in beer where the conversion happens simultaneously during the brewing process.\n\n2. **Alcohol Content**: The typical alcohol content for sake is higher compared to beer, ranging from 18% to 20%. Beer typically contains 3-9% ABV, while wine ranges from 9-16% ABV. However,",
       "retrieved_context": [
         {
           "doc_id": "wiki_0236_chunk_0",
@@ -435,7 +435,7 @@
     {
       "query_id": "q_017",
       "query": "What are the Eight Great Traditions (八大菜系) of Chinese cuisine?",
-      "response": "The Eight Great Traditions (八大菜系) of Chinese cuisine are Guangdong, Guangdong or Cantonese cuisine (粤菜; pinyin: yuècài), Sichuan cuisine (川菜; pinyin: chuāncài), Sichuan cuisine (川菜; pinyin: chuāncài), Anhui cuisine (皖菜; pinyin: yǐnǎi), Cantonese cuisine (粵菜; pinyin: yuècài), Fujian cuisine (福建菜; pinyin: fěixīn), Zhejiang cuisine (浙江菜; pinyin: zhízhōu), Hunan cuisine (湖南菜; pinyin: húxiàn), and Shandong cuisine (山东菜; pinyin: shàngshāng).",
+      "response": "The Eight Great Traditions (八大菜系) of Chinese cuisine are Guangdong, Guangdong or Cantonese cuisine (粤菜; pinyin: yuècài), Sichuan cuisine (川菜; pinyin: chuāncài), Sichuan cuisine (川菜; pinyin: chuāncài), Anhui cuisine (皖菜; pinyin: yǐnǎi), Cantonese cuisine (粵菜; pinyin: yuècài), Fujian cuisine (福建菜; pinyin: fěixīn), Zhejiang cuisine (浙江菜; pinyin",
       "retrieved_context": [
         {
           "doc_id": "wiki_0152_chunk_1",
@@ -1002,7 +1002,7 @@
     {
       "query_id": "q_038",
       "query": "What is the basic procedure for making baozi dough?",
-      "response": "The basic procedure for making baozi dough involves the following steps:\n\n1. Mix yeast and sugar with warm water until the mixture begins to form a ragged clump.\n2. Sift flour and sugar together.\n3. Add 1 cup of water to the dry ingredients and continue mixing until the dough begins to form a smooth ball.\n4. Knead the dough for 5-10 minutes, allowing it to become stiff and spring back when pressed.\n5. Use two fingers to make a small indentation in the center of the dough.\n6. Place 1 teaspoon of filling into the indentation.\n7. Fold the edges of the dough together, forming a pleated shape.\n8. Pinch the edges together and twist to seal the baozi.\n9. Place each baozi on a square of parchment paper, approximately 3 inches (7.5 cm) wide.\n10. Allow the baozi to rise in warm water for 1 hour before cooking.",
+      "response": "The basic procedure for making baozi dough involves the following steps:\n\n1. Mix yeast and sugar with warm water until the mixture begins to form a ragged clump.\n2. Sift flour and sugar together.\n3. Add 1 cup of water to the dry ingredients and continue mixing until the dough begins to form a smooth ball.\n4. Knead the dough for 5-10 minutes, allowing it to become stiff and spring back when pressed.\n5. Use two fingers to make a small indentation in the center of the dough.\n6. Place 1 teaspoon of filling into the indentation.\n7. Fold the",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0001_chunk_0",
@@ -1191,7 +1191,7 @@
     {
       "query_id": "q_045",
       "query": "What are the four types of dashi?",
-      "response": "Based on the information provided in the context, the four types of dashi are:\n\n1. **Kombu dashi** - Made from kelp, rich in glutamic acid. It has a refined sweetness and mild aroma.\n2. **Katsuobushi dashi** - Made from bonito flakes, full of inosinic acid, and known for its fragrant aroma.\n3. **Niboshi dashi** - Made from dried sardines or anchovies, containing both glutamic and inosinic acids for a strong umami and rich flavor.\n4. **Awase dashi** - A blend of kombu and bonito dashi, combining the umami and aroma of both ingredients for a deep, balanced taste.",
+      "response": "Based on the information provided in the context, the four types of dashi are:\n\n1. **Kombu dashi** - Made from kelp, rich in glutamic acid. It has a refined sweetness and mild aroma.\n2. **Katsuobushi dashi** - Made from bonito flakes, full of inosinic acid, and known for its fragrant aroma.\n3. **Niboshi dashi** - Made from dried sardines or anchovies, containing both glutamic and inosinic acids for a strong umami and rich flavor.\n4. **Awase dashi** - A blend of",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0036_chunk_0",
@@ -1353,7 +1353,7 @@
     {
       "query_id": "q_051",
       "query": "How is bubble tea assembled?",
-      "response": "To assemble bubble tea, follow these steps:\n\n1. **Prepare Ingredients**: Gather all necessary ingredients including boba tapioca pearls, crushed ice, very strong chilled black tea, milk, honey or granulated sugar, and any additional toppings like whipped cream or fruit slices.\n\n2. **Mixing**: Combine all ingredients in a cocktail shaker. Stir gently to ensure even distribution of flavors.\n\n3. **Shaking**: Pour the mixture into a glass and shake vigorously until the mixture becomes frothy. This step helps create foam that adds to the drink's texture and aroma.\n\n4. **Straining**: If desired, strain the bubbly mixture through a fine-mesh sieve to remove any solids.\n\n5. **Serving**: Serve the bubbly bubble tea immediately with large-diameter straws for easy drinking.\n\nBy following these steps, you'll enjoy a refreshing and flavorful bubble tea beverage.",
+      "response": "To assemble bubble tea, follow these steps:\n\n1. **Prepare Ingredients**: Gather all necessary ingredients including boba tapioca pearls, crushed ice, very strong chilled black tea, milk, honey or granulated sugar, and any additional toppings like whipped cream or fruit slices.\n\n2. **Mixing**: Combine all ingredients in a cocktail shaker. Stir gently to ensure even distribution of flavors.\n\n3. **Shaking**: Pour the mixture into a glass and shake vigorously until the mixture becomes frothy. This step helps create foam that adds to the drink's texture and aroma.\n\n4. **Straining**: If desired, strain the bubbly",
       "retrieved_context": [
         {
           "doc_id": "wikibooks_0077_chunk_0",
@@ -1758,7 +1758,7 @@
     {
       "query_id": "q_066",
       "query": "What is the cultural significance of buuz in Mongolia?",
-      "response": "The cultural significance of buuz (a type of dumpling) in Mongolia is that it represents the country's unique culinary tradition and has been passed down through generations. It is believed to have originated from neighboring China and is considered a symbol of Mongolian culture. The dumplings are enjoyed throughout the year, especially during the Tsagaan Saar festival, which is significant for Mongolians as it commemorates the beginning of the new year. They are also eaten on the day before Tsagaan Saar, Bituun, marking the end of the old year and starting anew. The buuz are seen as a way to cleanse the home and settle disputes and debts for the following year, providing a sense of continuity between different seasons and events.",
+      "response": "The cultural significance of buuz (a type of dumpling) in Mongolia is that it represents the country's unique culinary tradition and has been passed down through generations. It is believed to have originated from neighboring China and is considered a symbol of Mongolian culture. The dumplings are enjoyed throughout the year, especially during the Tsagaan Saar festival, which is significant for Mongolians as it commemorates the beginning of the new year. They are also eaten on the day before Tsagaan Saar, Bituun, marking the end of the old year and starting anew. The buuz are seen as a way to cleanse",
       "retrieved_context": [
         {
           "doc_id": "blog_0027_chunk_0",
