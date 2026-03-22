@@ -1,0 +1,11 @@
+torch
+faiss-cpu
+sentence-transformers
+transformers
+accelerate
+einops
+tqdm
+rouge-score
+bert-score
+scipy
+numpy
