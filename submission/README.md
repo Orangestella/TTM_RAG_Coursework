@@ -80,3 +80,5 @@ submission/
 }
 ```
 
+## Deliverables
+All coursework deliverables (corpus, benchmark, component notebooks) are in the `deliverables/` directory.
