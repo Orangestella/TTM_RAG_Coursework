@@ -1,0 +1,22 @@
+﻿name: COMP64702_COURSEWORK
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pytorch
+  - faiss-cpu
+  - tqdm
+  - ipykernel
+  - jupyter
+  - pip:
+    - sentence-transformers
+    - transformers
+    - accelerate
+    - einops
+    - rouge-score
+    - bert-score
+    - scipy
