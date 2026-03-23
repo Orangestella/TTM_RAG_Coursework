@@ -64,7 +64,10 @@
       "token_recall": 0.2632,
       "answer_match_ratio": 0.5,
       "response_words": 7,
-      "reference_words": 19
+      "reference_words": 19,
+      "bertscore_precision": 0.902,
+      "bertscore_recall": 0.867,
+      "bertscore_f1": 0.8842
     },
     {
       "query_id": "q_002",
@@ -107,7 +110,10 @@
       "token_recall": 0.087,
       "answer_match_ratio": 0.0667,
       "response_words": 9,
-      "reference_words": 23
+      "reference_words": 23,
+      "bertscore_precision": 0.8275,
+      "bertscore_recall": 0.751,
+      "bertscore_f1": 0.7874
     },
     {
       "query_id": "q_003",
@@ -150,7 +156,10 @@
       "token_recall": 1.0,
       "answer_match_ratio": 1.0,
       "response_words": 19,
-      "reference_words": 15
+      "reference_words": 15,
+      "bertscore_precision": 0.9186,
+      "bertscore_recall": 0.9859,
+      "bertscore_f1": 0.951
     },
     {
       "query_id": "q_004",
@@ -193,7 +202,10 @@
       "token_recall": 0.4762,
       "answer_match_ratio": 0.5714,
       "response_words": 10,
-      "reference_words": 21
+      "reference_words": 21,
+      "bertscore_precision": 0.9431,
+      "bertscore_recall": 0.8476,
+      "bertscore_f1": 0.8928
     },
     {
       "query_id": "q_005",
@@ -236,7 +248,10 @@
       "token_recall": 0.7,
       "answer_match_ratio": 0.8333,
       "response_words": 9,
-      "reference_words": 10
+      "reference_words": 10,
+      "bertscore_precision": 0.9026,
+      "bertscore_recall": 0.9053,
+      "bertscore_f1": 0.904
     },
     {
       "query_id": "q_006",
@@ -279,7 +294,10 @@
       "token_recall": 1.0,
       "answer_match_ratio": 1.0,
       "response_words": 20,
-      "reference_words": 14
+      "reference_words": 14,
+      "bertscore_precision": 0.9308,
+      "bertscore_recall": 0.9781,
+      "bertscore_f1": 0.9539
     },
     {
       "query_id": "q_007",
@@ -322,7 +340,10 @@
       "token_recall": 0.5294,
       "answer_match_ratio": 0.8333,
       "response_words": 17,
-      "reference_words": 17
+      "reference_words": 17,
+      "bertscore_precision": 0.8434,
+      "bertscore_recall": 0.8933,
+      "bertscore_f1": 0.8676
     },
     {
       "query_id": "q_008",
@@ -365,7 +386,10 @@
       "token_recall": 0.3333,
       "answer_match_ratio": 0.4286,
       "response_words": 6,
-      "reference_words": 15
+      "reference_words": 15,
+      "bertscore_precision": 0.9001,
+      "bertscore_recall": 0.8205,
+      "bertscore_f1": 0.8585
     },
     {
       "query_id": "q_009",
@@ -408,7 +432,10 @@
       "token_recall": 0.625,
       "answer_match_ratio": 0.6875,
       "response_words": 32,
-      "reference_words": 32
+      "reference_words": 32,
+      "bertscore_precision": 0.8814,
+      "bertscore_recall": 0.9066,
+      "bertscore_f1": 0.8938
     },
     {
       "query_id": "q_010",
@@ -451,7 +478,10 @@
       "token_recall": 0.8333,
       "answer_match_ratio": 0.875,
       "response_words": 13,
-      "reference_words": 12
+      "reference_words": 12,
+      "bertscore_precision": 0.9546,
+      "bertscore_recall": 0.964,
+      "bertscore_f1": 0.9593
     },
     {
       "query_id": "q_011",
@@ -494,7 +524,10 @@
       "token_recall": 0.9167,
       "answer_match_ratio": 1.0,
       "response_words": 15,
-      "reference_words": 12
+      "reference_words": 12,
+      "bertscore_precision": 0.9298,
+      "bertscore_recall": 0.9603,
+      "bertscore_f1": 0.9448
     },
     {
       "query_id": "q_012",
@@ -537,7 +570,10 @@
       "token_recall": 0.7647,
       "answer_match_ratio": 0.8,
       "response_words": 19,
-      "reference_words": 17
+      "reference_words": 17,
+      "bertscore_precision": 0.9041,
+      "bertscore_recall": 0.9465,
+      "bertscore_f1": 0.9248
     },
     {
       "query_id": "q_013",
@@ -580,7 +616,10 @@
       "token_recall": 1.0,
       "answer_match_ratio": 1.0,
       "response_words": 22,
-      "reference_words": 8
+      "reference_words": 8,
+      "bertscore_precision": 0.8189,
+      "bertscore_recall": 0.9744,
+      "bertscore_f1": 0.8899
     },
     {
       "query_id": "q_014",
@@ -623,7 +662,10 @@
       "token_recall": 0.3889,
       "answer_match_ratio": 0.4,
       "response_words": 35,
-      "reference_words": 18
+      "reference_words": 18,
+      "bertscore_precision": 0.7896,
+      "bertscore_recall": 0.846,
+      "bertscore_f1": 0.8168
     },
     {
       "query_id": "q_015",
@@ -666,7 +708,10 @@
       "token_recall": 0.3438,
       "answer_match_ratio": 0.3333,
       "response_words": 30,
-      "reference_words": 32
+      "reference_words": 32,
+      "bertscore_precision": 0.7981,
+      "bertscore_recall": 0.8323,
+      "bertscore_f1": 0.8148
     },
     {
       "query_id": "q_016",
@@ -709,7 +754,10 @@
       "token_recall": 0.3947,
       "answer_match_ratio": 0.3913,
       "response_words": 51,
-      "reference_words": 38
+      "reference_words": 38,
+      "bertscore_precision": 0.7865,
+      "bertscore_recall": 0.8215,
+      "bertscore_f1": 0.8036
     },
     {
       "query_id": "q_017",
@@ -752,7 +800,10 @@
       "token_recall": 0.7333,
       "answer_match_ratio": 0.6667,
       "response_words": 23,
-      "reference_words": 15
+      "reference_words": 15,
+      "bertscore_precision": 0.8941,
+      "bertscore_recall": 0.9332,
+      "bertscore_f1": 0.9133
     },
     {
       "query_id": "q_018",
@@ -795,7 +846,10 @@
       "token_recall": 0.3636,
       "answer_match_ratio": 0.4545,
       "response_words": 16,
-      "reference_words": 33
+      "reference_words": 33,
+      "bertscore_precision": 0.9505,
+      "bertscore_recall": 0.8717,
+      "bertscore_f1": 0.9094
     },
     {
       "query_id": "q_019",
@@ -838,7 +892,10 @@
       "token_recall": 0.3077,
       "answer_match_ratio": 0.3125,
       "response_words": 20,
-      "reference_words": 26
+      "reference_words": 26,
+      "bertscore_precision": 0.891,
+      "bertscore_recall": 0.838,
+      "bertscore_f1": 0.8637
     },
     {
       "query_id": "q_020",
@@ -881,7 +938,10 @@
       "token_recall": 0.4091,
       "answer_match_ratio": 0.3077,
       "response_words": 45,
-      "reference_words": 44
+      "reference_words": 44,
+      "bertscore_precision": 0.8334,
+      "bertscore_recall": 0.8669,
+      "bertscore_f1": 0.8498
     },
     {
       "query_id": "q_021",
@@ -924,7 +984,10 @@
       "token_recall": 0.9375,
       "answer_match_ratio": 0.9091,
       "response_words": 50,
-      "reference_words": 16
+      "reference_words": 16,
+      "bertscore_precision": 0.7923,
+      "bertscore_recall": 0.9283,
+      "bertscore_f1": 0.8549
     },
     {
       "query_id": "q_022",
@@ -967,7 +1030,10 @@
       "token_recall": 0.9167,
       "answer_match_ratio": 0.8889,
       "response_words": 12,
-      "reference_words": 12
+      "reference_words": 12,
+      "bertscore_precision": 0.9856,
+      "bertscore_recall": 0.9939,
+      "bertscore_f1": 0.9897
     },
     {
       "query_id": "q_023",
@@ -1010,7 +1076,10 @@
       "token_recall": 0.55,
       "answer_match_ratio": 0.6,
       "response_words": 11,
-      "reference_words": 20
+      "reference_words": 20,
+      "bertscore_precision": 0.993,
+      "bertscore_recall": 0.9028,
+      "bertscore_f1": 0.9457
     },
     {
       "query_id": "q_024",
@@ -1053,7 +1122,10 @@
       "token_recall": 0.5667,
       "answer_match_ratio": 0.6316,
       "response_words": 26,
-      "reference_words": 30
+      "reference_words": 30,
+      "bertscore_precision": 0.9057,
+      "bertscore_recall": 0.8719,
+      "bertscore_f1": 0.8885
     },
     {
       "query_id": "q_025",
@@ -1096,7 +1168,10 @@
       "token_recall": 0.4444,
       "answer_match_ratio": 0.375,
       "response_words": 39,
-      "reference_words": 27
+      "reference_words": 27,
+      "bertscore_precision": 0.8073,
+      "bertscore_recall": 0.7934,
+      "bertscore_f1": 0.8003
     },
     {
       "query_id": "q_026",
@@ -1139,7 +1214,10 @@
       "token_recall": 0.4516,
       "answer_match_ratio": 0.3,
       "response_words": 52,
-      "reference_words": 31
+      "reference_words": 31,
+      "bertscore_precision": 0.8181,
+      "bertscore_recall": 0.8692,
+      "bertscore_f1": 0.8428
     },
     {
       "query_id": "q_027",
@@ -1182,7 +1260,10 @@
       "token_recall": 0.8636,
       "answer_match_ratio": 0.8182,
       "response_words": 27,
-      "reference_words": 22
+      "reference_words": 22,
+      "bertscore_precision": 0.9097,
+      "bertscore_recall": 0.9477,
+      "bertscore_f1": 0.9283
     },
     {
       "query_id": "q_028",
@@ -1225,7 +1306,10 @@
       "token_recall": 0.5556,
       "answer_match_ratio": 0.6818,
       "response_words": 31,
-      "reference_words": 27
+      "reference_words": 27,
+      "bertscore_precision": 0.7952,
+      "bertscore_recall": 0.8611,
+      "bertscore_f1": 0.8269
     },
     {
       "query_id": "q_029",
@@ -1268,7 +1352,10 @@
       "token_recall": 0.725,
       "answer_match_ratio": 0.6957,
       "response_words": 50,
-      "reference_words": 40
+      "reference_words": 40,
+      "bertscore_precision": 0.8546,
+      "bertscore_recall": 0.8504,
+      "bertscore_f1": 0.8525
     },
     {
       "query_id": "q_030",
@@ -1311,7 +1398,10 @@
       "token_recall": 0.75,
       "answer_match_ratio": 0.6842,
       "response_words": 28,
-      "reference_words": 24
+      "reference_words": 24,
+      "bertscore_precision": 0.9477,
+      "bertscore_recall": 0.982,
+      "bertscore_f1": 0.9645
     },
     {
       "query_id": "q_031",
@@ -1354,7 +1444,10 @@
       "token_recall": 0.7143,
       "answer_match_ratio": 0.7619,
       "response_words": 32,
-      "reference_words": 28
+      "reference_words": 28,
+      "bertscore_precision": 0.9057,
+      "bertscore_recall": 0.8871,
+      "bertscore_f1": 0.8963
     },
     {
       "query_id": "q_032",
@@ -1397,7 +1490,10 @@
       "token_recall": 0.8056,
       "answer_match_ratio": 0.84,
       "response_words": 47,
-      "reference_words": 36
+      "reference_words": 36,
+      "bertscore_precision": 0.9302,
+      "bertscore_recall": 0.9223,
+      "bertscore_f1": 0.9262
     },
     {
       "query_id": "q_033",
@@ -1440,7 +1536,10 @@
       "token_recall": 0.8043,
       "answer_match_ratio": 0.8214,
       "response_words": 48,
-      "reference_words": 46
+      "reference_words": 46,
+      "bertscore_precision": 0.9427,
+      "bertscore_recall": 0.9345,
+      "bertscore_f1": 0.9386
     },
     {
       "query_id": "q_034",
@@ -1483,7 +1582,10 @@
       "token_recall": 0.4286,
       "answer_match_ratio": 0.3571,
       "response_words": 15,
-      "reference_words": 21
+      "reference_words": 21,
+      "bertscore_precision": 0.853,
+      "bertscore_recall": 0.8283,
+      "bertscore_f1": 0.8405
     },
     {
       "query_id": "q_035",
@@ -1526,7 +1628,10 @@
       "token_recall": 0.625,
       "answer_match_ratio": 0.5,
       "response_words": 44,
-      "reference_words": 16
+      "reference_words": 16,
+      "bertscore_precision": 0.7732,
+      "bertscore_recall": 0.8973,
+      "bertscore_f1": 0.8306
     },
     {
       "query_id": "q_036",
@@ -1569,7 +1674,10 @@
       "token_recall": 0.6667,
       "answer_match_ratio": 0.6667,
       "response_words": 43,
-      "reference_words": 24
+      "reference_words": 24,
+      "bertscore_precision": 0.7882,
+      "bertscore_recall": 0.8607,
+      "bertscore_f1": 0.8229
     },
     {
       "query_id": "q_037",
@@ -1612,7 +1720,10 @@
       "token_recall": 0.6923,
       "answer_match_ratio": 1.0,
       "response_words": 16,
-      "reference_words": 13
+      "reference_words": 13,
+      "bertscore_precision": 0.9227,
+      "bertscore_recall": 0.9265,
+      "bertscore_f1": 0.9246
     },
     {
       "query_id": "q_038",
@@ -1655,7 +1766,10 @@
       "token_recall": 0.4103,
       "answer_match_ratio": 0.4,
       "response_words": 49,
-      "reference_words": 39
+      "reference_words": 39,
+      "bertscore_precision": 0.7614,
+      "bertscore_recall": 0.8202,
+      "bertscore_f1": 0.7897
     },
     {
       "query_id": "q_039",
@@ -1698,7 +1812,10 @@
       "token_recall": 0.1818,
       "answer_match_ratio": 0.2,
       "response_words": 18,
-      "reference_words": 22
+      "reference_words": 22,
+      "bertscore_precision": 0.7924,
+      "bertscore_recall": 0.8038,
+      "bertscore_f1": 0.798
     },
     {
       "query_id": "q_040",
@@ -1741,7 +1858,10 @@
       "token_recall": 0.4333,
       "answer_match_ratio": 0.3684,
       "response_words": 23,
-      "reference_words": 30
+      "reference_words": 30,
+      "bertscore_precision": 0.8671,
+      "bertscore_recall": 0.8515,
+      "bertscore_f1": 0.8592
     },
     {
       "query_id": "q_041",
@@ -1784,7 +1904,10 @@
       "token_recall": 0.6154,
       "answer_match_ratio": 0.5,
       "response_words": 10,
-      "reference_words": 13
+      "reference_words": 13,
+      "bertscore_precision": 0.9538,
+      "bertscore_recall": 0.9381,
+      "bertscore_f1": 0.9459
     },
     {
       "query_id": "q_042",
@@ -1827,7 +1950,10 @@
       "token_recall": 0.9167,
       "answer_match_ratio": 1.0,
       "response_words": 14,
-      "reference_words": 12
+      "reference_words": 12,
+      "bertscore_precision": 0.9084,
+      "bertscore_recall": 0.942,
+      "bertscore_f1": 0.9249
     },
     {
       "query_id": "q_043",
@@ -1870,7 +1996,10 @@
       "token_recall": 0.8571,
       "answer_match_ratio": 0.8421,
       "response_words": 28,
-      "reference_words": 21
+      "reference_words": 21,
+      "bertscore_precision": 0.8991,
+      "bertscore_recall": 0.9512,
+      "bertscore_f1": 0.9244
     },
     {
       "query_id": "q_044",
@@ -1913,7 +2042,10 @@
       "token_recall": 0.3462,
       "answer_match_ratio": 0.5,
       "response_words": 14,
-      "reference_words": 26
+      "reference_words": 26,
+      "bertscore_precision": 0.9464,
+      "bertscore_recall": 0.8706,
+      "bertscore_f1": 0.9069
     },
     {
       "query_id": "q_045",
@@ -1956,7 +2088,10 @@
       "token_recall": 0.4667,
       "answer_match_ratio": 0.5,
       "response_words": 41,
-      "reference_words": 30
+      "reference_words": 30,
+      "bertscore_precision": 0.7876,
+      "bertscore_recall": 0.8198,
+      "bertscore_f1": 0.8034
     },
     {
       "query_id": "q_046",
@@ -1999,7 +2134,10 @@
       "token_recall": 0.36,
       "answer_match_ratio": 0.4615,
       "response_words": 13,
-      "reference_words": 25
+      "reference_words": 25,
+      "bertscore_precision": 0.89,
+      "bertscore_recall": 0.8522,
+      "bertscore_f1": 0.8707
     },
     {
       "query_id": "q_047",
@@ -2042,7 +2180,10 @@
       "token_recall": 0.2632,
       "answer_match_ratio": 0.3571,
       "response_words": 9,
-      "reference_words": 19
+      "reference_words": 19,
+      "bertscore_precision": 0.9011,
+      "bertscore_recall": 0.8071,
+      "bertscore_f1": 0.8515
     },
     {
       "query_id": "q_048",
@@ -2085,7 +2226,10 @@
       "token_recall": 0.5161,
       "answer_match_ratio": 0.5,
       "response_words": 21,
-      "reference_words": 31
+      "reference_words": 31,
+      "bertscore_precision": 0.955,
+      "bertscore_recall": 0.8683,
+      "bertscore_f1": 0.9096
     },
     {
       "query_id": "q_049",
@@ -2128,7 +2272,10 @@
       "token_recall": 0.8333,
       "answer_match_ratio": 0.8421,
       "response_words": 37,
-      "reference_words": 24
+      "reference_words": 24,
+      "bertscore_precision": 0.8126,
+      "bertscore_recall": 0.8866,
+      "bertscore_f1": 0.848
     },
     {
       "query_id": "q_050",
@@ -2171,7 +2318,10 @@
       "token_recall": 0.5333,
       "answer_match_ratio": 0.2222,
       "response_words": 27,
-      "reference_words": 15
+      "reference_words": 15,
+      "bertscore_precision": 0.8027,
+      "bertscore_recall": 0.8393,
+      "bertscore_f1": 0.8206
     },
     {
       "query_id": "q_051",
@@ -2214,7 +2364,10 @@
       "token_recall": 0.5366,
       "answer_match_ratio": 0.4231,
       "response_words": 35,
-      "reference_words": 41
+      "reference_words": 41,
+      "bertscore_precision": 0.9085,
+      "bertscore_recall": 0.8578,
+      "bertscore_f1": 0.8825
     },
     {
       "query_id": "q_052",
@@ -2257,7 +2410,10 @@
       "token_recall": 0.9444,
       "answer_match_ratio": 1.0,
       "response_words": 20,
-      "reference_words": 18
+      "reference_words": 18,
+      "bertscore_precision": 0.984,
+      "bertscore_recall": 0.9934,
+      "bertscore_f1": 0.9887
     },
     {
       "query_id": "q_053",
@@ -2300,7 +2456,10 @@
       "token_recall": 0.1429,
       "answer_match_ratio": 0.15,
       "response_words": 9,
-      "reference_words": 28
+      "reference_words": 28,
+      "bertscore_precision": 0.8331,
+      "bertscore_recall": 0.7351,
+      "bertscore_f1": 0.781
     },
     {
       "query_id": "q_054",
@@ -2343,7 +2502,10 @@
       "token_recall": 0.2333,
       "answer_match_ratio": 0.2222,
       "response_words": 28,
-      "reference_words": 30
+      "reference_words": 30,
+      "bertscore_precision": 0.7909,
+      "bertscore_recall": 0.7949,
+      "bertscore_f1": 0.7929
     },
     {
       "query_id": "q_055",
@@ -2386,7 +2548,10 @@
       "token_recall": 0.6923,
       "answer_match_ratio": 0.8889,
       "response_words": 13,
-      "reference_words": 13
+      "reference_words": 13,
+      "bertscore_precision": 0.8926,
+      "bertscore_recall": 0.9272,
+      "bertscore_f1": 0.9096
     },
     {
       "query_id": "q_056",
@@ -2429,7 +2594,10 @@
       "token_recall": 0.6875,
       "answer_match_ratio": 0.7143,
       "response_words": 58,
-      "reference_words": 32
+      "reference_words": 32,
+      "bertscore_precision": 0.7902,
+      "bertscore_recall": 0.8913,
+      "bertscore_f1": 0.8378
     },
     {
       "query_id": "q_057",
@@ -2472,7 +2640,10 @@
       "token_recall": 0.2105,
       "answer_match_ratio": 0.375,
       "response_words": 8,
-      "reference_words": 38
+      "reference_words": 38,
+      "bertscore_precision": 0.9425,
+      "bertscore_recall": 0.765,
+      "bertscore_f1": 0.8445
     },
     {
       "query_id": "q_058",
@@ -2515,7 +2686,10 @@
       "token_recall": 0.1429,
       "answer_match_ratio": 0.1333,
       "response_words": 8,
-      "reference_words": 28
+      "reference_words": 28,
+      "bertscore_precision": 0.8321,
+      "bertscore_recall": 0.7831,
+      "bertscore_f1": 0.8068
     },
     {
       "query_id": "q_059",
@@ -2558,7 +2732,10 @@
       "token_recall": 0.75,
       "answer_match_ratio": 0.8333,
       "response_words": 26,
-      "reference_words": 20
+      "reference_words": 20,
+      "bertscore_precision": 0.8872,
+      "bertscore_recall": 0.9147,
+      "bertscore_f1": 0.9008
     },
     {
       "query_id": "q_060",
@@ -2601,7 +2778,10 @@
       "token_recall": 0.9286,
       "answer_match_ratio": 0.9,
       "response_words": 19,
-      "reference_words": 14
+      "reference_words": 14,
+      "bertscore_precision": 0.9627,
+      "bertscore_recall": 0.9811,
+      "bertscore_f1": 0.9718
     },
     {
       "query_id": "q_061",
@@ -2644,7 +2824,10 @@
       "token_recall": 0.6923,
       "answer_match_ratio": 0.6667,
       "response_words": 42,
-      "reference_words": 26
+      "reference_words": 26,
+      "bertscore_precision": 0.9172,
+      "bertscore_recall": 0.9578,
+      "bertscore_f1": 0.9371
     },
     {
       "query_id": "q_062",
@@ -2687,7 +2870,10 @@
       "token_recall": 0.381,
       "answer_match_ratio": 0.375,
       "response_words": 10,
-      "reference_words": 21
+      "reference_words": 21,
+      "bertscore_precision": 0.9366,
+      "bertscore_recall": 0.8658,
+      "bertscore_f1": 0.8998
     },
     {
       "query_id": "q_063",
@@ -2730,7 +2916,10 @@
       "token_recall": 0.4286,
       "answer_match_ratio": 0.4444,
       "response_words": 55,
-      "reference_words": 42
+      "reference_words": 42,
+      "bertscore_precision": 0.8185,
+      "bertscore_recall": 0.8357,
+      "bertscore_f1": 0.827
     },
     {
       "query_id": "q_064",
@@ -2773,7 +2962,10 @@
       "token_recall": 0.625,
       "answer_match_ratio": 0.5714,
       "response_words": 48,
-      "reference_words": 32
+      "reference_words": 32,
+      "bertscore_precision": 0.8631,
+      "bertscore_recall": 0.9244,
+      "bertscore_f1": 0.8927
     },
     {
       "query_id": "q_065",
@@ -2816,7 +3008,10 @@
       "token_recall": 0.4615,
       "answer_match_ratio": 0.4444,
       "response_words": 18,
-      "reference_words": 26
+      "reference_words": 26,
+      "bertscore_precision": 0.8735,
+      "bertscore_recall": 0.8551,
+      "bertscore_f1": 0.8642
     },
     {
       "query_id": "q_066",
@@ -2859,7 +3054,10 @@
       "token_recall": 0.3429,
       "answer_match_ratio": 0.2083,
       "response_words": 51,
-      "reference_words": 35
+      "reference_words": 35,
+      "bertscore_precision": 0.8115,
+      "bertscore_recall": 0.7997,
+      "bertscore_f1": 0.8056
     },
     {
       "query_id": "q_067",
@@ -2902,7 +3100,10 @@
       "token_recall": 0.3889,
       "answer_match_ratio": 0.3571,
       "response_words": 22,
-      "reference_words": 18
+      "reference_words": 18,
+      "bertscore_precision": 0.8226,
+      "bertscore_recall": 0.8824,
+      "bertscore_f1": 0.8515
     },
     {
       "query_id": "q_068",
@@ -2945,7 +3146,10 @@
       "token_recall": 0.2903,
       "answer_match_ratio": 0.0526,
       "response_words": 49,
-      "reference_words": 31
+      "reference_words": 31,
+      "bertscore_precision": 0.7712,
+      "bertscore_recall": 0.7879,
+      "bertscore_f1": 0.7795
     },
     {
       "query_id": "q_069",
@@ -2988,7 +3192,10 @@
       "token_recall": 0.7826,
       "answer_match_ratio": 0.8333,
       "response_words": 28,
-      "reference_words": 23
+      "reference_words": 23,
+      "bertscore_precision": 0.9126,
+      "bertscore_recall": 0.9345,
+      "bertscore_f1": 0.9234
     },
     {
       "query_id": "q_070",
@@ -3031,7 +3238,10 @@
       "token_recall": 0.2174,
       "answer_match_ratio": 0.3529,
       "response_words": 7,
-      "reference_words": 23
+      "reference_words": 23,
+      "bertscore_precision": 0.8863,
+      "bertscore_recall": 0.8283,
+      "bertscore_f1": 0.8563
     },
     {
       "query_id": "q_071",
@@ -3074,7 +3284,10 @@
       "token_recall": 0.5357,
       "answer_match_ratio": 0.7222,
       "response_words": 18,
-      "reference_words": 28
+      "reference_words": 28,
+      "bertscore_precision": 0.9393,
+      "bertscore_recall": 0.8816,
+      "bertscore_f1": 0.9096
     },
     {
       "query_id": "q_072",
@@ -3117,7 +3330,10 @@
       "token_recall": 1.0,
       "answer_match_ratio": 1.0,
       "response_words": 21,
-      "reference_words": 20
+      "reference_words": 20,
+      "bertscore_precision": 0.9854,
+      "bertscore_recall": 0.9957,
+      "bertscore_f1": 0.9905
     }
   ]
 }
