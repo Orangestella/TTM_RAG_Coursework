@@ -36,7 +36,7 @@ submission/
 │       ├── embedded_nomic.faiss    # FAISS index (nomic-embed-text-v1.5)
 │       └── embedded_nomic.jsonl    # Chunk texts + embeddings
 │
-├── examples/                       # Sample / reference files
+├── examples/                       # Sample / reference files /Input
 │
 └── results/                        # Pipeline outputs
     ├── output_results.json         # Generated answers from inference
